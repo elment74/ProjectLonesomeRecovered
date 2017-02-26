@@ -1,0 +1,1626 @@
+﻿Log file open, 02/22/17 14:15:43
+LogInit:Display: Running engine for game: Project_lonesome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-377666679) SRandInit(-377666679).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076185
+LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.22-22.15.43:936][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-22.15.43:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.22-22.15.43:948][  0]LogInit: Computer: JEREMY-PC
+[2017.02.22-22.15.43:949][  0]LogInit: User: Jeremy
+[2017.02.22-22.15.43:949][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.22-22.15.43:949][  0]LogInit: High frequency timer resolution =3.330092 MHz
+[2017.02.22-22.15.43:949][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.22-22.15.43:949][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-22.15.43:949][  0]LogMemory: Process Physical Memory: 256.14 MB used, 256.14 MB peak
+[2017.02.22-22.15.43:949][  0]LogMemory: Process Virtual Memory: 260.10 MB used, 260.10 MB peak
+[2017.02.22-22.15.43:949][  0]LogMemory: Physical Memory: 5574.77 MB used, 16301.11 MB total
+[2017.02.22-22.15.43:949][  0]LogMemory: Virtual Memory: 623.43 MB used, 134217728.00 MB total
+[2017.02.22-22.15.43:987][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.22-22.15.44:747][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.22-22.15.44:781][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.02.22-22.15.44:781][  0]LogD3D11RHI:       8145/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.22-22.15.44:784][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2017.02.22-22.15.44:784][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.02.22-22.15.44:786][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.22-22.15.44:786][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.22-22.15.44:786][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.22-22.15.44:790][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.22-22.15.44:790][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.22-22.15.44:790][  0]LogWindows: EnumDisplayDevices:
+[2017.02.22-22.15.44:790][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.02.22-22.15.44:790][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.02.22-22.15.44:790][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.22-22.15.44:791][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.22-22.15.44:791][  0]LogWindows:    4. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.02.22-22.15.44:791][  0]LogWindows:    5. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.02.22-22.15.44:792][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.02.22-22.15.44:792][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.02.22-22.15.44:792][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.02.22-22.15.44:792][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.02.22-22.15.44:792][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.22-22.15.44:807][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.22-22.15.44:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.22-22.15.44:819][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Intermediate/Shaders/WorkingDirectory/6104/).
+[2017.02.22-22.15.44:819][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeremy/AppData/Local/Temp/UnrealShaderWorkingDir/5E2877DA4A8F266326DB0A94F2A75FFB/'.
+[2017.02.22-22.15.44:819][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.22-22.15.45:947][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.22-22.15.45:956][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.22-22.15.45:964][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.22-22.15.45:973][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.22-22.15.45:982][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.22-22.15.45:989][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.22-22.15.45:997][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.22-22.15.46:004][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.22-22.15.46:011][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.22-22.15.46:018][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.22-22.15.46:026][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.22-22.15.46:042][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.22-22.15.46:042][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.22-22.15.46:043][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.22-22.15.46:064][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.22-22.15.46:072][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.22-22.15.46:079][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.22-22.15.46:086][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.22-22.15.46:093][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.22-22.15.46:100][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.22-22.15.46:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.22-22.15.46:183][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.22-22.15.46:257][  0]LogDerivedDataCache: Loaded boot cache 0.07s 62MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.22-22.15.46:268][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.02.22-22.15.46:268][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.22-22.15.46:268][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.22-22.15.46:268][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.22-22.15.46:268][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.22-22.15.46:286][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.22-22.15.46:298][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.22-22.15.46:538][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-22.15.46:539][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.22-22.15.46:653][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.22-22.15.46:653][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.22-22.15.46:653][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.22-22.15.46:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.22-22.15.47:083][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: project_lonesome, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2318975005
+[2017.02.22-22.15.47:125][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.02.22-22.15.47:162][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032980 seconds
+[2017.02.22-22.15.47:172][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.02.22-22.15.47:172][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.02.22-22.15.47:172][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.22-22.15.47:180][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.22-22.15.47:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-22.15.47:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-22.15.48:690][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.22-22.15.48:714][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.22-22.15.49:002][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.15.49:004][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.15.49:014][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.15.49:025][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.15.49:367][  0]LogEngine: Initializing Engine...
+[2017.02.22-22.15.49:368][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.22-22.15.49:510][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.22-22.15.49:535][  0]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.15.49:549][  0]LogInit: FAudioDevice initialized.
+[2017.02.22-22.15.49:581][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.22-22.15.49:595][  0]LogInit: Texture streaming: Enabled
+[2017.02.22-22.15.49:620][  0]LogInit: Transaction tracking system initialized
+[2017.02.22-22.15.49:644][  0]BlueprintLog: New page: Editor Load
+[2017.02.22-22.15.49:717][  0]LocalizationService: Info Localization service is disabled
+[2017.02.22-22.15.49:797][  0]LogConsoleResponse:Display: 
+[2017.02.22-22.15.49:913][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.22-22.15.49:913][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.22-22.15.50:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/' took 0.02s
+[2017.02.22-22.15.50:102][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.15.50:102][  0]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.15.50:103][  0]LightingResults: New page: Lighting Build
+[2017.02.22-22.15.50:106][  0]MapCheck: New page: Map Check
+[2017.02.22-22.15.50:106][  0]LightingResults: New page: Lighting Build
+[2017.02.22-22.15.51:049][  0]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2017.02.22-22.15.51:097][  0]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2017.02.22-22.15.51:125][  0]LogMaterial: Missing cached shader map for material Material_006, compiling. 
+[2017.02.22-22.15.51:632][  0]LogMaterial: Missing cached shader map for material Material_005, compiling. 
+[2017.02.22-22.15.51:667][  0]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.02.22-22.15.51:704][  0]LogMaterial: Missing cached shader map for material Material_004, compiling. 
+[2017.02.22-22.15.51:744][  0]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2017.02.22-22.15.52:224][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.22-22.15.52:841][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.22-22.15.53:386][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.02.22-22.15.53:421][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.02.22-22.15.53:721][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.22-22.15.53:953][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.22-22.15.54:170][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.02.22-22.15.54:195][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.02.22-22.15.54:332][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.02.22-22.15.54:485][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.02.22-22.15.54:519][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.02.22-22.15.54:589][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave footstep...
+[2017.02.22-22.15.54:715][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.22-22.15.54:823][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.15.54:824][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.15.54:984][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 159.955ms to complete.
+[2017.02.22-22.15.54:984][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.882
+[2017.02.22-22.15.55:186][  0]LogCollectionManager: Loaded 1 collections in 0.003788 seconds
+[2017.02.22-22.15.55:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Collections/' took 0.01s
+[2017.02.22-22.15.55:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Developers/Jeremy/Collections/' took 0.01s
+[2017.02.22-22.15.55:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Collections/' took 0.01s
+[2017.02.22-22.15.55:240][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000010 seconds
+[2017.02.22-22.15.55:240][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.02.22-22.15.55:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2141 classes and 415 folders.
+[2017.02.22-22.15.55:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.22-22.15.55:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.22-22.15.55:267][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 12 classes and 0 folders.
+[2017.02.22-22.15.55:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.02.22-22.15.55:378][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.02.22-22.15.55:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.02.22-22.15.55:412][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.22-22.15.55:419][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.22-22.15.55:451][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.02.22-22.15.55:451][  0]LogLoad: (Engine Initialization) Total time: 12.48 seconds
+[2017.02.22-22.15.55:451][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.02.22-22.15.55:451][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.22-22.15.55:451][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.22-22.15.55:461][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.22-22.15.55:461][  0]LogOcInput: OculusInput pre-init called
+[2017.02.22-22.15.55:484][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.22-22.15.55:777][  2]LogRenderer: Reallocating scene render targets to support 912x568 (Frame:2).
+[2017.02.22-22.15.55:890][  2]LogAssetRegistry: Asset discovery search completed in 8.7866 seconds
+[2017.02.22-22.15.55:890][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000014 seconds (found 0 objects)
+[2017.02.22-22.15.55:891][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000047 seconds (updated 0 objects)
+[2017.02.22-22.16.15:739][569]LogRenderer: Reallocating scene render targets to support 1092x580 (Frame:522).
+[2017.02.22-22.16.18:094][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.16.18:094][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-22.16.18:106][845]PIE: New page: PIE session: FirstPersonExampleMap (Feb 22, 2017, 6:16:18 AM)
+[2017.02.22-22.16.18:106][845]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.22-22.16.18:158][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052385s)
+[2017.02.22-22.16.18:159][845]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.22-22.16.18:160][845]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2017.02.22-22.16.18:160][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054231s)
+[2017.02.22-22.16.18:202][845]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.16.18:211][845]LogInit: FAudioDevice initialized.
+[2017.02.22-22.16.18:286][845]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-22.16.18:332][845]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.22-14.16.18
+[2017.02.22-22.16.18:335][845]LogWorld: Bringing up level for play took: 0.047143
+[2017.02.22-22.16.18:338][845]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.22-22.16.18:339][845]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.16.18:339][845]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.16.18:339][845]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.16.18:361][845]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.16.18:365][845]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.264
+[2017.02.22-22.16.18:366][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.16.18:403][845]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:793).
+[2017.02.22-22.17.27:506][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.17.27:556][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.17.37:344][633]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.02.22-22.18.02:244][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.18.02:246][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-22.18.02:246][732]PIE: New page: PIE session: FirstPersonExampleMap (Feb 22, 2017, 6:18:02 AM)
+[2017.02.22-22.18.02:247][732]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.22-22.18.02:305][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058386s)
+[2017.02.22-22.18.02:306][732]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.22-22.18.02:307][732]LogPlayLevel: PIE: World Init took: (0.001846s)
+[2017.02.22-22.18.02:307][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.060796s)
+[2017.02.22-22.18.02:349][732]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.18.02:358][732]LogInit: FAudioDevice initialized.
+[2017.02.22-22.18.02:413][732]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-22.18.02:459][732]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.22-14.18.02
+[2017.02.22-22.18.02:462][732]LogWorld: Bringing up level for play took: 0.047358
+[2017.02.22-22.18.02:462][732]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.18.02:462][732]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.18.02:462][732]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.18.02:486][732]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.18.02:492][732]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.391
+[2017.02.22-22.18.02:492][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.18.03:923][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.18.03:969][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.22-22.21.52:047][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.22-22.21.52:866][ 77]Cmd: SELECT NONE
+[2017.02.22-22.23.23:836][544]BlueprintLog: New page: Compile Door_Blueprint
+[2017.02.22-22.28.34:705][899]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room201)
+[2017.02.22-22.28.40:532][474]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room202)
+[2017.02.22-22.28.47:934][198]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room204)
+[2017.02.22-22.29.36:922][599]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room207)
+[2017.02.22-22.30.11:850][565]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room208)
+[2017.02.22-22.30.17:119][148]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room209)
+[2017.02.22-22.30.24:118][937]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room210)
+[2017.02.22-22.31.37:437][930]LogSavePackage: Save=667.72ms
+[2017.02.22-22.31.37:437][930]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/FirstPersonExampleMap_Auto1E257FF56478E53006183F48591022316.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.02.22-22.31.37:442][930]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.02.22-22.31.37:444][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.730
+[2017.02.22-22.31.37:444][930]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.730
+[2017.02.22-22.31.37:447][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SimpleDoorLockSystem/Blueprints/Door_Blueprint] ([1] browsable assets)...
+[2017.02.22-22.31.37:462][930]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SimpleDoorLockSystem/Blueprints/Door_Blueprint.Door_Blueprint]
+[2017.02.22-22.31.37:462][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/SimpleDoorLockSystem/Blueprints/Door_Blueprint]
+[2017.02.22-22.31.37:514][930]LogSavePackage: Save=46.28ms
+[2017.02.22-22.31.37:514][930]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Door_Blueprint_Auto1EB048DA44CD368DEB5CB298C281789BD.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/SimpleDoorLockSystem/Blueprints/Door_Blueprint_Auto1.uasset'
+[2017.02.22-22.31.37:517][930]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/SimpleDoorLockSystem/Blueprints/Door_Blueprint_Auto1.uasset
+[2017.02.22-22.31.37:517][930]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.02.22-22.32.12:092][391]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room213)
+[2017.02.22-22.32.15:519][725]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room214)
+[2017.02.22-22.32.22:298][423]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room215)
+[2017.02.22-22.32.26:369][841]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room216)
+[2017.02.22-22.32.56:479][325]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room217)
+[2017.02.22-22.33.00:305][727]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room218)
+[2017.02.22-22.33.06:448][403]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room219)
+[2017.02.22-22.33.11:805][999]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room220)
+[2017.02.22-22.33.44:318][ 16]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_ArtRoom)
+[2017.02.22-22.33.53:803][ 87]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_JanitorRoom)
+[2017.02.22-22.34.00:988][898]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageLarge)
+[2017.02.22-22.34.24:917][664]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageSmall)
+[2017.02.22-22.34.29:529][174]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Scrathing/MoaningRoom)
+[2017.02.22-22.34.34:739][768]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_CorpsesRoom)
+[2017.02.22-22.34.39:737][346]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Scrathing/MoaningRoom)
+[2017.02.22-22.35.32:265][246]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-22.35.55:098][889]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_ChairRoom)
+[2017.02.22-22.36.25:661][188]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room211)
+[2017.02.22-22.36.46:852][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube84)
+[2017.02.22-22.36.55:451][525]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-22.37.13:847][594]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room215)
+[2017.02.22-22.37.17:150][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube168)
+[2017.02.22-22.37.37:612][270]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.22-22.37.38:056][270]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.22-22.37.38:489][270]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.02.22-22.37.38:716][270]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.22-22.37.38:899][270]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.22-22.37.39:076][270]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.02.22-22.37.39:170][270]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.02.22-22.37.39:264][270]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.02.22-22.37.39:333][270]LogTexture:Display: Building textures: PH_Notes (AutoDXT)
+[2017.02.22-22.37.40:062][270]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-22.37.42:428][270]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.37.42:429][270]LightingResults: New page: Lighting Build
+[2017.02.22-22.37.42:431][270]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-22.37.42:435][270]MapCheck: New page: Map Check
+[2017.02.22-22.37.42:435][270]LightingResults: New page: Lighting Build
+[2017.02.22-22.37.42:507][270]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.37.42:529][270]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.37.42:629][270]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.885ms to complete.
+[2017.02.22-22.37.42:633][270]LogFileHelpers: Loading map 'Second-Floor' took 0.206
+[2017.02.22-22.37.52:429][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.02.22-22.38.01:471][428]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room203)
+[2017.02.22-22.38.07:669][ 96]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room201)
+[2017.02.22-22.38.14:746][874]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room202)
+[2017.02.22-22.38.24:220][917]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room203)
+[2017.02.22-22.38.27:930][294]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room204)
+[2017.02.22-22.38.31:914][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube277)
+[2017.02.22-22.38.33:482][853]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room???)
+[2017.02.22-22.38.55:380][297]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room205)
+[2017.02.22-22.39.01:411][949]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room207)
+[2017.02.22-22.39.26:274][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube107)
+[2017.02.22-22.39.29:676][ 77]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-22.39.38:796][ 75]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room207)
+[2017.02.22-22.39.45:260][801]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room208)
+[2017.02.22-22.39.48:715][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube110)
+[2017.02.22-22.39.52:836][609]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Restaurant)
+[2017.02.22-22.39.59:876][381]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Kitchen)
+[2017.02.22-22.40.04:125][833]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Freezer)
+[2017.02.22-22.40.08:264][272]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room208)
+[2017.02.22-22.40.10:665][518]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room209)
+[2017.02.22-22.40.16:828][199]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room210)
+[2017.02.22-22.40.39:997][826]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room211)
+[2017.02.22-22.41.19:031][152]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room205)
+[2017.02.22-22.41.20:646][320]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-22.41.44:355][962]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room212)
+[2017.02.22-22.41.54:120][ 26]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room211)
+[2017.02.22-22.42.28:785][882]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-22.42.43:335][520]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room213)
+[2017.02.22-22.42.47:835][ 20]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room214)
+[2017.02.22-22.42.51:533][433]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_CorpsesRoom)
+[2017.02.22-22.43.15:081][111]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Scrathing/MoaningRoom)
+[2017.02.22-22.43.21:277][760]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room214)
+[2017.02.22-22.43.23:200][966]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room215)
+[2017.02.22-22.43.29:097][609]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageSmall)
+[2017.02.22-22.43.33:389][ 76]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageLarge)
+[2017.02.22-22.43.36:169][370]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room217)
+[2017.02.22-22.43.37:719][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube168)
+[2017.02.22-22.43.41:868][991]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room218)
+[2017.02.22-22.43.48:142][670]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageLarge)
+[2017.02.22-22.43.50:662][938]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_JanitorRoom)
+[2017.02.22-22.43.54:820][388]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room219)
+[2017.02.22-22.43.56:909][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube236)
+[2017.02.22-22.43.58:029][735]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.22-22.43.58:514][785]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room220)
+[2017.02.22-22.44.00:701][ 18]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_ArtRoom)
+[2017.02.22-22.44.04:735][355]LogSavePackage: Save=639.59ms
+[2017.02.22-22.44.04:735][355]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor73D6B077464D7A3D667541B465216172.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-22.44.04:740][355]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-22.44.07:552][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube168)
+[2017.02.22-22.44.17:509][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube84)
+[2017.02.22-22.44.23:415][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.02.22-22.44.27:554][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube107)
+[2017.02.22-22.44.31:578][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube110)
+[2017.02.22-22.44.35:773][663]LogSavePackage: Save=638.81ms
+[2017.02.22-22.44.35:773][663]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor13B9E34147247620EB049398936ECE7E.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-22.44.35:778][663]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-22.45.11:072][349]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room210)
+[2017.02.22-22.45.19:981][336]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room211)
+[2017.02.22-22.45.22:520][588]LogEditorViewport: Clicking on Actor (LMB): Key_Blueprint_C (Key_Room205)
+[2017.02.22-22.47.10:559][458]LogSavePackage: Save=646.00ms
+[2017.02.22-22.47.10:559][458]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor5C7CF92548D5830055B7E0A9AAAB37D8.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-22.47.10:562][458]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-22.47.11:634][502]LogSavePackage: Save=633.15ms
+[2017.02.22-22.47.11:634][502]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-FloorC5D552924733B1B92AD1ABA0094C3D35.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-22.47.11:637][502]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-22.47.54:955][530]LogAIModule: Creating AISystem for world Basement
+[2017.02.22-22.47.56:826][530]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.47.56:827][530]LightingResults: New page: Lighting Build
+[2017.02.22-22.47.56:827][530]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.22-22.47.56:832][530]MapCheck: New page: Map Check
+[2017.02.22-22.47.56:832][530]LightingResults: New page: Lighting Build
+[2017.02.22-22.47.56:861][530]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.47.56:885][530]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.47.56:992][530]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.391ms to complete.
+[2017.02.22-22.47.56:992][530]LogFileHelpers: Loading map 'Basement' took 0.168
+[2017.02.22-22.48.17:054][919]LogAIModule: Creating AISystem for world Third-Floor
+[2017.02.22-22.48.18:600][919]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Third-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.48.18:601][919]LightingResults: New page: Lighting Build
+[2017.02.22-22.48.18:602][919]LoadErrors: New page: Loading map: Third-Floor.umap
+[2017.02.22-22.48.18:603][919]MapCheck: New page: Map Check
+[2017.02.22-22.48.18:603][919]LightingResults: New page: Lighting Build
+[2017.02.22-22.48.18:625][919]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.48.18:645][919]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.48.18:744][919]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.445ms to complete.
+[2017.02.22-22.48.18:744][919]LogFileHelpers: Loading map 'Third-Floor' took 0.144
+[2017.02.22-22.48.26:001][763]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-22.49.05:565][684]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.49.05:566][684]LightingResults: New page: Lighting Build
+[2017.02.22-22.49.05:567][684]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-22.49.05:569][684]MapCheck: New page: Map Check
+[2017.02.22-22.49.05:569][684]LightingResults: New page: Lighting Build
+[2017.02.22-22.49.05:630][684]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.49.05:653][684]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.49.05:747][684]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.79ms to complete.
+[2017.02.22-22.49.05:750][684]LogFileHelpers: Loading map 'Second-Floor' took 0.185
+[2017.02.22-22.49.09:279][ 86]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room204)
+[2017.02.22-22.49.12:129][369]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room203)
+[2017.02.22-22.49.13:937][542]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room202)
+[2017.02.22-22.49.15:394][687]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room201)
+[2017.02.22-22.49.20:023][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.02.22-22.49.21:537][357]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room202)
+[2017.02.22-22.49.33:148][510]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room???)
+[2017.02.22-22.49.35:161][694]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Room205)
+[2017.02.22-22.49.35:900][760]Cmd: SELECT NONE
+[2017.02.22-22.50.22:510][900]LogActorFactory: Actor Factory created Rectangle_piece
+[2017.02.22-22.50.24:481][ 89]LogActorFactory: Actor Factory created Rectangle_piece
+[2017.02.22-22.50.52:409][  9]Cmd: MODE GRID=0
+[2017.02.22-22.50.55:311][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.02.22-22.50.58:745][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rectangle_piece)
+[2017.02.22-22.51.07:376][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube287)
+[2017.02.22-22.51.08:080][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube287)
+[2017.02.22-22.51.08:656][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube287)
+[2017.02.22-22.51.16:338][213]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.02.22-22.54.38:250][ 66]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-22.58.04:420][214]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-22.58.08:796][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.08:797][587]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.22-22.58.08:797][587]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
+[2017.02.22-22.58.08:887][587]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2017.02.22-22.58.08:887][587]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 6:58:08 AM)
+[2017.02.22-22.58.08:888][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-22.58.08:939][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051371s)
+[2017.02.22-22.58.08:940][587]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-22.58.08:940][587]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2017.02.22-22.58.08:941][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.053315s)
+[2017.02.22-22.58.08:980][587]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.58.08:989][587]LogInit: FAudioDevice initialized.
+[2017.02.22-22.58.09:046][587]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-22.58.09:091][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-14.58.09
+[2017.02.22-22.58.09:093][587]LogWorld: Bringing up level for play took: 0.046180
+[2017.02.22-22.58.09:094][587]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.09:094][587]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.09:094][587]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.09:119][587]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.09:124][587]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 1.023
+[2017.02.22-22.58.09:125][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.26:080][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.26:137][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.31:652][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.31:652][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-22.58.31:652][365]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 6:58:31 AM)
+[2017.02.22-22.58.31:652][365]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-22.58.31:704][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051357s)
+[2017.02.22-22.58.31:705][365]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-22.58.31:705][365]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2017.02.22-22.58.31:706][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.053040s)
+[2017.02.22-22.58.31:742][365]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.58.31:750][365]LogInit: FAudioDevice initialized.
+[2017.02.22-22.58.31:802][365]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-22.58.31:846][365]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-14.58.31
+[2017.02.22-22.58.31:849][365]LogWorld: Bringing up level for play took: 0.045712
+[2017.02.22-22.58.31:849][365]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.31:849][365]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.31:849][365]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.31:873][365]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.31:878][365]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.223
+[2017.02.22-22.58.31:878][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.34:929][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.34:982][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.35:748][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.58.35:748][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-22.58.35:748][758]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 6:58:35 AM)
+[2017.02.22-22.58.35:748][758]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-22.58.35:795][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047355s)
+[2017.02.22-22.58.35:796][758]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-22.58.35:797][758]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2017.02.22-22.58.35:797][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.049029s)
+[2017.02.22-22.58.35:843][758]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-22.58.35:856][758]LogInit: FAudioDevice initialized.
+[2017.02.22-22.58.35:920][758]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-22.58.35:969][758]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-14.58.35
+[2017.02.22-22.58.35:971][758]LogWorld: Bringing up level for play took: 0.050196
+[2017.02.22-22.58.35:972][758]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.35:972][758]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.58.35:972][758]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.35:996][758]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.58.36:001][758]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.101
+[2017.02.22-22.58.36:001][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.59.06:364][707]LogBlueprintUserMessages: [Second-Floor_C_2] Event 1 Triggered
+[2017.02.22-22.59.29:293][947]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-22.59.29:353][947]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.00.15:369][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.00.15:369][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.00.15:369][786]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:00:15 AM)
+[2017.02.22-23.00.15:369][786]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.00.15:418][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048771s)
+[2017.02.22-23.00.15:419][786]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.00.15:420][786]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2017.02.22-23.00.15:420][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.050615s)
+[2017.02.22-23.00.15:457][786]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.00.15:466][786]LogInit: FAudioDevice initialized.
+[2017.02.22-23.00.15:524][786]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.00.15:568][786]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.00.15
+[2017.02.22-23.00.15:570][786]LogWorld: Bringing up level for play took: 0.045651
+[2017.02.22-23.00.15:571][786]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.00.15:571][786]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.00.15:571][786]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.00.15:600][786]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.00.15:605][786]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.497
+[2017.02.22-23.00.15:605][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.00.29:342][116]LogBlueprintUserMessages: [Second-Floor_C_2] Event 1 Triggered
+[2017.02.22-23.00.34:839][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.00.34:893][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.00.50:572][246]LogActorFactory: Actor Factory created Triangle_piece
+[2017.02.22-23.00.51:576][340]LogActorFactory: Actor Factory created Triangle_piece
+[2017.02.22-23.01.48:841][615]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.02.22-23.02.07:837][311]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.05.56:177][794]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.06.27:468][ 36]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.06.34:313][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.06.34:313][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.06.34:313][700]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:06:34 AM)
+[2017.02.22-23.06.34:313][700]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.06.34:363][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049726s)
+[2017.02.22-23.06.34:364][700]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.06.34:365][700]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2017.02.22-23.06.34:365][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.051491s)
+[2017.02.22-23.06.34:403][700]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.06.34:412][700]LogInit: FAudioDevice initialized.
+[2017.02.22-23.06.34:472][700]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.06.34:518][700]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.06.34
+[2017.02.22-23.06.34:521][700]LogWorld: Bringing up level for play took: 0.048544
+[2017.02.22-23.06.34:522][700]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.06.34:522][700]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.06.34:522][700]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.06.34:548][700]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.06.34:553][700]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.452
+[2017.02.22-23.06.34:553][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.06.53:986][600]LogBlueprintUserMessages: [Second-Floor_C_0] Event 2 Triggered
+[2017.02.22-23.07.02:776][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.07.02:844][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.07.06:065][769]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageSmall)
+[2017.02.22-23.07.11:310][288]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageLarge)
+[2017.02.22-23.07.15:572][709]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageSmall)
+[2017.02.22-23.07.25:583][745]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_StorageLarge)
+[2017.02.22-23.07.30:612][170]LogSavePackage: Save=699.68ms
+[2017.02.22-23.07.30:612][170]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor2524341E4463F0E953761FB1DF913127.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-23.07.30:617][170]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-23.08.31:987][475]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.02.22-23.08.32:806][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.22-23.20.50:649][240]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.20.59:301][108]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.21.08:637][ 24]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.21.11:129][256]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.21.17:446][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrameUp)
+[2017.02.22-23.21.35:200][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.22-23.21.35:746][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrameDown)
+[2017.02.22-23.21.56:906][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.02.22-23.21.57:408][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.22-23.22.35:709][545]LogActorFactory: Actor Factory created Cube
+[2017.02.22-23.22.38:731][841]LogActorFactory: Actor Factory created Cube
+[2017.02.22-23.23.16:269][667]Cmd: EDIT COPY
+[2017.02.22-23.24.19:655][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TempCube1)
+[2017.02.22-23.24.41:664][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TempCube1)
+[2017.02.22-23.24.42:240][417]Cmd: DELETE
+[2017.02.22-23.24.42:240][417]Cmd: ACTOR DELETE
+[2017.02.22-23.24.42:243][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.22-23.24.42:260][417]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.02.22-23.24.51:737][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrameUp)
+[2017.02.22-23.24.52:578][639]Cmd: DELETE
+[2017.02.22-23.24.52:578][639]Cmd: ACTOR DELETE
+[2017.02.22-23.24.52:581][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.22-23.24.52:596][639]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.02.22-23.24.53:183][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrameDown)
+[2017.02.22-23.24.53:341][721]Cmd: DELETE
+[2017.02.22-23.24.53:341][721]Cmd: ACTOR DELETE
+[2017.02.22-23.24.53:344][721]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.22-23.24.53:358][721]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.02.22-23.25.41:456][541]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Door_ChangeLevel_Blueprint2_C_227' or package '/Engine/Transient'.
+[2017.02.22-23.25.41:456][541]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Door_ChangeLevel_Blueprint2_C_1' or package '/Engine/Transient'.
+[2017.02.22-23.25.41:456][541]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Door_ChangeLevel_Blueprint2_C_226' or package '/Engine/Transient'.
+[2017.02.22-23.25.41:456][541]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Door_ChangeLevel_Blueprint2_C_0' or package '/Engine/Transient'.
+[2017.02.22-23.26.14:353][227]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-23.26.15:255][325]Cmd: DELETE
+[2017.02.22-23.26.15:255][325]Cmd: ACTOR DELETE
+[2017.02.22-23.26.15:259][325]LogEditorActor: Deleted Actor: Door_Blueprint_C
+[2017.02.22-23.26.15:281][325]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.02.22-23.26.20:811][978]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.26.21:657][ 76]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.26.22:442][150]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.26.23:774][292]LogActorFactory: Actor Factory created DoorFrame
+[2017.02.22-23.26.28:712][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame)
+[2017.02.22-23.26.36:291][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame2)
+[2017.02.22-23.26.43:770][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame2)
+[2017.02.22-23.26.43:820][505]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.22-23.27.12:468][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame)
+[2017.02.22-23.27.23:187][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lvl2tolvl3)
+[2017.02.22-23.27.46:789][383]LogSavePackage: Save=709.97ms
+[2017.02.22-23.27.46:789][383]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor_Auto252A1E4304A9D6380017F898967FF098E.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/Levels/Second-Floor_Auto2.umap'
+[2017.02.22-23.27.46:793][383]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/Levels/Second-Floor_Auto2.umap
+[2017.02.22-23.27.46:794][383]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Second-Floor' took 0.755
+[2017.02.22-23.27.46:794][383]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.755
+[2017.02.22-23.27.50:556][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lvl2tolvl1)
+[2017.02.22-23.27.57:392][385]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor4)
+[2017.02.22-23.27.57:712][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.02.22-23.29.41:999][549]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.29.47:444][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.29.47:444][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.29.47:444][984]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:29:47 AM)
+[2017.02.22-23.29.47:445][984]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.29.47:499][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054901s)
+[2017.02.22-23.29.47:501][984]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.29.47:502][984]LogPlayLevel: PIE: World Init took: (0.002023s)
+[2017.02.22-23.29.47:502][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.057507s)
+[2017.02.22-23.29.47:541][984]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.29.47:550][984]LogInit: FAudioDevice initialized.
+[2017.02.22-23.29.47:607][984]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.29.47:654][984]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.29.47
+[2017.02.22-23.29.47:656][984]LogWorld: Bringing up level for play took: 0.048893
+[2017.02.22-23.29.47:657][984]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.29.47:657][984]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.29.47:657][984]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.29.47:683][984]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.29.47:687][984]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.414
+[2017.02.22-23.29.47:688][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.30.03:877][720]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.30.03:877][720]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.30.03:878][720]LogNet: Browse: /Game/Levels/First-Floor
+[2017.02.22-23.30.03:879][720]LogLoad: LoadMap: /Game/Levels/First-Floor
+[2017.02.22-23.30.03:911][720]Cmd: MEM
+[2017.02.22-23.30.03:925][720]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-23.30.03:925][720]LogMemory: Process Physical Memory: 1791.79 MB used, 1800.31 MB peak
+[2017.02.22-23.30.03:925][720]LogMemory: Process Virtual Memory: 3177.42 MB used, 3221.34 MB peak
+[2017.02.22-23.30.03:925][720]LogMemory: Physical Memory: 6652.59 MB used, 16301.11 MB total
+[2017.02.22-23.30.03:925][720]LogMemory: Virtual Memory: 4091.39 MB used, 134217728.00 MB total
+[2017.02.22-23.30.03:925][720]LogMemory: 
+[2017.02.22-23.30.03:925][720]Allocator Stats for TBB: (not implemented)
+[2017.02.22-23.30.03:964][720]LogAIModule: Creating AISystem for world First-Floor
+[2017.02.22-23.30.03:964][720]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.30.03:976][720]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First-Floor.First-Floor up for play (max tick rate 0) at 2017.02.22-15.30.03
+[2017.02.22-23.30.03:976][720]LogWorld: Bringing up level for play took: 0.010693
+[2017.02.22-23.30.03:977][720]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-23.30.03:979][720]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.30.03:979][720]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.30.03:979][720]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.30.03:985][720]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.30.03:985][720]LogLoad: Took 0.106561 seconds to LoadMap(/Game/Levels/First-Floor)
+[2017.02.22-23.30.07:092][ 63]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.30.07:156][ 63]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.30.31:782][888]LogAIModule: Creating AISystem for world First-Floor
+[2017.02.22-23.30.34:911][888]LogSavePackage: Save=696.12ms
+[2017.02.22-23.30.34:911][888]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor18ED235B41E725016F325F8478F87F75.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-23.30.34:916][888]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-23.30.34:935][888]LogFileHelpers: Saving map 'Second-Floor' took 0.838
+[2017.02.22-23.30.34:978][888]LogSavePackage: Save=37.28ms
+[2017.02.22-23.30.34:978][888]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Door_BlueprintE809CB5D40B24542A51C508686DB2671.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset'
+[2017.02.22-23.30.34:981][888]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset
+[2017.02.22-23.30.34:983][888]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.30.34:983][888]LightingResults: New page: Lighting Build
+[2017.02.22-23.30.34:984][888]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.02.22-23.30.34:992][888]MapCheck: New page: Map Check
+[2017.02.22-23.30.34:992][888]LightingResults: New page: Lighting Build
+[2017.02.22-23.30.35:025][888]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.30.35:045][888]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.30.35:149][888]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.251ms to complete.
+[2017.02.22-23.30.35:155][888]LogFileHelpers: Loading map 'First-Floor' took 0.173
+[2017.02.22-23.30.51:967][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.30.51:967][884]PIE: New page: PIE session: First-Floor (Feb 22, 2017, 7:30:51 AM)
+[2017.02.22-23.30.51:968][884]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_First-Floor
+[2017.02.22-23.30.51:976][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008728s)
+[2017.02.22-23.30.51:977][884]LogAIModule: Creating AISystem for world First-Floor
+[2017.02.22-23.30.51:978][884]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.02.22-23.30.51:978][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First-Floor.First-Floor to /Game/Levels/UEDPIE_0_First-Floor.First-Floor (0.010248s)
+[2017.02.22-23.30.52:010][884]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.30.52:018][884]LogInit: FAudioDevice initialized.
+[2017.02.22-23.30.52:071][884]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.30.52:081][884]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First-Floor.First-Floor up for play (max tick rate 0) at 2017.02.22-15.30.52
+[2017.02.22-23.30.52:082][884]LogWorld: Bringing up level for play took: 0.009863
+[2017.02.22-23.30.52:083][884]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.30.52:083][884]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.30.52:083][884]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.30.52:087][884]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.30.52:091][884]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First-Floor -0.01
+[2017.02.22-23.31.00:370][800]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.31.00:421][800]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.31.00:421][800]LightingResults: New page: Lighting Build
+[2017.02.22-23.31.00:422][800]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-23.31.00:423][800]MapCheck: New page: Map Check
+[2017.02.22-23.31.00:423][800]LightingResults: New page: Lighting Build
+[2017.02.22-23.31.00:485][800]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.31.00:507][800]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.31.00:603][800]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.105ms to complete.
+[2017.02.22-23.31.00:603][800]LogFileHelpers: Loading map 'Second-Floor' took 0.183
+[2017.02.22-23.31.27:234][220]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.31.29:785][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.31.29:785][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.31.29:785][415]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:31:29 AM)
+[2017.02.22-23.31.29:785][415]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.31.29:852][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066315s)
+[2017.02.22-23.31.29:853][415]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.31.29:853][415]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2017.02.22-23.31.29:854][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.068314s)
+[2017.02.22-23.31.29:894][415]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.31.29:902][415]LogInit: FAudioDevice initialized.
+[2017.02.22-23.31.29:961][415]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.31.30:016][415]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.31.30
+[2017.02.22-23.31.30:019][415]LogWorld: Bringing up level for play took: 0.057059
+[2017.02.22-23.31.30:021][415]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.31.30:021][415]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.31.30:021][415]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.31.30:048][415]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.31.30:053][415]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.048
+[2017.02.22-23.31.30:053][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.31.44:860][ 24]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.31.44:860][ 24]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.31.44:860][ 24]LogNet: Browse: /Game/Levels/Basement
+[2017.02.22-23.31.44:860][ 24]LogLoad: LoadMap: /Game/Levels/Basement
+[2017.02.22-23.31.44:890][ 24]Cmd: MEM
+[2017.02.22-23.31.44:909][ 24]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-23.31.44:909][ 24]LogMemory: Process Physical Memory: 1825.74 MB used, 1836.01 MB peak
+[2017.02.22-23.31.44:909][ 24]LogMemory: Process Virtual Memory: 3245.42 MB used, 3297.13 MB peak
+[2017.02.22-23.31.44:909][ 24]LogMemory: Physical Memory: 6699.72 MB used, 16301.11 MB total
+[2017.02.22-23.31.44:909][ 24]LogMemory: Virtual Memory: 4175.77 MB used, 134217728.00 MB total
+[2017.02.22-23.31.44:909][ 24]LogMemory: 
+[2017.02.22-23.31.44:909][ 24]Allocator Stats for TBB: (not implemented)
+[2017.02.22-23.31.44:964][ 24]LogAIModule: Creating AISystem for world Basement
+[2017.02.22-23.31.44:965][ 24]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.31.44:970][ 24]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2017.02.22-15.31.44
+[2017.02.22-23.31.44:970][ 24]LogWorld: Bringing up level for play took: 0.004243
+[2017.02.22-23.31.44:971][ 24]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-23.31.44:971][ 24]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.31.44:971][ 24]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.31.44:971][ 24]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.31.44:975][ 24]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.31.44:975][ 24]LogLoad: Took 0.114685 seconds to LoadMap(/Game/Levels/Basement)
+[2017.02.22-23.31.53:993][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.31.54:046][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.32.14:778][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.22-23.32.15:322][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lvl2tolvl3)
+[2017.02.22-23.32.30:787][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.02.22-23.33.54:300][751]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.34.04:940][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.34.04:940][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.34.04:941][871]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:34:04 AM)
+[2017.02.22-23.34.04:941][871]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.34.04:993][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052582s)
+[2017.02.22-23.34.04:994][871]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.34.04:995][871]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2017.02.22-23.34.04:995][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.054448s)
+[2017.02.22-23.34.05:031][871]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.34.05:040][871]LogInit: FAudioDevice initialized.
+[2017.02.22-23.34.05:094][871]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.34.05:142][871]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.34.05
+[2017.02.22-23.34.05:144][871]LogWorld: Bringing up level for play took: 0.049043
+[2017.02.22-23.34.05:145][871]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.34.05:145][871]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.34.05:145][871]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.34.05:171][871]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.34.05:175][871]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 1.074
+[2017.02.22-23.34.05:176][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.34.22:392][692]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.34.22:392][692]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.34.22:393][692]LogNet: Browse: /Game/Levels/Third-Floor
+[2017.02.22-23.34.22:393][692]LogLoad: LoadMap: /Game/Levels/Third-Floor
+[2017.02.22-23.34.22:423][692]Cmd: MEM
+[2017.02.22-23.34.22:438][692]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-23.34.22:438][692]LogMemory: Process Physical Memory: 1874.46 MB used, 1896.87 MB peak
+[2017.02.22-23.34.22:438][692]LogMemory: Process Virtual Memory: 3285.15 MB used, 3382.03 MB peak
+[2017.02.22-23.34.22:438][692]LogMemory: Physical Memory: 6754.80 MB used, 16301.11 MB total
+[2017.02.22-23.34.22:438][692]LogMemory: Virtual Memory: 4236.51 MB used, 134217728.00 MB total
+[2017.02.22-23.34.22:438][692]LogMemory: 
+[2017.02.22-23.34.22:438][692]Allocator Stats for TBB: (not implemented)
+[2017.02.22-23.34.22:484][692]LogAIModule: Creating AISystem for world Third-Floor
+[2017.02.22-23.34.22:485][692]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.34.22:503][692]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Third-Floor.Third-Floor up for play (max tick rate 0) at 2017.02.22-15.34.22
+[2017.02.22-23.34.22:504][692]LogWorld: Bringing up level for play took: 0.018269
+[2017.02.22-23.34.22:505][692]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-23.34.22:505][692]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.34.22:505][692]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.34.22:505][692]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.34.22:509][692]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.34.22:509][692]LogLoad: Took 0.116021 seconds to LoadMap(/Game/Levels/Third-Floor)
+[2017.02.22-23.34.26:762][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.34.26:834][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.36.53:419][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.02.22-23.36.56:365][ 90]LogSavePackage: Save=701.97ms
+[2017.02.22-23.36.56:366][ 90]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor777B139F49C815CBF08A918D8FD1B68B.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-23.36.56:371][ 90]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-23.37.01:107][572]LogAIModule: Creating AISystem for world Basement
+[2017.02.22-23.37.01:125][572]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.37.01:125][572]LightingResults: New page: Lighting Build
+[2017.02.22-23.37.01:126][572]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.22-23.37.01:131][572]MapCheck: New page: Map Check
+[2017.02.22-23.37.01:131][572]LightingResults: New page: Lighting Build
+[2017.02.22-23.37.01:159][572]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.37.01:179][572]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.37.01:287][572]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.913ms to complete.
+[2017.02.22-23.37.01:287][572]LogFileHelpers: Loading map 'Basement' took 0.163
+[2017.02.22-23.37.05:015][  4]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.02.22-23.37.22:675][925]LogAIModule: Creating AISystem for world First-Floor
+[2017.02.22-23.37.22:695][925]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.37.22:695][925]LightingResults: New page: Lighting Build
+[2017.02.22-23.37.22:695][925]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.02.22-23.37.22:696][925]MapCheck: New page: Map Check
+[2017.02.22-23.37.22:696][925]LightingResults: New page: Lighting Build
+[2017.02.22-23.37.22:716][925]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.37.22:737][925]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.37.22:840][925]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.114ms to complete.
+[2017.02.22-23.37.22:840][925]LogFileHelpers: Loading map 'First-Floor' took 0.147
+[2017.02.22-23.37.25:795][263]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.02.22-23.37.28:444][564]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.02.22-23.37.29:300][657]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.02.22-23.41.33:697][330]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.02.22-23.41.56:551][868]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.41.56:604][868]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.41.56:604][868]LightingResults: New page: Lighting Build
+[2017.02.22-23.41.56:605][868]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-23.41.56:607][868]MapCheck: New page: Map Check
+[2017.02.22-23.41.56:607][868]LightingResults: New page: Lighting Build
+[2017.02.22-23.41.56:670][868]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.41.56:706][868]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.41.56:809][868]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.354ms to complete.
+[2017.02.22-23.41.56:810][868]LogFileHelpers: Loading map 'Second-Floor' took 0.207
+[2017.02.22-23.44.31:491][161]LogSavePackage: Save=857.87ms
+[2017.02.22-23.44.31:491][161]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor13E46D4E4D0771FB0EFB03B79A5DD7E7.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-23.44.31:495][161]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-23.44.51:988][582]LogAIModule: Creating AISystem for world First-Floor
+[2017.02.22-23.44.52:007][582]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.44.52:008][582]LightingResults: New page: Lighting Build
+[2017.02.22-23.44.52:008][582]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.02.22-23.44.52:013][582]MapCheck: New page: Map Check
+[2017.02.22-23.44.52:013][582]LightingResults: New page: Lighting Build
+[2017.02.22-23.44.52:043][582]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.44.52:062][582]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.44.52:163][582]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.32ms to complete.
+[2017.02.22-23.44.52:163][582]LogFileHelpers: Loading map 'First-Floor' took 0.156
+[2017.02.22-23.45.02:696][ 99]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.02.22-23.45.03:589][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.02.22-23.46.29:340][893]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.22-23.47.59:523][985]LogSavePackage: Save=62.68ms
+[2017.02.22-23.47.59:523][985]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/First-FloorBBA89F884CB9074A2F95A98120DE7D17.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/First-Floor.umap'
+[2017.02.22-23.47.59:526][985]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/First-Floor.umap
+[2017.02.22-23.48.04:342][482]LogAIModule: Creating AISystem for world Basement
+[2017.02.22-23.48.04:360][482]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.48.04:360][482]LightingResults: New page: Lighting Build
+[2017.02.22-23.48.04:361][482]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.22-23.48.04:362][482]MapCheck: New page: Map Check
+[2017.02.22-23.48.04:362][482]LightingResults: New page: Lighting Build
+[2017.02.22-23.48.04:381][482]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.48.04:404][482]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.48.04:517][482]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.892ms to complete.
+[2017.02.22-23.48.04:517][482]LogFileHelpers: Loading map 'Basement' took 0.158
+[2017.02.22-23.48.56:161][855]LogAIModule: Creating AISystem for world Park
+[2017.02.22-23.48.56:179][855]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Park.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.48.56:179][855]LightingResults: New page: Lighting Build
+[2017.02.22-23.48.56:180][855]LoadErrors: New page: Loading map: Park.umap
+[2017.02.22-23.48.56:181][855]MapCheck: New page: Map Check
+[2017.02.22-23.48.56:181][855]LightingResults: New page: Lighting Build
+[2017.02.22-23.48.56:197][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.48.56:218][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.48.56:321][855]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.072ms to complete.
+[2017.02.22-23.48.56:321][855]LogFileHelpers: Loading map 'Park' took 0.143
+[2017.02.22-23.49.14:893][116]LogAIModule: Creating AISystem for world Third-Floor
+[2017.02.22-23.49.14:915][116]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Third-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.49.14:915][116]LightingResults: New page: Lighting Build
+[2017.02.22-23.49.14:915][116]LoadErrors: New page: Loading map: Third-Floor.umap
+[2017.02.22-23.49.14:916][116]MapCheck: New page: Map Check
+[2017.02.22-23.49.14:916][116]LightingResults: New page: Lighting Build
+[2017.02.22-23.49.14:942][116]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.49.14:962][116]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.49.15:065][116]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.334ms to complete.
+[2017.02.22-23.49.15:065][116]LogFileHelpers: Loading map 'Third-Floor' took 0.151
+[2017.02.22-23.49.59:568][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.49.59:569][525]PIE: New page: PIE session: Third-Floor (Feb 22, 2017, 7:49:59 AM)
+[2017.02.22-23.49.59:569][525]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Third-Floor
+[2017.02.22-23.49.59:579][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010562s)
+[2017.02.22-23.49.59:580][525]LogAIModule: Creating AISystem for world Third-Floor
+[2017.02.22-23.49.59:580][525]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2017.02.22-23.49.59:581][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Third-Floor.Third-Floor to /Game/Levels/UEDPIE_0_Third-Floor.Third-Floor (0.011998s)
+[2017.02.22-23.49.59:611][525]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.49.59:621][525]LogInit: FAudioDevice initialized.
+[2017.02.22-23.49.59:679][525]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.49.59:697][525]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Third-Floor.Third-Floor up for play (max tick rate 0) at 2017.02.22-15.49.59
+[2017.02.22-23.49.59:697][525]LogWorld: Bringing up level for play took: 0.016804
+[2017.02.22-23.49.59:698][525]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.49.59:698][525]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.49.59:698][525]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.49.59:702][525]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.49.59:707][525]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Third-Floor -0.395
+[2017.02.22-23.51.15:430][187]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.51.15:489][187]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.51.15:489][187]LightingResults: New page: Lighting Build
+[2017.02.22-23.51.15:489][187]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-23.51.15:491][187]MapCheck: New page: Map Check
+[2017.02.22-23.51.15:491][187]LightingResults: New page: Lighting Build
+[2017.02.22-23.51.15:564][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.51.15:584][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.51.15:687][187]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.73ms to complete.
+[2017.02.22-23.51.15:688][187]LogFileHelpers: Loading map 'Second-Floor' took 0.201
+[2017.02.22-23.51.22:675][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lvl2tolvl1)
+[2017.02.22-23.51.26:496][393]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.02.22-23.51.57:231][228]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox_Down)
+[2017.02.22-23.52.19:190][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lvl2tolvl3)
+[2017.02.22-23.52.20:822][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.22-23.52.22:837][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.02.22-23.52.24:133][307]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2_Up)
+[2017.02.22-23.52.31:715][900]BlueprintLog: New page: Compile Second-Floor
+[2017.02.22-23.52.34:606][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.52.34:606][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-23.52.34:606][139]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 7:52:34 AM)
+[2017.02.22-23.52.34:606][139]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.22-23.52.34:661][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054325s)
+[2017.02.22-23.52.34:662][139]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.52.34:663][139]LogPlayLevel: PIE: World Init took: (0.002038s)
+[2017.02.22-23.52.34:663][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.056946s)
+[2017.02.22-23.52.34:705][139]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-23.52.34:713][139]LogInit: FAudioDevice initialized.
+[2017.02.22-23.52.34:770][139]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.52.34:816][139]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-15.52.34
+[2017.02.22-23.52.34:819][139]LogWorld: Bringing up level for play took: 0.047582
+[2017.02.22-23.52.34:820][139]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.52.34:820][139]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.52.34:820][139]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.52.34:844][139]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.52.34:848][139]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.747
+[2017.02.22-23.52.34:848][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.52.50:119][753]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.52.50:120][753]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.02.22-23.52.50:120][753]LogNet: Browse: /Game/Levels/Third-Floor
+[2017.02.22-23.52.50:120][753]LogLoad: LoadMap: /Game/Levels/Third-Floor
+[2017.02.22-23.52.50:151][753]Cmd: MEM
+[2017.02.22-23.52.50:165][753]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-23.52.50:165][753]LogMemory: Process Physical Memory: 1831.16 MB used, 1896.87 MB peak
+[2017.02.22-23.52.50:165][753]LogMemory: Process Virtual Memory: 3307.20 MB used, 3382.03 MB peak
+[2017.02.22-23.52.50:165][753]LogMemory: Physical Memory: 6320.40 MB used, 16301.11 MB total
+[2017.02.22-23.52.50:165][753]LogMemory: Virtual Memory: 4208.45 MB used, 134217728.00 MB total
+[2017.02.22-23.52.50:165][753]LogMemory: 
+[2017.02.22-23.52.50:165][753]Allocator Stats for TBB: (not implemented)
+[2017.02.22-23.52.50:253][753]LogAIModule: Creating AISystem for world Third-Floor
+[2017.02.22-23.52.50:254][753]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.22-23.52.50:273][753]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Third-Floor.Third-Floor up for play (max tick rate 0) at 2017.02.22-15.52.50
+[2017.02.22-23.52.50:274][753]LogWorld: Bringing up level for play took: 0.018405
+[2017.02.22-23.52.50:274][753]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.22-23.52.50:275][753]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.52.50:275][753]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-23.52.50:275][753]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.52.50:279][753]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-23.52.50:279][753]LogLoad: Took 0.158415 seconds to LoadMap(/Game/Levels/Third-Floor)
+[2017.02.22-23.52.50:962][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.52.51:029][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.22-23.55.13:214][366]LogAIModule: Creating AISystem for world Park
+[2017.02.22-23.55.17:555][366]LogSavePackage: Save=753.21ms
+[2017.02.22-23.55.17:555][366]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-FloorA03F4D944A59277C0E2D80B467A78A57.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.22-23.55.17:567][366]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.22-23.55.17:606][366]LogFileHelpers: Saving map 'Second-Floor' took 0.939
+[2017.02.22-23.55.17:607][366]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Park.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.55.17:607][366]LightingResults: New page: Lighting Build
+[2017.02.22-23.55.17:608][366]LoadErrors: New page: Loading map: Park.umap
+[2017.02.22-23.55.17:614][366]MapCheck: New page: Map Check
+[2017.02.22-23.55.17:614][366]LightingResults: New page: Lighting Build
+[2017.02.22-23.55.17:643][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.55.17:663][366]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.55.17:766][366]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.296ms to complete.
+[2017.02.22-23.55.17:767][366]LogFileHelpers: Loading map 'Park' took 0.161
+[2017.02.22-23.59.44:920][759]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.22-23.59.44:972][759]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-23.59.44:972][759]LightingResults: New page: Lighting Build
+[2017.02.22-23.59.44:973][759]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.22-23.59.44:974][759]MapCheck: New page: Map Check
+[2017.02.22-23.59.44:974][759]LightingResults: New page: Lighting Build
+[2017.02.22-23.59.45:038][759]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-23.59.45:059][759]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-23.59.45:170][759]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.483ms to complete.
+[2017.02.22-23.59.45:171][759]LogFileHelpers: Loading map 'Second-Floor' took 0.200
+[2017.02.22-23.59.59:998][582]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Scrathing/MoaningRoom)
+[2017.02.23-00.00.03:897][987]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_CorpsesRoom)
+[2017.02.23-00.00.09:619][583]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_ChairRoom)
+[2017.02.23-00.00.15:855][124]LogSavePackage: Save=821.92ms
+[2017.02.23-00.00.15:855][124]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor7D1A25264BEA31E1C283FE89A9AE0747.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.23-00.00.15:858][124]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.23-00.06.42:267][898]BlueprintLog: New page: Compile Door_Blueprint
+[2017.02.23-00.06.45:759][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.06.45:759][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.23-00.06.45:759][168]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 8:06:45 AM)
+[2017.02.23-00.06.45:759][168]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.23-00.06.45:820][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060385s)
+[2017.02.23-00.06.45:821][168]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.23-00.06.45:821][168]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2017.02.23-00.06.45:821][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.061950s)
+[2017.02.23-00.06.45:863][168]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.23-00.06.45:874][168]LogInit: FAudioDevice initialized.
+[2017.02.23-00.06.45:931][168]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.23-00.06.45:984][168]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-16.06.45
+[2017.02.23-00.06.45:986][168]LogWorld: Bringing up level for play took: 0.054681
+[2017.02.23-00.06.45:987][168]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.06.45:987][168]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.06.45:987][168]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.06.46:012][168]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.06.46:015][168]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.086
+[2017.02.23-00.06.46:016][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.07.08:313][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.07.08:373][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.08.33:225][509]LogSavePackage: Save=8.52ms
+[2017.02.23-00.08.33:225][509]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/NeedKeyTextC24F319B42E5D0BE59321AB1DF43BF26.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/UMG´s/NeedKeyText.uasset'
+[2017.02.23-00.08.33:228][509]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/UMG´s/NeedKeyText.uasset
+[2017.02.23-00.08.33:801][538]BlueprintLog: New page: Compile NeedKeyText
+[2017.02.23-00.08.34:430][561]LogSavePackage: Save=7.12ms
+[2017.02.23-00.08.34:430][561]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/NeedKeyText1236F8084C93675506EA97AE799C83EC.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/UMG´s/NeedKeyText.uasset'
+[2017.02.23-00.08.34:432][561]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/UMG´s/NeedKeyText.uasset
+[2017.02.23-00.08.37:947][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.08.37:947][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.23-00.08.37:947][858]PIE: New page: PIE session: Second-Floor (Feb 22, 2017, 8:08:37 AM)
+[2017.02.23-00.08.37:948][858]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.02.23-00.08.37:995][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047254s)
+[2017.02.23-00.08.37:996][858]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.23-00.08.37:997][858]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2017.02.23-00.08.37:997][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.049001s)
+[2017.02.23-00.08.38:035][858]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.23-00.08.38:043][858]LogInit: FAudioDevice initialized.
+[2017.02.23-00.08.38:097][858]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.23-00.08.38:143][858]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.02.22-16.08.38
+[2017.02.23-00.08.38:145][858]LogWorld: Bringing up level for play took: 0.047448
+[2017.02.23-00.08.38:146][858]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.08.38:146][858]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.08.38:146][858]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.08.38:171][858]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.08.38:175][858]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.074
+[2017.02.23-00.08.38:176][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.08.55:020][695]LogBlueprintUserMessages: [Second-Floor_C_1] Event 1 Triggered
+[2017.02.23-00.09.29:539][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.09.29:605][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.02.23-00.09.31:622][548]LogSavePackage: Save=748.51ms
+[2017.02.23-00.09.31:622][548]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor5B8BD14B443D57EB5D531C9742B48BBD.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.23-00.09.31:627][548]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.23-00.12.12:225][814]LogAIModule: Creating AISystem for world Basement
+[2017.02.23-00.12.14:595][814]LogSavePackage: Save=47.17ms
+[2017.02.23-00.12.14:595][814]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Door_Blueprint0012C78E48C6A5419C62FEA14D2B25BB.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset'
+[2017.02.23-00.12.14:598][814]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset
+[2017.02.23-00.12.14:599][814]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-00.12.14:599][814]LightingResults: New page: Lighting Build
+[2017.02.23-00.12.14:600][814]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.23-00.12.14:605][814]MapCheck: New page: Map Check
+[2017.02.23-00.12.14:605][814]LightingResults: New page: Lighting Build
+[2017.02.23-00.12.14:633][814]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-00.12.14:666][814]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-00.12.14:759][814]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.126ms to complete.
+[2017.02.23-00.12.14:760][814]LogFileHelpers: Loading map 'Basement' took 0.162
+[2017.02.23-00.12.58:579][902]Cmd: DELETE
+[2017.02.23-00.12.58:579][902]Cmd: ACTOR DELETE
+[2017.02.23-00.12.58:579][902]LogEditorActor: Deleted Actor: Key_Blueprint_C
+[2017.02.23-00.12.58:596][902]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.02.23-00.13.12:534][343]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.23-00.13.14:154][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-00.13.14:196][343]LogSavePackage: Save=20.17ms
+[2017.02.23-00.13.14:196][343]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement6759DD8341A948EC5F8578ACC0439D09.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-00.13.14:198][343]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-00.13.14:233][343]LogFileHelpers: Saving map 'Basement' took 0.180
+[2017.02.23-00.13.14:234][343]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-00.13.14:235][343]LightingResults: New page: Lighting Build
+[2017.02.23-00.13.14:235][343]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.23-00.13.14:236][343]MapCheck: New page: Map Check
+[2017.02.23-00.13.14:236][343]LightingResults: New page: Lighting Build
+[2017.02.23-00.13.14:316][343]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-00.13.14:338][343]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-00.13.14:440][343]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.156ms to complete.
+[2017.02.23-00.13.14:440][343]LogFileHelpers: Loading map 'Second-Floor' took 0.207
+[2017.02.23-00.41.55:647][252]LogAIModule: Creating AISystem for world Basement
+[2017.02.23-00.41.55:668][252]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-00.41.55:668][252]LightingResults: New page: Lighting Build
+[2017.02.23-00.41.55:669][252]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.23-00.41.55:674][252]MapCheck: New page: Map Check
+[2017.02.23-00.41.55:674][252]LightingResults: New page: Lighting Build
+[2017.02.23-00.41.55:696][252]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-00.41.55:730][252]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-00.41.55:826][252]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.45ms to complete.
+[2017.02.23-00.41.55:826][252]LogFileHelpers: Loading map 'Basement' took 0.160
+[2017.02.23-00.42.10:260][964]LogAIModule: Creating AISystem for world MainMenu
+[2017.02.23-00.42.10:940][ 24]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.23-00.42.57:779][510]LogEditorActor: Deleted Actor: Key_Blueprint_C
+[2017.02.23-00.42.57:795][510]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.02.23-00.43.45:752][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.23-00.43.45:935][204]Cmd: SELECT NONE
+[2017.02.23-00.45.50:541][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.45.53:449][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.45.53:513][ 49]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.23-00.45.55:482][276]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.23-00.45.59:697][682]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.23-00.46.09:976][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-00.46.10:016][582]LogSavePackage: Save=20.94ms
+[2017.02.23-00.46.10:016][582]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement39E1901C4E4C8BF053EB0AB96671A6A0.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-00.46.10:019][582]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-00.46.10:038][582]LogFileHelpers: Saving map 'Basement' took 0.160
+[2017.02.23-00.46.10:040][582]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-00.46.10:040][582]LightingResults: New page: Lighting Build
+[2017.02.23-00.46.10:041][582]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.23-00.46.10:042][582]MapCheck: New page: Map Check
+[2017.02.23-00.46.10:042][582]LightingResults: New page: Lighting Build
+[2017.02.23-00.46.10:131][582]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-00.46.10:155][582]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-00.46.10:252][582]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.791ms to complete.
+[2017.02.23-00.46.10:252][582]LogFileHelpers: Loading map 'Second-Floor' took 0.214
+[2017.02.23-00.46.16:060][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube294)
+[2017.02.23-00.46.21:459][874]LogAIModule: Creating AISystem for world Basement
+[2017.02.23-00.46.21:476][874]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-00.46.21:476][874]LightingResults: New page: Lighting Build
+[2017.02.23-00.46.21:477][874]LoadErrors: New page: Loading map: Basement.umap
+[2017.02.23-00.46.21:482][874]MapCheck: New page: Map Check
+[2017.02.23-00.46.21:482][874]LightingResults: New page: Lighting Build
+[2017.02.23-00.46.21:504][874]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-00.46.21:524][874]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-00.46.21:624][874]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.032ms to complete.
+[2017.02.23-00.46.21:624][874]LogFileHelpers: Loading map 'Basement' took 0.149
+[2017.02.23-00.46.23:024][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.47.04:044][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.47.23:496][907]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-00.48.03:534][458]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-00.48.36:413][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.49.30:352][411]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-00.51.48:324][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.51.48:820][464]Cmd: EDIT COPY
+[2017.02.23-00.51.53:442][981]Cmd: DUPLICATE
+[2017.02.23-00.51.53:442][981]Cmd: ACTOR DUPLICATE
+[2017.02.23-00.52.10:961][  6]Cmd: TRANSACTION UNDO
+[2017.02.23-00.52.10:961][  6]LogEditorTransaction: Undo Move Actors
+[2017.02.23-00.52.25:859][718]Cmd: TRANSACTION UNDO
+[2017.02.23-00.52.25:859][718]LogEditorTransaction: Undo Move Actors
+[2017.02.23-00.52.37:488][ 25]Cmd: TRANSACTION UNDO
+[2017.02.23-00.52.37:488][ 25]LogEditorTransaction: Undo Move Actors
+[2017.02.23-00.54.23:329][153]Cmd: DUPLICATE
+[2017.02.23-00.54.23:329][153]Cmd: ACTOR DUPLICATE
+[2017.02.23-00.55.14:812][ 43]Cmd: POLY SELECT ADJACENT WALLS
+[2017.02.23-00.56.03:943][690]Cmd: MODE GRID=1
+[2017.02.23-00.56.31:113][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2017.02.23-00.56.31:892][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-00.56.43:485][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2017.02.23-00.56.58:379][  7]Cmd: MODE GRID=0
+[2017.02.23-00.57.44:372][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-00.57.44:433][337]LogSavePackage: Save=24.85ms
+[2017.02.23-00.57.44:433][337]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement6A33B43248B2F7BAEB274E991BE49EC5.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-00.57.44:436][337]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-00.58.43:016][557]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Study)
+[2017.02.23-00.58.44:274][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.23-00.58.44:275][696]PIE: New page: PIE session: Basement (Feb 22, 2017, 8:58:44 AM)
+[2017.02.23-00.58.44:275][696]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Basement
+[2017.02.23-00.58.44:278][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003506s)
+[2017.02.23-00.58.44:279][696]LogAIModule: Creating AISystem for world Basement
+[2017.02.23-00.58.44:280][696]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2017.02.23-00.58.44:280][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Basement.Basement to /Game/Levels/UEDPIE_0_Basement.Basement (0.005164s)
+[2017.02.23-00.58.44:316][696]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.23-00.58.44:325][696]LogInit: FAudioDevice initialized.
+[2017.02.23-00.58.44:382][696]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.23-00.58.44:387][696]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2017.02.22-16.58.44
+[2017.02.23-00.58.44:388][696]LogWorld: Bringing up level for play took: 0.004598
+[2017.02.23-00.58.44:389][696]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.58.44:389][696]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-00.58.44:389][696]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.58.44:393][696]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-00.58.44:397][696]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Basement 0.296
+[2017.02.23-01.01.41:689][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-01.01.55:391][135]Cmd: MODE GRID=1
+[2017.02.23-01.01.55:821][184]Cmd: MODE GRID=0
+[2017.02.23-01.02.00:489][727]Cmd: MODE GRID=1
+[2017.02.23-01.02.01:976][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-01.04.34:380][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2017.02.23-01.08.16:858][257]LogSavePackage: Save=24.45ms
+[2017.02.23-01.08.16:859][257]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement_Auto3721497924356FB96BB2AEC82B4ADF2F5.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/Levels/Basement_Auto3.umap'
+[2017.02.23-01.08.16:860][257]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Autosaves/Game/Levels/Basement_Auto3.umap
+[2017.02.23-01.08.16:862][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Basement' took 0.050
+[2017.02.23-01.08.16:862][257]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.050
+[2017.02.23-01.10.29:803][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2017.02.23-01.10.30:373][962]Cmd: DELETE
+[2017.02.23-01.10.30:373][962]Cmd: ACTOR DELETE
+[2017.02.23-01.10.30:374][962]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.23-01.10.30:387][962]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.02.23-01.10.30:881][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2017.02.23-01.10.30:958][ 26]Cmd: DELETE
+[2017.02.23-01.10.30:958][ 26]Cmd: ACTOR DELETE
+[2017.02.23-01.10.30:959][ 26]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.23-01.10.30:973][ 26]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.02.23-01.10.31:756][120]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Study)
+[2017.02.23-01.10.36:574][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.02.23-01.11.13:373][908]Cmd: TRANSACTION UNDO
+[2017.02.23-01.11.13:373][908]LogEditorTransaction: Undo Scale Actors
+[2017.02.23-01.11.30:024][808]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Study)
+[2017.02.23-01.11.52:977][858]Cmd: SELECT NONE
+[2017.02.23-01.11.53:598][932]Cmd: SELECT NONE
+[2017.02.23-01.11.54:274][ 13]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-01.11.54:876][ 81]Cmd: DELETE
+[2017.02.23-01.11.54:876][ 81]Cmd: ACTOR DELETE
+[2017.02.23-01.11.54:877][ 81]LogEditorActor: Deleted Actor: Door_Blueprint_C
+[2017.02.23-01.11.54:898][ 81]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.02.23-01.11.55:882][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.23-01.11.55:882][197]PIE: New page: PIE session: Basement (Feb 22, 2017, 9:11:55 AM)
+[2017.02.23-01.11.55:882][197]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Basement
+[2017.02.23-01.11.55:886][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004062s)
+[2017.02.23-01.11.55:887][197]LogAIModule: Creating AISystem for world Basement
+[2017.02.23-01.11.55:887][197]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2017.02.23-01.11.55:888][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Basement.Basement to /Game/Levels/UEDPIE_0_Basement.Basement (0.005604s)
+[2017.02.23-01.11.55:920][197]LogInit: XAudio2 using 'Headset Earphone (ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.23-01.11.55:929][197]LogInit: FAudioDevice initialized.
+[2017.02.23-01.11.55:988][197]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.02.23-01.11.55:993][197]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2017.02.22-17.11.55
+[2017.02.23-01.11.55:994][197]LogWorld: Bringing up level for play took: 0.004469
+[2017.02.23-01.11.55:995][197]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-01.11.55:995][197]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.23-01.11.55:995][197]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-01.11.56:000][197]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.23-01.11.56:004][197]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Basement -0.098
+[2017.02.23-01.12.18:993][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.23-01.12.19:757][930]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-01.13.05:088][ 37]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2017.02.23-01.14.22:167][795]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_BoilerRoom)
+[2017.02.23-01.14.29:990][676]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_EmptyRoom)
+[2017.02.23-01.15.13:832][596]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Library)
+[2017.02.23-01.15.19:466][239]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Study)
+[2017.02.23-01.15.25:569][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.15.25:656][946]LogSavePackage: Save=33.75ms
+[2017.02.23-01.15.25:656][946]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/BasementD168C34E4D4C2731A99664B48BAB8C29.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.15.25:660][946]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.27:489][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.27:536][840]LogSavePackage: Save=28.19ms
+[2017.02.23-01.16.27:536][840]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement083A903841A637E116A409B66F316E00.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.27:538][840]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.28:060][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.28:108][896]LogSavePackage: Save=27.85ms
+[2017.02.23-01.16.28:108][896]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/BasementD41A0EBD482929C6A04F6A8EBBC202C0.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.28:111][896]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.28:407][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.28:453][927]LogSavePackage: Save=28.24ms
+[2017.02.23-01.16.28:453][927]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/BasementAB736D8347E81DD8FE987BAD16224B34.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.28:455][927]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.28:599][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.28:645][940]LogSavePackage: Save=27.86ms
+[2017.02.23-01.16.28:645][940]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/BasementC0BE35E34F46C5B672F678B8832ADC1D.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.28:648][940]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.29:405][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.29:450][ 26]LogSavePackage: Save=27.55ms
+[2017.02.23-01.16.29:450][ 26]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement6FA0BBFD452B4B01D71F4496FA1A9BAD.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.29:452][ 26]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.31:029][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.31:084][205]LogSavePackage: Save=31.80ms
+[2017.02.23-01.16.31:084][205]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement09680B604AAECFA28210F592A81E05ED.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.31:086][205]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.31:226][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.31:272][216]LogSavePackage: Save=28.46ms
+[2017.02.23-01.16.31:272][216]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement35D6974C49BEC445D594658C1449B3FF.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.31:274][216]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.31:427][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.31:472][230]LogSavePackage: Save=27.40ms
+[2017.02.23-01.16.31:472][230]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement09D818014B6A96D4F00D459D603788DF.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.31:474][230]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.31:618][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.31:664][243]LogSavePackage: Save=27.28ms
+[2017.02.23-01.16.31:664][243]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement73CBA92E4421D9C9EF085884DDA33F7C.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.31:666][243]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.31:825][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Basement" FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.23-01.16.31:876][257]LogSavePackage: Save=29.18ms
+[2017.02.23-01.16.31:876][257]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Basement6EF5A5F241CC76FE48AF1293B1A84FF1.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap'
+[2017.02.23-01.16.31:878][257]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Basement.umap
+[2017.02.23-01.16.38:022][898]LogAIModule: Creating AISystem for world Second-Floor
+[2017.02.23-01.16.38:072][898]Cmd: MAP LOAD FILE="C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.23-01.16.38:072][898]LightingResults: New page: Lighting Build
+[2017.02.23-01.16.38:073][898]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.02.23-01.16.38:074][898]MapCheck: New page: Map Check
+[2017.02.23-01.16.38:074][898]LightingResults: New page: Lighting Build
+[2017.02.23-01.16.38:136][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-01.16.38:156][898]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-01.16.38:260][898]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.69ms to complete.
+[2017.02.23-01.16.38:261][898]LogFileHelpers: Loading map 'Second-Floor' took 0.190
+[2017.02.23-01.16.45:296][734]Cmd: SELECT NONE
+[2017.02.23-01.16.48:299][985]LogSavePackage: Save=839.81ms
+[2017.02.23-01.16.48:299][985]LogSavePackage: Moving 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Second-Floor6729867E40F14BA99A3529BA058769BE.tmp' to 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.02.23-01.16.48:302][985]LogSavePackage:Display: Finished SavePackage C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.02.23-01.16.50:439][207]Cmd: QUIT_EDITOR
+[2017.02.23-01.16.51:300][207]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.23-01.16.51:324][207]LogExit: Preparing to exit.
+[2017.02.23-01.16.52:329][207]LogExit: Editor shut down
+[2017.02.23-01.16.52:329][207]LogExit: Transaction tracking system shut down
+[2017.02.23-01.16.52:581][207]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.23-01.16.52:582][207]LogExit: Object subsystem successfully closed.
+[2017.02.23-01.16.52:599][207]LogD3D11RHI: Shutdown
+[2017.02.23-01.16.52:599][207]LogD3D11RHI: CleanupD3DDevice
+[2017.02.23-01.16.52:707][207]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module SequencerWidgets (238)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (237)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module BlueprintGraph (236)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (235)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (234)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2017.02.23-01.16.52:715][207]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2017.02.23-01.16.52:715][207]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2017.02.23-01.16.52:717][207]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Collections/' was aborted.
+[2017.02.23-01.16.52:717][207]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/Developers/Jeremy/Collections/' was aborted.
+[2017.02.23-01.16.52:717][207]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Saved/Collections/' was aborted.
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2017.02.23-01.16.52:717][207]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2017.02.23-01.16.52:718][207]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2017.02.23-01.16.53:530][207]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2017.02.23-01.16.53:531][207]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2017.02.23-01.16.53:585][207]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2017.02.23-01.16.53:590][207]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.02.23-01.16.53:772][207]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.02.23-01.16.53:773][207]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.02.23-01.16.53:774][207]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.02.23-01.16.53:774][207]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.02.23-01.16.53:774][207]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.02.23-01.16.53:875][207]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.02.23-01.16.53:976][207]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.02.23-01.16.53:978][207]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.02.23-01.16.53:978][207]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.23-01.16.53:978][207]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/Project-lonesome/Project_lonesome/Content/' was aborted.
+[2017.02.23-01.16.53:979][207]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.23-01.16.53:979][207]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.02.23-01.16.54:045][207]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.02.23-01.16.54:045][207]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.02.23-01.16.54:045][207]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.02.23-01.16.54:045][207]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.02.23-01.16.54:073][207]LogDerivedDataCache: Shutdown
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.02.23-01.16.54:073][207]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.02.23-01.16.54:074][207]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.23-01.16.54:074][207]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.23-01.16.54:074][207]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.23-01.16.54:074][207]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEF1F406C-4961-AF53-36E8-37A1EBCA38B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=c44897874c53e68159c833aad6b4a091%7Ca2f4d8b11bd94ef99664b9abb109ceb7%7C2b738531-6d61-486b-930d-189a825896e7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.23-01.16.54:102][207]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.23-01.16.54:103][207]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.23-01.16.54:103][207]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.23-01.16.54:103][207]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.23-01.16.54:103][207]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.23-01.16.54:106][207]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.23-01.16.54:108][207]LogExit: Exiting.
+[2017.02.23-01.16.54:119][207]Log file closed, 02/22/17 17:16:54
