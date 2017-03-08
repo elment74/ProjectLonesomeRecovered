@@ -1,0 +1,1727 @@
+﻿Log file open, 02/28/17 16:02:27
+LogInit:Display: Running engine for game: Project_lonesome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(493869832) SRandInit(493869832).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.160011
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.01-00.02.28:899][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-00.02.28:899][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.01-00.02.28:908][  0]LogInit: Computer: PC_ON_MAC
+[2017.03.01-00.02.28:908][  0]LogInit: User: DavidBarnes
+[2017.03.01-00.02.28:909][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.01-00.02.28:909][  0]LogInit: High frequency timer resolution =2.148515 MHz
+[2017.03.01-00.02.28:909][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.01-00.02.28:909][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-00.02.28:909][  0]LogMemory: Process Physical Memory: 257.54 MB used, 257.54 MB peak
+[2017.03.01-00.02.28:909][  0]LogMemory: Process Virtual Memory: 261.70 MB used, 261.70 MB peak
+[2017.03.01-00.02.28:909][  0]LogMemory: Physical Memory: 3108.44 MB used, 8102.73 MB total
+[2017.03.01-00.02.28:909][  0]LogMemory: Virtual Memory: 592.06 MB used, 8388608.00 MB total
+[2017.03.01-00.02.30:218][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.01-00.02.36:612][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.01-00.02.36:633][  0]LogD3D11RHI:    0. 'AMD Radeon 6600M and 6700M Series' (Feature Level 11_0)
+[2017.03.01-00.02.36:633][  0]LogD3D11RHI:       1008/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.03.01-00.02.36:633][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.01-00.02.36:644][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.01-00.02.36:644][  0]LogD3D11RHI:     GPU DeviceId: 0x6741 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.01-00.02.36:644][  0]LogWindows: EnumDisplayDevices:
+[2017.03.01-00.02.36:645][  0]LogWindows:    0. 'AMD Radeon 6600M and 6700M Series' (P:0 D:1)
+[2017.03.01-00.02.36:645][  0]LogWindows:    1. 'AMD Radeon 6600M and 6700M Series' (P:1 D:1)
+[2017.03.01-00.02.36:646][  0]LogWindows:    2. 'AMD Radeon 6600M and 6700M Series' (P:0 D:0)
+[2017.03.01-00.02.36:646][  0]LogWindows:    3. 'AMD Radeon 6600M and 6700M Series' (P:0 D:0)
+[2017.03.01-00.02.36:647][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.01-00.02.36:647][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.01-00.02.36:648][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.01-00.02.36:648][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.01-00.02.36:648][  0]LogD3D11RHI:     Adapter Name: AMD Radeon 6600M and 6700M Series
+[2017.03.01-00.02.36:648][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.01-00.02.36:648][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.01-00.02.36:648][  0]LogRHI: Texture pool is 706 MB (70% of 1008 MB)
+[2017.03.01-00.02.36:663][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.01-00.02.36:699][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 3)
+[2017.03.01-00.02.36:701][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Intermediate/Shaders/WorkingDirectory/4872/).
+[2017.03.01-00.02.36:701][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DAVIDB~1/AppData/Local/Temp/UnrealShaderWorkingDir/9852346247F01401614E0BAF81D5BF33/'.
+[2017.03.01-00.02.36:701][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.01-00.02.45:540][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.01-00.02.45:593][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.01-00.02.45:632][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.01-00.02.45:718][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.01-00.02.45:774][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.01-00.02.45:872][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.01-00.02.45:920][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.01-00.02.45:977][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.01-00.02.46:047][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.01-00.02.46:154][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.01-00.02.46:232][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.01-00.02.46:319][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.01-00.02.46:319][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.01-00.02.46:373][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.01-00.02.46:587][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.01-00.02.46:606][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.01-00.02.46:642][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.01-00.02.46:679][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.01-00.02.46:733][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.01-00.02.46:838][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.01-00.02.46:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.01-00.02.48:904][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.01-00.02.50:264][  0]LogDerivedDataCache: Loaded boot cache 1.36s 63MB C:/Users/David Barnes/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.01-00.02.50:265][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David Barnes/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.01-00.02.50:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.01-00.02.50:265][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.01-00.02.50:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.01-00.02.50:265][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.01-00.02.50:369][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.01-00.02.50:381][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David Barnes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.01-00.02.55:298][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-00.02.55:390][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.01-00.02.55:394][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.01-00.02.56:258][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.01-00.02.56:258][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.01-00.02.56:258][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.01-00.03.00:282][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: project_lonesome, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2580453821
+[2017.03.01-00.03.00:446][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
+[2017.03.01-00.03.00:519][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.066699 seconds
+[2017.03.01-00.03.00:526][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.03.01-00.03.00:526][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.03.01-00.03.00:526][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.01-00.03.00:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.01-00.03.12:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-00.03.12:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-00.03.37:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.01-00.03.37:146][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.01-00.03.39:152][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.03.39:154][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.03.39:397][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.03.39:492][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.03.42:081][  0]LogEngine: Initializing Engine...
+[2017.03.01-00.03.42:083][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.01-00.03.43:043][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.01-00.03.43:077][  0]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.03.43:348][  0]LogInit: FAudioDevice initialized.
+[2017.03.01-00.03.43:389][  0]LogDerivedDataCache: Saved boot cache 0.04s 63MB C:/Users/David Barnes/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.01-00.03.43:400][  0]LogInit: Texture streaming: Enabled
+[2017.03.01-00.03.43:702][  0]LogInit: Transaction tracking system initialized
+[2017.03.01-00.03.43:975][  0]BlueprintLog: New page: Editor Load
+[2017.03.01-00.03.46:153][  0]LocalizationService: Info Localization service is disabled
+[2017.03.01-00.03.47:444][  0]LogConsoleResponse:Display: 
+[2017.03.01-00.03.50:793][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.01-00.03.50:793][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.01-00.03.51:943][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/' took 0.04s
+[2017.03.01-00.03.54:511][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.03.54:522][  0]LightingResults: New page: Lighting Build
+[2017.03.01-00.03.54:526][  0]MapCheck: New page: Map Check
+[2017.03.01-00.03.54:526][  0]LightingResults: New page: Lighting Build
+[2017.03.01-00.03.59:501][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.03.01-00.03.59:617][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-00.03.59:619][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-00.03.59:734][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.759ms to complete.
+[2017.03.01-00.03.59:734][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.222
+[2017.03.01-00.04.00:034][  0]LogCollectionManager: Loaded 1 collections in 0.003782 seconds
+[2017.03.01-00.04.00:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Collections/' took 0.01s
+[2017.03.01-00.04.00:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Developers/DavidBarnes/Collections/' took 0.01s
+[2017.03.01-00.04.00:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Collections/' took 0.01s
+[2017.03.01-00.04.00:079][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000010 seconds
+[2017.03.01-00.04.00:079][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.01-00.04.00:090][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2141 classes and 415 folders.
+[2017.03.01-00.04.00:096][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.01-00.04.00:096][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.01-00.04.00:096][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.03.01-00.04.00:105][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.01-00.04.01:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.03.01-00.04.01:873][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.03.01-00.04.01:924][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.01-00.04.01:929][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.01-00.04.02:004][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.01-00.04.02:005][  0]LogLoad: (Engine Initialization) Total time: 96.28 seconds
+[2017.03.01-00.04.02:005][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.03.01-00.04.02:005][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.01-00.04.02:022][  0]LogOcInput: OculusInput pre-init called
+[2017.03.01-00.04.02:044][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.01-00.04.02:543][  2]LogRenderer: Reallocating scene render targets to support 696x472 (Frame:2).
+[2017.03.01-00.04.02:784][  3]LogAssetRegistry: Asset discovery search completed in 62.3561 seconds
+[2017.03.01-00.04.02:784][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000022 seconds (found 0 objects)
+[2017.03.01-00.04.02:784][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000046 seconds (updated 0 objects)
+[2017.03.01-00.04.23:179][615]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.04.23:477][615]Cmd: MAP LOAD FILE="../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-00.04.23:477][615]LightingResults: New page: Lighting Build
+[2017.03.01-00.04.23:478][615]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.03.01-00.04.23:479][615]MapCheck: New page: Map Check
+[2017.03.01-00.04.23:479][615]LightingResults: New page: Lighting Build
+[2017.03.01-00.04.23:558][615]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-00.04.23:596][615]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-00.04.23:714][615]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.298ms to complete.
+[2017.03.01-00.04.23:715][615]LogFileHelpers: Loading map 'Second-Floor' took 0.239
+[2017.03.01-00.04.28:757][910]LogEditorViewport: Clicking on Actor (LMB): Nurse_AI_C (Nurse_AI)
+[2017.03.01-00.04.36:354][327]Cmd: DELETE
+[2017.03.01-00.04.36:354][327]Cmd: ACTOR DELETE
+[2017.03.01-00.04.36:359][327]LogEditorActor: Deleted Actor: Nurse_AI_C
+[2017.03.01-00.04.36:371][327]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.03.01-00.05.19:017][471]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__SKEL_Nurse_movement_C' or package '/Game/Characters/Nurse/Nurse_movement'.
+[2017.03.01-00.05.19:017][471]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Nurse_movement_C_0' or package '/Game/Levels/Second-Floor'.
+[2017.03.01-00.05.19:018][471]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Nurse_movement_C_1' or package '/Engine/Transient'.
+[2017.03.01-00.05.19:018][471]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Nurse_movement_C_0' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_Nurse_movement_C' or package '/Game/Characters/Nurse/Nurse_movement'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Nurse_movement_C_1' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Nurse_movement_C_0' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.03.01-00.05.47:384][234]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.03.01-00.06.01:753][766]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/David Barnes/Documents/Blender/Nurse.fbx)
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Geometry, ItemCount : 35
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Model, ItemCount : 68
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Pose, ItemCount : 4
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Deformer, ItemCount : 129
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Material, ItemCount : 7
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Texture, ItemCount : 7
+[2017.03.01-00.06.02:001][766]LogFbx: ItemName: Video, ItemCount : 7
+[2017.03.01-00.06.02:057][766]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse.fbx
+[2017.03.01-00.06.02:204][766]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.07.16:448][766]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse.fbx
+[2017.03.01-00.07.16:512][766]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.07.16:519][766]LogFbx: =================================================
+[2017.03.01-00.07.16:519][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:519][766]LogFbx: 	Total Deformer Count 654556992.
+[2017.03.01-00.07.16:519][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:519][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:519][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:519][766]LogFbx: =================================================
+[2017.03.01-00.07.16:519][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:519][766]LogFbx: 	Total Deformer Count 654556992.
+[2017.03.01-00.07.16:519][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [Nurse:Harvey_fscrubtop2] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 1155097600.
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Nurse:Harvey_fscrubtop2) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] Nurse:Harvey_fscrubtop2 (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [Nurse:Harvey_fscrubtop2]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [Nurse:Harvey_fscrubbottoms2] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 1155097600.
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Nurse:Harvey_fscrubbottoms2) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] Nurse:Harvey_fscrubbottoms2 (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [Nurse:Harvey_fscrubbottoms2]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [Nurse:Long2_alpha7] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 654545088.
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Nurse:Long2_alpha7) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] Nurse:Long2_alpha7 (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [Nurse:Long2_alpha7]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [Nurse:Body] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] Nurse:Body (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [Nurse:Body]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_Hand] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (GZM_Hand) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_Hand (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_Hand]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_Root] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (GZM_Root) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_Root (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_Root]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_Toe] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (GZM_Toe) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_Toe (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_Toe]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_Gaze] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_Gaze (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_Gaze]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_CircleChest] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 593277424.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleChest (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_CircleChest]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_Shoulder] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 593277424.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (GZM_Shoulder) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_Shoulder (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_Shoulder]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_UpLid] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Mesh.005) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_UpLid (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_UpLid]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_FootIK] 
+[2017.03.01-00.07.16:520][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:520][766]LogFbx: 	Attribute (Mesh.006) Type (4).
+[2017.03.01-00.07.16:520][766]LogFbx: 		[Node Attribute Child 1] GZM_FootIK (Type Mesh).
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node END [GZM_FootIK]
+[2017.03.01-00.07.16:520][766]LogFbx: =================================================
+[2017.03.01-00.07.16:520][766]LogFbx: Dumping Node START [GZM_RevFoot] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (GZM_RevFoot) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_RevFoot (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_RevFoot]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_CrownHips] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593276304.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (GZM_CrownHips) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_CrownHips (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_CrownHips]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_FaceJaw] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.007) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_FaceJaw (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_FaceJaw]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Jaw] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.008) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Jaw (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Jaw]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Tongue] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (GZM_Tongue) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Tongue (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Tongue]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Ball025] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.009) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Ball025 (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Ball025]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_CircleSpine] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593279264.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.010) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleSpine (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_CircleSpine]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Breast_L] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593279264.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.011) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Breast_L (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Breast_L]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Knuckle] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (GZM_Knuckle) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Knuckle (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Knuckle]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Foot] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (GZM_Foot) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Foot (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Foot]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Neck] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.012) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Neck (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Neck]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_FaceHead] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593278304.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.013) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_FaceHead (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_FaceHead]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Breast_R] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593278304.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.014) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Breast_R (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Breast_R]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Circle025] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593278304.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.015) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Circle025 (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_Circle025]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_LoLid] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.016) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_LoLid (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_LoLid]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_CircleHips] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 593272144.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.017) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleHips (Type Mesh).
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node END [GZM_CircleHips]
+[2017.03.01-00.07.16:521][766]LogFbx: =================================================
+[2017.03.01-00.07.16:521][766]LogFbx: Dumping Node START [GZM_Master] 
+[2017.03.01-00.07.16:521][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:521][766]LogFbx: 	Attribute (Mesh.018) Type (4).
+[2017.03.01-00.07.16:521][766]LogFbx: 		[Node Attribute Child 1] GZM_Master (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [GZM_Master]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [GZM_HandIK] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh.019) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] GZM_HandIK (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [GZM_HandIK]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [GZM_Head] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 565932600.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh.020) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] GZM_Head (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [GZM_Head]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [GZM_Cube025] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (GZM_Cube025) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] GZM_Cube025 (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [GZM_Cube025]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [GZM_RevToe] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (GZM_RevToe) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] GZM_RevToe (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [GZM_RevToe]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 1205613472.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 1205613472.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 1205613472.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:522][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:522][766]LogFbx: =================================================
+[2017.03.01-00.07.16:522][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:522][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:522][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Torso] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Torso (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Torso]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:523][766]LogFbx: =================================================
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node START [Nurse:Deflector_Head] 
+[2017.03.01-00.07.16:523][766]LogFbx: 	Total Deformer Count 1212842240.
+[2017.03.01-00.07.16:523][766]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.01-00.07.16:523][766]LogFbx: 		[Node Attribute Child 1] Nurse:Deflector_Head (Type Mesh).
+[2017.03.01-00.07.16:523][766]LogFbx: Dumping Node END [Nurse:Deflector_Head]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [Nurse:Harvey_fscrubtop2] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 1155120592.
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Nurse:Harvey_fscrubtop2) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] Nurse:Harvey_fscrubtop2 (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [Nurse:Harvey_fscrubtop2]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [Nurse:Harvey_fscrubbottoms2] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 1155120256.
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Nurse:Harvey_fscrubbottoms2) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] Nurse:Harvey_fscrubbottoms2 (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [Nurse:Harvey_fscrubbottoms2]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [Nurse:Long2_alpha7] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 1212847712.
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Nurse:Long2_alpha7) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] Nurse:Long2_alpha7 (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [Nurse:Long2_alpha7]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [Nurse:Body] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node 1] Nurse (Type Skin).
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] Nurse:Body (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [Nurse:Body]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_Hand] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (GZM_Hand) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_Hand (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_Hand]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_Root] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (GZM_Root) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_Root (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_Root]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_Toe] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (GZM_Toe) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_Toe (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_Toe]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_Gaze] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_Gaze (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_Gaze]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_CircleChest] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 595346432.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleChest (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_CircleChest]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_Shoulder] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 595346432.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (GZM_Shoulder) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_Shoulder (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_Shoulder]
+[2017.03.01-00.07.16:524][766]LogFbx: =================================================
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node START [GZM_UpLid] 
+[2017.03.01-00.07.16:524][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:524][766]LogFbx: 	Attribute (Mesh.005) Type (4).
+[2017.03.01-00.07.16:524][766]LogFbx: 		[Node Attribute Child 1] GZM_UpLid (Type Mesh).
+[2017.03.01-00.07.16:524][766]LogFbx: Dumping Node END [GZM_UpLid]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_FootIK] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.006) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_FootIK (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_FootIK]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_RevFoot] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (GZM_RevFoot) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_RevFoot (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_RevFoot]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_CrownHips] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358832.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (GZM_CrownHips) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_CrownHips (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_CrownHips]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_FaceJaw] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.007) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_FaceJaw (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_FaceJaw]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Jaw] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.008) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Jaw (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Jaw]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Tongue] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (GZM_Tongue) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Tongue (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Tongue]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Ball025] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.009) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Ball025 (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Ball025]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_CircleSpine] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358352.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.010) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleSpine (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_CircleSpine]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Breast_L] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358352.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.011) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Breast_L (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Breast_L]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Knuckle] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (GZM_Knuckle) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Knuckle (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Knuckle]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Foot] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (GZM_Foot) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Foot (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Foot]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Neck] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.012) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Neck (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Neck]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_FaceHead] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358512.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.013) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_FaceHead (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_FaceHead]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Breast_R] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358512.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.014) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Breast_R (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Breast_R]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_Circle025] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 595358512.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.015) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_Circle025 (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_Circle025]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node START [GZM_LoLid] 
+[2017.03.01-00.07.16:525][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:525][766]LogFbx: 	Attribute (Mesh.016) Type (4).
+[2017.03.01-00.07.16:525][766]LogFbx: 		[Node Attribute Child 1] GZM_LoLid (Type Mesh).
+[2017.03.01-00.07.16:525][766]LogFbx: Dumping Node END [GZM_LoLid]
+[2017.03.01-00.07.16:525][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_CircleHips] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 595358032.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (Mesh.017) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_CircleHips (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_CircleHips]
+[2017.03.01-00.07.16:526][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_Master] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (Mesh.018) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_Master (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_Master]
+[2017.03.01-00.07.16:526][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_HandIK] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (Mesh.019) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_HandIK (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_HandIK]
+[2017.03.01-00.07.16:526][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_Head] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 565932208.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (Mesh.020) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_Head (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_Head]
+[2017.03.01-00.07.16:526][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_Cube025] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (GZM_Cube025) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_Cube025 (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_Cube025]
+[2017.03.01-00.07.16:526][766]LogFbx: =================================================
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node START [GZM_RevToe] 
+[2017.03.01-00.07.16:526][766]LogFbx: 	Total Deformer Count 699589504.
+[2017.03.01-00.07.16:526][766]LogFbx: 	Attribute (GZM_RevToe) Type (4).
+[2017.03.01-00.07.16:526][766]LogFbx: 		[Node Attribute Child 1] GZM_RevToe (Type Mesh).
+[2017.03.01-00.07.16:526][766]LogFbx: Dumping Node END [GZM_RevToe]
+[2017.03.01-00.07.16:526][766]LogFbx: Valid bind pose for Pose (Nurse:Harvey_fscrubtop2) - Nurse:Harvey_fscrubtop2
+[2017.03.01-00.07.16:527][766]LogFbx: Valid bind pose for Pose (Nurse:Harvey_fscrubbottoms2) - Nurse:Harvey_fscrubtop2
+[2017.03.01-00.07.16:527][766]LogFbx: Valid bind pose for Pose (Nurse:Long2_alpha7) - Nurse:Harvey_fscrubtop2
+[2017.03.01-00.07.16:527][766]LogFbx: Valid bind pose for Pose (Mesh.002) - Nurse:Harvey_fscrubtop2
+[2017.03.01-00.07.16:530][766]LogFbx: Triangulating skeletal mesh Nurse:Harvey_fscrubtop2
+[2017.03.01-00.07.17:309][766]LogFbx: Triangulating skeletal mesh Nurse:Harvey_fscrubbottoms2
+[2017.03.01-00.07.17:988][766]LogFbx: Triangulating skeletal mesh Nurse:Long2_alpha7
+[2017.03.01-00.07.18:545][766]LogFbx: Triangulating skeletal mesh Nurse:Body
+[2017.03.01-00.07.23:354][766]LogFbx: Triangulating skeletal mesh Nurse:Deflector_Torso
+[2017.03.01-00.07.23:385][766]LogFbx: Triangulating skeletal mesh Nurse:Deflector_Head
+[2017.03.01-00.07.23:470][766]LogFbx:Warning: Bones digested - 46  Depth of hierarchy - 11
+[2017.03.01-00.07.24:526][766]LogSkeletalMesh: Section 0: 2816 vertices, 10 active bones
+[2017.03.01-00.07.24:526][766]LogSkeletalMesh: Section 1: 2584 vertices, 8 active bones
+[2017.03.01-00.07.24:526][766]LogSkeletalMesh: Section 2: 2581 vertices, 9 active bones
+[2017.03.01-00.07.24:527][766]LogSkeletalMesh: Section 3: 12216 vertices, 32 active bones
+[2017.03.01-00.07.24:528][766]LogSkeletalMesh: Section 4: 4494 vertices, 2 active bones
+[2017.03.01-00.07.24:528][766]LogSkeletalMesh: Section 5: 124 vertices, 1 active bones
+[2017.03.01-00.07.24:528][766]LogSkeletalMesh: Section 6: 1076 vertices, 2 active bones
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 0: Material=0, 4724 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 1: Material=1, 4368 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 2: Material=2, 3596 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 3: Material=3, 22054 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 4: Material=4, 7120 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 5: Material=5, 192 triangles
+[2017.03.01-00.07.24:652][766]LogSkeletalMesh: Section 6: Material=6, 2040 triangles
+[2017.03.01-00.07.24:667][766]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Nurse_PhysicsAsset'
+[2017.03.01-00.07.24:667][766]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Nurse_PhysicsAsset'
+[2017.03.01-00.07.24:667][766]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Characters/Nurse/Nurse_PhysicsAsset.Nurse_PhysicsAsset'
+[2017.03.01-00.07.24:671][766]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Nurse_Skeleton'
+[2017.03.01-00.07.24:671][766]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Nurse_Skeleton'
+[2017.03.01-00.07.24:671][766]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Characters/Nurse/Nurse_Skeleton.Nurse_Skeleton'
+[2017.03.01-00.07.24:679][766]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.01-00.07.40:384][265]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/David Barnes/Documents/Blender/Nurse_walk.fbx)
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: Model, ItemCount : 33
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2017.03.01-00.07.40:392][265]LogFbx: ItemName: AnimationCurve, ItemCount : 297
+[2017.03.01-00.07.40:398][265]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse_walk.fbx
+[2017.03.01-00.07.40:447][265]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.08.23:699][265]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse_walk.fbx
+[2017.03.01-00.08.23:731][265]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.08.23:757][265]LogFbx: SortedLinks :(0) Nurse
+[2017.03.01-00.08.23:757][265]LogFbx: SortedLinks :(1) hips
+[2017.03.01-00.08.23:757][265]LogFbx: SortedLinks :(2) spine
+[2017.03.01-00.08.23:757][265]LogFbx: SortedLinks :(3) chest
+[2017.03.01-00.08.23:757][265]LogFbx: SortedLinks :(4) neck
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(5) head
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(6) eye_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(7) eye_R_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(8) eye_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(9) eye_L_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(10) jaw
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(11) jaw_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(12) clavicle_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(13) upper_arm_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(14) forearm_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(15) hand_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(16) thumb_02_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(17) thumb_03_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(18) thumb_03_R_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(19) f_ring_01_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(20) f_ring_01_R_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(21) f_index_01_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(22) f_index_01_R_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(23) clavicle_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(24) upper_arm_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(25) forearm_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(26) hand_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(27) f_ring_01_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(28) f_ring_01_L_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(29) thumb_02_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(30) thumb_03_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(31) thumb_03_L_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(32) f_index_01_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(33) f_index_01_L_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(34) thigh_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(35) shin_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(36) foot_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(37) toe_L
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(38) toe_L_end
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(39) thigh_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(40) shin_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(41) foot_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(42) toe_R
+[2017.03.01-00.08.23:758][265]LogFbx: SortedLinks :(43) toe_R_end
+[2017.03.01-00.08.23:760][265]LogFbx: Parsing AnimStack Nurse|Nurs91_04_fixed
+[2017.03.01-00.08.23:789][265]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Walk/Nurse_walk'
+[2017.03.01-00.08.23:789][265]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Walk/Nurse_walk'
+[2017.03.01-00.08.23:789][265]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Characters/Nurse/Walk/Nurse_walk.Nurse_walk'
+[2017.03.01-00.08.24:281][265]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Nurse/Walk/Nurse_walk.Nurse_walk
+[2017.03.01-00.08.30:034][550]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.01-00.08.30:392][550]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.01-00.08.45:234][905]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/David Barnes/Documents/Blender/Nurse_look.fbx)
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: Model, ItemCount : 33
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2017.03.01-00.08.45:241][905]LogFbx: ItemName: AnimationCurve, ItemCount : 297
+[2017.03.01-00.08.45:246][905]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse_look.fbx
+[2017.03.01-00.08.45:276][905]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.09.04:822][905]LogFbx: Loading FBX Scene from ../../../../../../Users/David Barnes/Documents/Blender/Nurse_look.fbx
+[2017.03.01-00.09.04:853][905]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(0) Nurse
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(1) hips
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(2) spine
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(3) chest
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(4) neck
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(5) head
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(6) eye_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(7) eye_R_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(8) eye_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(9) eye_L_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(10) jaw
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(11) jaw_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(12) clavicle_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(13) upper_arm_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(14) forearm_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(15) hand_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(16) thumb_02_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(17) thumb_03_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(18) thumb_03_R_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(19) f_ring_01_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(20) f_ring_01_R_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(21) f_index_01_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(22) f_index_01_R_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(23) clavicle_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(24) upper_arm_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(25) forearm_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(26) hand_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(27) f_ring_01_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(28) f_ring_01_L_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(29) thumb_02_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(30) thumb_03_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(31) thumb_03_L_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(32) f_index_01_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(33) f_index_01_L_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(34) thigh_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(35) shin_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(36) foot_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(37) toe_L
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(38) toe_L_end
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(39) thigh_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(40) shin_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(41) foot_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(42) toe_R
+[2017.03.01-00.09.04:857][905]LogFbx: SortedLinks :(43) toe_R_end
+[2017.03.01-00.09.04:859][905]LogFbx: Parsing AnimStack Nurse|Nurs139_04
+[2017.03.01-00.09.04:865][905]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Look_Around/Nurse_look'
+[2017.03.01-00.09.04:865][905]LogLinker:Warning: Can't find file '/Game/Characters/Nurse/Look_Around/Nurse_look'
+[2017.03.01-00.09.04:865][905]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Characters/Nurse/Look_Around/Nurse_look.Nurse_look'
+[2017.03.01-00.09.05:472][905]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Nurse/Look_Around/Nurse_look.Nurse_look
+[2017.03.01-00.09.14:775][180]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 112 classes and 0 folders.
+[2017.03.01-00.09.22:967][499]LogAnimation:Warning: AnimBP Nurse_movement_C is incompatible with skeleton Nurse_Skeleton, removing AnimBP from actor.
+[2017.03.01-00.09.22:968][499]LogAnimation:Warning: AnimBP Nurse_movement_C is incompatible with skeleton Nurse_Skeleton, removing AnimBP from actor.
+[2017.03.01-00.09.22:968][499]LogAnimation:Warning: AnimBP Nurse_movement_C is incompatible with skeleton Nurse_Skeleton, removing AnimBP from actor.
+[2017.03.01-00.09.29:650][733]LogRenderer: Reallocating scene render targets to support 892x600 (Frame:6995).
+[2017.03.01-00.10.07:736][653]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.10.10:840][674]LogSavePackage: Save=45.46ms
+[2017.03.01-00.10.10:840][674]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AI1FFF659E40A73580149640AC9AB4C6B5.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.10.10:843][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.10.28:145][171]LogBlueprint:Error: [Compiler Nurse_movement] Error  AnimGraphNode_SequencePlayer_142  references an unknown sequence
+[2017.03.01-00.10.28:147][171]LogBlueprint:Error: [Compiler Nurse_movement] Error Missing allocated node for AnimGraphNode_SequencePlayer_142 while searching for node links - likely due to the node having outstanding errors.
+[2017.03.01-00.10.28:326][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.59] Compile of Nurse_movement failed. 2 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.28:326][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.59] Compile of Nurse_movement failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.28:326][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.59] Compile of Nurse_movement failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.28:326][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.59] Compile of Nurse_movement failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.28:328][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.60] Compile of Nurse_movement failed. 2 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.28:328][171]LogBlueprint:Warning: [Compiler Nurse_movement] Warning [0482.60] Compile of Nurse_movement failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Characters/Nurse/Nurse_movement.Nurse_movement)
+[2017.03.01-00.10.32:533][183]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.03.01-00.10.49:403][649]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.01-00.11.16:168][382]LogSavePackage: Save=12.10ms
+[2017.03.01-00.11.16:168][382]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Walk_BS90C99DFA465D045188C63FADAD40F771.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Walk_BS.uasset'
+[2017.03.01-00.11.16:171][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Walk_BS.uasset
+[2017.03.01-00.11.24:704][591]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.03.01-00.11.28:996][713]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.01-00.12.39:923][907]BlueprintLog: New page: Compile Nurse_movement
+[2017.03.01-00.12.41:163][934]LogSavePackage: Save=38.15ms
+[2017.03.01-00.12.41:163][934]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_movementB5F9888F4371C2371F857EB2E08C6156.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_movement.uasset'
+[2017.03.01-00.12.41:166][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_movement.uasset
+[2017.03.01-00.12.59:585][574]LogSavePackage: Save=1097.73ms
+[2017.03.01-00.12.59:585][574]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Second-FloorB0E30984493501F861DEA18F308D0EF6.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.03.01-00.12.59:591][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.03.01-00.13.01:458][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.01:458][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.13.01:503][682]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:13:01 AM)
+[2017.03.01-00.13.01:510][682]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.13.01:672][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161929s)
+[2017.03.01-00.13.01:699][682]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.13.01:701][682]LogPlayLevel: PIE: World Init took: (0.025531s)
+[2017.03.01-00.13.01:701][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.191634s)
+[2017.03.01-00.13.01:737][682]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.13.01:748][682]LogInit: FAudioDevice initialized.
+[2017.03.01-00.13.01:821][682]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.13.01:886][682]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.13.01
+[2017.03.01-00.13.01:890][682]LogWorld: Bringing up level for play took: 0.056393
+[2017.03.01-00.13.01:898][682]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.01-00.13.01:898][682]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.13.01:898][682]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.13.01:898][682]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.13.01:900][682]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.01:900][682]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.01:900][682]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.01:925][682]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.13.01:931][682]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.382
+[2017.03.01-00.13.01:931][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.02:068][682]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:17410).
+[2017.03.01-00.13.06:755][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.06:755][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.06:755][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.11:014][852]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.11:148][852]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.14:899][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.01-00.13.36:321][508]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.13.39:630][529]LogSavePackage: Save=37.59ms
+[2017.03.01-00.13.39:630][529]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AI540F9B9A42F67A1462B329BF89A6AD39.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.13.39:634][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.13.40:880][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.40:880][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.13.40:880][566]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:13:40 AM)
+[2017.03.01-00.13.40:880][566]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.13.40:944][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063509s)
+[2017.03.01-00.13.40:945][566]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.13.40:946][566]LogPlayLevel: PIE: World Init took: (0.001739s)
+[2017.03.01-00.13.40:946][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.065751s)
+[2017.03.01-00.13.40:979][566]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.13.40:989][566]LogInit: FAudioDevice initialized.
+[2017.03.01-00.13.41:043][566]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.13.41:099][566]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.13.41
+[2017.03.01-00.13.41:103][566]LogWorld: Bringing up level for play took: 0.058182
+[2017.03.01-00.13.41:104][566]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.13.41:104][566]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.13.41:104][566]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.13.41:106][566]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.41:106][566]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.41:106][566]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.41:132][566]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.13.41:138][566]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.824
+[2017.03.01-00.13.41:138][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.13.46:233][643]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.46:233][643]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.46:233][643]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.51:242][726]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.51:242][726]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.51:242][726]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.56:256][807]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.56:256][807]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.13.56:256][807]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.01:305][894]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.01:305][894]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.01:305][894]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.06:359][983]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.06:360][983]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.06:360][983]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.07:545][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.07:680][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.20:603][301]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.14.24:718][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.24:718][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.14.24:718][346]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:14:24 AM)
+[2017.03.01-00.14.24:719][346]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.14.24:784][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065601s)
+[2017.03.01-00.14.24:785][346]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.14.24:786][346]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2017.03.01-00.14.24:786][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.067402s)
+[2017.03.01-00.14.24:820][346]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.14.24:849][346]LogInit: FAudioDevice initialized.
+[2017.03.01-00.14.24:907][346]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.14.24:960][346]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.14.24
+[2017.03.01-00.14.24:964][346]LogWorld: Bringing up level for play took: 0.055542
+[2017.03.01-00.14.24:965][346]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.24:965][346]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.24:965][346]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.24:967][346]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.24:967][346]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.24:967][346]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.24:992][346]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.24:998][346]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.683
+[2017.03.01-00.14.24:998][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.29:929][422]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.29:929][422]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.29:929][422]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.29:931][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.30:077][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.37:842][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.37:842][591]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.01-00.14.37:842][591]LogPlayLevel: [PlayLevel] Compiling Nurse_AI before play...
+[2017.03.01-00.14.38:473][591]LogPlayLevel: PlayLevel: Blueprint regeneration took 631 ms (1 blueprints)
+[2017.03.01-00.14.38:473][591]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:14:38 AM)
+[2017.03.01-00.14.38:474][591]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.14.38:537][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062451s)
+[2017.03.01-00.14.38:538][591]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.14.38:538][591]LogPlayLevel: PIE: World Init took: (0.001602s)
+[2017.03.01-00.14.38:539][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.064544s)
+[2017.03.01-00.14.38:572][591]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.14.38:581][591]LogInit: FAudioDevice initialized.
+[2017.03.01-00.14.38:633][591]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.14.38:686][591]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.14.38
+[2017.03.01-00.14.38:690][591]LogWorld: Bringing up level for play took: 0.055785
+[2017.03.01-00.14.38:691][591]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.38:691][591]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.38:691][591]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.38:694][591]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.38:694][591]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.38:694][591]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.38:718][591]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.38:725][591]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.41
+[2017.03.01-00.14.38:726][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.41:044][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.41:162][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.42:560][631]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.14.45:841][661]LogSavePackage: Save=37.43ms
+[2017.03.01-00.14.45:841][661]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AI761402AF49DF76CEC7650DAFFABC4FEB.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.14.45:844][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.14.46:784][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.46:784][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.14.46:784][688]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:14:46 AM)
+[2017.03.01-00.14.46:785][688]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.14.46:844][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059110s)
+[2017.03.01-00.14.46:845][688]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.14.46:846][688]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2017.03.01-00.14.46:846][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.061459s)
+[2017.03.01-00.14.46:880][688]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.14.46:889][688]LogInit: FAudioDevice initialized.
+[2017.03.01-00.14.46:944][688]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.14.46:997][688]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.14.46
+[2017.03.01-00.14.47:001][688]LogWorld: Bringing up level for play took: 0.055606
+[2017.03.01-00.14.47:002][688]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.47:002][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.14.47:002][688]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.47:004][688]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.47:004][688]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.47:004][688]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.47:029][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.14.47:035][688]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.719
+[2017.03.01-00.14.47:035][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.51:793][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.51:793][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.51:793][769]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.56:841][854]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.56:841][854]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.56:841][854]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.14.59:790][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.14.59:938][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.16:617][292]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.15.19:977][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.19:977][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.15.19:978][310]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:15:19 AM)
+[2017.03.01-00.15.19:978][310]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.15.20:039][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061092s)
+[2017.03.01-00.15.20:041][310]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.15.20:041][310]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.03.01-00.15.20:041][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.063140s)
+[2017.03.01-00.15.20:073][310]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.15.20:082][310]LogInit: FAudioDevice initialized.
+[2017.03.01-00.15.20:133][310]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.15.20:186][310]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.15.20
+[2017.03.01-00.15.20:190][310]LogWorld: Bringing up level for play took: 0.055413
+[2017.03.01-00.15.20:191][310]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.15.20:191][310]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.15.20:191][310]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.15.20:193][310]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.20:193][310]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.20:193][310]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.20:217][310]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.15.20:223][310]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.093
+[2017.03.01-00.15.20:224][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.24:949][392]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.24:949][392]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.24:950][392]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.26:877][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.27:030][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.43:783][818]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.15.48:785][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.48:785][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.15.48:785][875]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:15:48 AM)
+[2017.03.01-00.15.48:785][875]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.15.48:846][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060882s)
+[2017.03.01-00.15.48:848][875]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.15.48:848][875]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2017.03.01-00.15.48:848][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.063069s)
+[2017.03.01-00.15.48:881][875]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.15.48:890][875]LogInit: FAudioDevice initialized.
+[2017.03.01-00.15.48:941][875]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.15.48:993][875]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.15.48
+[2017.03.01-00.15.48:997][875]LogWorld: Bringing up level for play took: 0.054854
+[2017.03.01-00.15.48:998][875]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.15.48:998][875]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.15.48:998][875]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.15.49:000][875]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.49:000][875]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.49:000][875]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.49:025][875]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.15.49:031][875]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.714
+[2017.03.01-00.15.49:031][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.53:766][956]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.53:766][956]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.53:766][956]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.15.55:815][989]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.15.55:963][989]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.16.08:137][235]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.16.12:643][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.16.12:644][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.16.12:644][272]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:16:12 AM)
+[2017.03.01-00.16.12:644][272]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.16.12:708][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064145s)
+[2017.03.01-00.16.12:710][272]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.16.12:710][272]LogPlayLevel: PIE: World Init took: (0.001394s)
+[2017.03.01-00.16.12:710][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.066010s)
+[2017.03.01-00.16.12:750][272]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.16.12:759][272]LogInit: FAudioDevice initialized.
+[2017.03.01-00.16.12:815][272]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.16.12:875][272]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.16.12
+[2017.03.01-00.16.12:880][272]LogWorld: Bringing up level for play took: 0.063639
+[2017.03.01-00.16.12:881][272]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.16.12:881][272]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.16.12:881][272]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.16.12:883][272]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.12:883][272]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.12:884][272]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.12:913][272]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.16.12:919][272]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.601
+[2017.03.01-00.16.12:920][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.16.17:635][355]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.17:635][355]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.17:635][355]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.22:656][439]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.22:656][439]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.22:656][439]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.27:694][530]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.27:694][530]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.27:694][530]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.32:706][622]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.32:706][622]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.32:706][622]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.37:742][712]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.37:742][712]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.37:742][712]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.42:765][804]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.42:765][804]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.42:765][804]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.47:784][897]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.47:784][897]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.47:784][897]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.52:794][992]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.52:795][992]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.52:795][992]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.57:814][ 91]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.57:814][ 91]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.16.57:814][ 91]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.17.02:831][185]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.17.02:831][185]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.17.02:831][185]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.17.05:156][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.17.05:290][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.17.07:195][278]LogSavePackage: Save=39.18ms
+[2017.03.01-00.17.07:195][278]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AI4F9B3B2E46D43BDDA1A3E3A148E8C031.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.17.07:198][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.17.26:778][868]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.03.01-00.17.27:103][868]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.01-00.20.03:578][761]LogEditorFactories: Performing atomic reimport of [C:/Users/David Barnes/Documents/Blender/Nurse_walk.fbx]
+[2017.03.01-00.20.03:664][761]LogFbx: Loading FBX Scene from C:/Users/David Barnes/Documents/Blender/Nurse_walk.fbx
+[2017.03.01-00.20.03:698][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.01-00.20.03:703][761]LogFbx: Parsing AnimStack Nurse|Nurs91_04_fixed
+[2017.03.01-00.20.04:199][761]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Nurse/Walk/Nurse_walk.Nurse_walk
+[2017.03.01-00.20.04:212][761]LogEditorFactories: -- imported successfully
+[2017.03.01-00.20.10:947][927]LogSavePackage: Save=12.40ms
+[2017.03.01-00.20.10:948][927]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_walkD93AB3FE4A8E545801A497B5087EA62E.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Walk/Nurse_walk.uasset'
+[2017.03.01-00.20.10:951][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Walk/Nurse_walk.uasset
+[2017.03.01-00.20.38:618][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.20.38:618][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.20.38:619][741]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:20:38 AM)
+[2017.03.01-00.20.38:619][741]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.20.38:683][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063522s)
+[2017.03.01-00.20.38:684][741]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.20.38:684][741]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2017.03.01-00.20.38:685][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.065415s)
+[2017.03.01-00.20.38:790][741]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.20.38:801][741]LogInit: FAudioDevice initialized.
+[2017.03.01-00.20.38:858][741]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.20.38:912][741]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.20.38
+[2017.03.01-00.20.38:916][741]LogWorld: Bringing up level for play took: 0.056943
+[2017.03.01-00.20.38:917][741]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.20.38:917][741]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.20.38:917][741]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.20.38:919][741]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.38:919][741]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.38:919][741]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.38:944][741]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.20.38:950][741]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.625
+[2017.03.01-00.20.38:951][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.20.43:652][820]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.43:652][820]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.43:652][820]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.20.45:302][850]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.20.45:431][850]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.20.54:504][ 42]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.20.58:389][ 57]LogSavePackage: Save=37.81ms
+[2017.03.01-00.20.58:389][ 57]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AIF864BDC5495508F6D13AD5A1240E7B34.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.20.58:393][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.20.59:872][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.20.59:872][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.20.59:872][ 99]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:20:59 AM)
+[2017.03.01-00.20.59:873][ 99]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.20.59:957][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084281s)
+[2017.03.01-00.20.59:958][ 99]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.20.59:959][ 99]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2017.03.01-00.20.59:959][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.086401s)
+[2017.03.01-00.20.59:991][ 99]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.21.00:001][ 99]LogInit: FAudioDevice initialized.
+[2017.03.01-00.21.00:055][ 99]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.21.00:109][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.21.00
+[2017.03.01-00.21.00:113][ 99]LogWorld: Bringing up level for play took: 0.057222
+[2017.03.01-00.21.00:114][ 99]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.21.00:114][ 99]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.21.00:114][ 99]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.21.00:116][ 99]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.00:116][ 99]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.00:116][ 99]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.00:141][ 99]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.21.00:147][ 99]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor -0.179
+[2017.03.01-00.21.00:148][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.21.04:837][180]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.04:838][180]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.04:838][180]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.09:853][265]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.09:853][265]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.09:853][265]LogBlueprintUserMessages: [Second-Floor_C_1] false
+[2017.03.01-00.21.12:684][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.21.12:824][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.24.02:717][686]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2017.03.01-00.24.03:059][686]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.01-00.25.23:252][690]LogSavePackage: Save=1124.66ms
+[2017.03.01-00.25.23:260][690]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Second-Floor_Auto1FEBC77494E4D20712DBB119A3857380D.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Levels/Second-Floor_Auto1.umap'
+[2017.03.01-00.25.23:273][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Levels/Second-Floor_Auto1.umap
+[2017.03.01-00.25.23:275][690]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Second-Floor' took 1.290
+[2017.03.01-00.25.23:275][690]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.290
+[2017.03.01-00.25.23:277][690]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Nurse/Nurse_Skeleton] ([1] browsable assets)...
+[2017.03.01-00.25.23:277][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Nurse/Nurse_Skeleton]
+[2017.03.01-00.25.23:281][690]LogSavePackage: Save=2.40ms
+[2017.03.01-00.25.23:281][690]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_Skeleton_Auto16A0BB24F4240DD199E8F8CABB906E9C2.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_Skeleton_Auto1.uasset'
+[2017.03.01-00.25.23:284][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_Skeleton_Auto1.uasset
+[2017.03.01-00.25.23:285][690]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Nurse/Nurse_PhysicsAsset] ([1] browsable assets)...
+[2017.03.01-00.25.23:285][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Nurse/Nurse_PhysicsAsset]
+[2017.03.01-00.25.23:302][690]LogSavePackage: Save=16.19ms
+[2017.03.01-00.25.23:302][690]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_PhysicsAsset_Auto14DAE16D64F6582CAFE2C4E946403FA14.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_PhysicsAsset_Auto1.uasset'
+[2017.03.01-00.25.23:305][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_PhysicsAsset_Auto1.uasset
+[2017.03.01-00.25.23:306][690]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Nurse/Nurse] ([1] browsable assets)...
+[2017.03.01-00.25.23:360][690]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/Nurse/Nurse.Nurse]
+[2017.03.01-00.25.23:360][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Nurse/Nurse]
+[2017.03.01-00.25.23:442][690]LogSavePackage: Save=80.09ms
+[2017.03.01-00.25.23:442][690]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_Auto1355FC30C4774DD13C3CEBCB3D2BB1E8A.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_Auto1.uasset'
+[2017.03.01-00.25.23:445][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Nurse_Auto1.uasset
+[2017.03.01-00.25.23:446][690]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Nurse/Look_Around/Nurse_look] ([1] browsable assets)...
+[2017.03.01-00.25.23:490][690]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Nurse/Look_Around/Nurse_look.Nurse_look]
+[2017.03.01-00.25.23:490][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Nurse/Look_Around/Nurse_look]
+[2017.03.01-00.25.23:506][690]LogSavePackage: Save=13.93ms
+[2017.03.01-00.25.23:506][690]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_look_Auto1E2DDEDBC4E7B8F85C8B3ACB5967BF765.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Look_Around/Nurse_look_Auto1.uasset'
+[2017.03.01-00.25.23:528][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Autosaves/Game/Characters/Nurse/Look_Around/Nurse_look_Auto1.uasset
+[2017.03.01-00.25.23:528][690]LogFileHelpers: Auto-saving content packages took 0.252
+[2017.03.01-00.27.57:384][264]BlueprintLog: New page: Compile Nurse_AI
+[2017.03.01-00.28.01:096][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.28.01:096][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-00.28.01:096][395]PIE: New page: PIE session: Second-Floor (Feb 28, 2017, 8:28:01 AM)
+[2017.03.01-00.28.01:097][395]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.03.01-00.28.01:159][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062072s)
+[2017.03.01-00.28.01:161][395]LogAIModule: Creating AISystem for world Second-Floor
+[2017.03.01-00.28.01:162][395]LogPlayLevel: PIE: World Init took: (0.002613s)
+[2017.03.01-00.28.01:162][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.065159s)
+[2017.03.01-00.28.01:194][395]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.28.01:203][395]LogInit: FAudioDevice initialized.
+[2017.03.01-00.28.01:258][395]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.03.01-00.28.01:312][395]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 60) at 2017.02.28-16.28.01
+[2017.03.01-00.28.01:315][395]LogWorld: Bringing up level for play took: 0.055914
+[2017.03.01-00.28.01:316][395]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.28.01:316][395]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.28.01:316][395]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.28.01:319][395]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.01:319][395]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.01:319][395]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.01:343][395]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.28.01:351][395]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 1.012
+[2017.03.01-00.28.01:351][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.28.06:203][473]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.06:203][473]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.06:203][473]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.11:259][558]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.11:259][558]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.11:259][558]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.16:303][648]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.16:303][648]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.16:303][648]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.21:320][739]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.21:320][739]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.21:320][739]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.26:366][831]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.26:366][831]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.26:366][831]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.31:387][922]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.31:387][922]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.31:387][922]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.36:420][ 16]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.36:420][ 16]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.36:420][ 16]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.41:438][112]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.41:438][112]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.41:438][112]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.46:479][211]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.46:479][211]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.46:479][211]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.51:507][306]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.51:507][306]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.51:508][306]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.56:553][398]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.56:553][398]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.28.56:553][398]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.01:557][490]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.01:557][490]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.01:557][490]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.06:560][580]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.06:560][580]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.06:560][580]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.11:581][675]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.11:581][675]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.11:581][675]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.16:614][777]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.16:614][777]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.16:614][777]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.21:626][880]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.21:626][880]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.21:626][880]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.26:646][976]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.26:646][976]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.26:646][976]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.31:698][ 66]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.31:698][ 66]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.31:698][ 66]LogBlueprintUserMessages: [Second-Floor_C_0] false
+[2017.03.01-00.29.31:853][ 69]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.29.31:997][ 69]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.03.01-00.29.35:567][262]LogSavePackage: Save=39.14ms
+[2017.03.01-00.29.35:567][262]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_AIAC7C7D6B42C004959838D2B24553AE93.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset'
+[2017.03.01-00.29.35:570][262]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_AI.uasset
+[2017.03.01-00.31.37:360][868]LogSavePackage: Save=950.32ms
+[2017.03.01-00.31.37:360][868]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Second-FloorB73AA55F436B8EBC0604858321B60FA2.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.03.01-00.31.37:366][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.03.01-00.32.05:031][472]LogSavePackage: Save=997.17ms
+[2017.03.01-00.32.05:031][472]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Second-FloorB156AF5D4F8526084CADC1AF4147AA3A.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap'
+[2017.03.01-00.32.05:035][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Levels/Second-Floor.umap
+[2017.03.01-00.32.09:380][613]LogSavePackage: Save=17.80ms
+[2017.03.01-00.32.09:380][613]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_look06DE7E61446C1231BF4E5BBD578AB19C.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Look_Around/Nurse_look.uasset'
+[2017.03.01-00.32.09:384][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Look_Around/Nurse_look.uasset
+[2017.03.01-00.32.09:527][613]LogSavePackage: Save=82.37ms
+[2017.03.01-00.32.09:527][613]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/NurseC59F9CF9424DF67F8354589AAF626F11.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse.uasset'
+[2017.03.01-00.32.09:531][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse.uasset
+[2017.03.01-00.32.09:551][613]LogSavePackage: Save=15.00ms
+[2017.03.01-00.32.09:551][613]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_PhysicsAsset1CEF82DE4F0C96ADBAFC0EA883180305.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_PhysicsAsset.uasset'
+[2017.03.01-00.32.09:555][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_PhysicsAsset.uasset
+[2017.03.01-00.32.09:564][613]LogSavePackage: Save=2.20ms
+[2017.03.01-00.32.09:564][613]LogSavePackage: Moving '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Nurse_Skeleton9C10536E496189F4EE3FE78133BC3AEF.tmp' to '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_Skeleton.uasset'
+[2017.03.01-00.32.09:568][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Characters/Nurse/Nurse_Skeleton.uasset
+[2017.03.01-00.32.09:910][614]Cmd: QUIT_EDITOR
+[2017.03.01-00.32.10:294][614]LogExit: Preparing to exit.
+[2017.03.01-00.32.11:562][614]LogDirectoryWatcher: A directory notification failed for 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/', and we were unable to create a new request.
+[2017.03.01-00.32.12:001][614]LogExit: Editor shut down
+[2017.03.01-00.32.12:001][614]LogExit: Transaction tracking system shut down
+[2017.03.01-00.32.14:937][614]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.01-00.32.14:938][614]LogExit: Object subsystem successfully closed.
+[2017.03.01-00.32.16:353][614]LogD3D11RHI: Shutdown
+[2017.03.01-00.32.16:353][614]LogD3D11RHI: CleanupD3DDevice
+[2017.03.01-00.32.18:757][614]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2017.03.01-00.32.19:088][614]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2017.03.01-00.32.19:195][614]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2017.03.01-00.32.19:238][614]LogDirectoryWatcher: A directory notification for 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Collections/' was aborted.
+[2017.03.01-00.32.19:238][614]LogDirectoryWatcher: A directory notification for 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/Developers/DavidBarnes/Collections/' was aborted.
+[2017.03.01-00.32.19:238][614]LogDirectoryWatcher: A directory notification for 'C:/Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Saved/Collections/' was aborted.
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2017.03.01-00.32.19:238][614]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2017.03.01-00.32.19:266][614]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2017.03.01-00.32.19:307][614]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2017.03.01-00.32.19:307][614]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2017.03.01-00.32.19:307][614]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2017.03.01-00.32.19:350][614]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2017.03.01-00.32.19:365][614]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2017.03.01-00.32.19:436][614]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2017.03.01-00.32.19:436][614]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2017.03.01-00.32.19:436][614]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2017.03.01-00.32.19:436][614]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2017.03.01-00.32.19:436][614]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2017.03.01-00.32.19:787][614]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2017.03.01-00.32.19:788][614]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2017.03.01-00.32.19:788][614]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2017.03.01-00.32.19:807][614]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2017.03.01-00.32.19:847][614]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2017.03.01-00.32.19:889][614]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2017.03.01-00.32.19:950][614]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2017.03.01-00.32.19:950][614]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2017.03.01-00.32.19:985][614]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2017.03.01-00.32.20:036][614]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2017.03.01-00.32.20:036][614]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2017.03.01-00.32.20:036][614]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.03.01-00.32.20:058][614]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.03.01-00.32.20:180][614]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.03.01-00.32.20:181][614]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.03.01-00.32.20:210][614]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.03.01-00.32.20:211][614]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.03.01-00.32.20:211][614]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.03.01-00.32.20:211][614]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.03.01-00.32.20:212][614]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.03.01-00.32.20:213][614]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.03.01-00.32.20:298][614]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.03.01-00.32.20:398][614]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.03.01-00.32.20:519][614]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.03.01-00.32.20:519][614]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.03.01-00.32.20:544][614]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.03.01-00.32.20:544][614]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.03.01-00.32.20:568][614]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.03.01-00.32.20:568][614]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.03.01-00.32.20:569][614]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.03.01-00.32.20:570][614]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.03.01-00.32.20:574][614]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.01-00.32.20:574][614]LogDirectoryWatcher: A directory notification for '../../../../../../Users/David Barnes/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome/Content/' was aborted.
+[2017.03.01-00.32.20:574][614]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.01-00.32.20:574][614]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.03.01-00.32.20:791][614]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.03.01-00.32.20:791][614]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.03.01-00.32.20:791][614]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.03.01-00.32.20:791][614]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.03.01-00.32.20:809][614]LogDerivedDataCache: Shutdown
+[2017.03.01-00.32.20:809][614]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.03.01-00.32.20:809][614]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.03.01-00.32.20:809][614]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.03.01-00.32.20:839][614]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.03.01-00.32.20:839][614]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.03.01-00.32.20:839][614]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.03.01-00.32.20:853][614]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.03.01-00.32.20:853][614]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.03.01-00.32.20:854][614]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.01-00.32.20:880][614]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.01-00.32.20:881][614]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.03.01-00.32.20:881][614]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.03.01-00.32.20:881][614]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.03.01-00.32.20:881][614]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.03.01-00.32.20:881][614]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.01-00.32.20:881][614]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.01-00.32.20:881][614]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.01-00.32.20:881][614]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8C6BA014-41AC-F916-AB36-F4BB71B8663B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=4278389f403734887db976a03c31ed8e%7Cd0d040405f714979ab58dc88f0f3c041%7C79b56738-e3c7-4191-a229-5627e388fa48&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.01-00.32.20:908][614]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.01-00.32.20:972][614]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.01-00.32.21:002][614]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.01-00.32.21:002][614]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.01-00.32.21:002][614]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.01-00.32.21:021][614]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.01-00.32.21:049][614]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.01-00.32.21:158][614]LogExit: Exiting.
+[2017.03.01-00.32.21:177][614]Log file closed, 02/28/17 16:32:21
