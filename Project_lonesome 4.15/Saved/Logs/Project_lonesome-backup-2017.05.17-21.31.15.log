@@ -1,0 +1,425 @@
+﻿Log file open, 05/17/17 21:07:35
+LogInit:Display: Running engine for game: Project_lonesome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1323900524) SRandInit(-1323900524).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076910
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: H:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-04.07.36:213][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-04.07.36:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-04.07.36:328][  0]LogInit: Computer: DESKTOP-969FG03
+[2017.05.18-04.07.36:328][  0]LogInit: User: elmen
+[2017.05.18-04.07.36:328][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-04.07.36:328][  0]LogInit: High frequency timer resolution =3.312799 MHz
+[2017.05.18-04.07.36:329][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.18-04.07.36:329][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-04.07.36:329][  0]LogMemory: Process Physical Memory: 264.32 MB used, 264.32 MB peak
+[2017.05.18-04.07.36:329][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
+[2017.05.18-04.07.36:329][  0]LogMemory: Physical Memory: 8445.16 MB used,  7899.80 MB free, 16344.95 MB total
+[2017.05.18-04.07.36:329][  0]LogMemory: Virtual Memory: 630.96 MB used,  7899.80 MB free, 134217728.00 MB total
+[2017.05.18-04.07.36:727][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.18-04.07.41:828][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-04.07.42:323][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.05.18-04.07.42:323][  0]LogD3D11RHI:       2006/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.18-04.07.42:324][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-04.07.42:324][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-04.07.42:324][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-04.07.42:329][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-04.07.42:329][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-04.07.42:329][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-04.07.42:329][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.05.18-04.07.42:330][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.05.18-04.07.42:330][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.05.18-04.07.42:330][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.05.18-04.07.42:330][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.18-04.07.42:330][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.05.18-04.07.42:330][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.05.18-04.07.42:330][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.05.18-04.07.42:330][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-04.07.42:794][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-04.07.42:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.18-04.07.42:876][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Intermediate/Shaders/WorkingDirectory/20360/).
+[2017.05.18-04.07.42:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elmen/AppData/Local/Temp/UnrealShaderWorkingDir/A834B4CD4321746CEDFEA298D0590BEE/'.
+[2017.05.18-04.07.42:877][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-04.07.44:237][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-04.07.44:289][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-04.07.44:342][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-04.07.44:395][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-04.07.44:448][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-04.07.44:500][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-04.07.44:557][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-04.07.44:613][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-04.07.44:655][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-04.07.44:710][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-04.07.44:766][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-04.07.44:820][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-04.07.44:873][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-04.07.44:926][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-04.07.44:979][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-04.07.45:090][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-04.07.45:090][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-04.07.45:125][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-04.07.45:217][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-04.07.45:251][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-04.07.45:301][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-04.07.45:359][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-04.07.45:411][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-04.07.45:465][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-04.07.45:465][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-04.07.45:859][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-04.07.45:908][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-04.07.45:933][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-04.07.45:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elmen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-04.07.45:954][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-04.07.45:955][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-04.07.45:955][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-04.07.46:300][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-04.07.46:303][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-04.07.46:534][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-04.07.46:574][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-04.07.46:621][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-04.07.46:621][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-04.07.46:621][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-04.07.47:164][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project_lonesome, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3824462427
+[2017.05.18-04.07.47:210][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.05.18-04.07.47:329][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.101041 seconds
+[2017.05.18-04.07.47:335][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
+[2017.05.18-04.07.47:335][  0]LogUObjectAllocator: 7077256 out of 0 bytes used by permanent object pool.
+[2017.05.18-04.07.47:335][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-04.07.47:388][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-04.07.49:011][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-04.07.49:048][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-04.07.49:472][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-04.07.49:834][  0]SourceControl: Info Source control is disabled
+[2017.05.18-04.07.49:912][  0]SourceControl: Info Source control is disabled
+[2017.05.18-04.07.49:959][  0]SourceControl: Info Source control is disabled
+[2017.05.18-04.07.50:002][  0]SourceControl: Info Source control is disabled
+[2017.05.18-04.07.51:162][  0]LogEngine: Initializing Engine...
+[2017.05.18-04.07.51:162][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-04.07.51:380][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-04.07.51:392][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-04.07.51:412][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-04.07.51:437][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-04.07.51:442][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-04.07.51:524][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-04.07.51:676][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-04.07.51:976][  0]BlueprintLog: New page: Editor Load
+[2017.05.18-04.07.52:737][  0]LocalizationService: Info Localization service is disabled
+[2017.05.18-04.07.53:321][  0]LogConsoleResponse:Display: 
+[2017.05.18-04.07.53:541][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-04.07.53:541][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-04.07.54:476][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/' took 0.02s
+[2017.05.18-04.07.54:476][  0]SourceControl: Info Source control is disabled
+[2017.05.18-04.07.54:476][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-04.07.54:536][  0]LightingResults: New page: Lighting Build
+[2017.05.18-04.07.54:592][  0]MapCheck: New page: Map Check
+[2017.05.18-04.07.54:592][  0]LightingResults: New page: Lighting Build
+[2017.05.18-04.08.09:305][  0]LogTexture:Display: Building textures: Main_floor_-_Final (AutoDXT, 1600X1200) - 48 MB total VRAM
+[2017.05.18-04.08.10:198][  0]LogTexture:Display: Building textures: Basement_-_Final (AutoDXT, 1600X1200) - 49 MB total VRAM
+[2017.05.18-04.08.11:032][  0]LogTexture:Display: Building textures: 3rd_floor_-_Final (AutoDXT, 1600X1200) - 50 MB total VRAM
+[2017.05.18-04.08.12:166][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.18-04.08.14:047][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-04.08.14:134][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-04.08.14:189][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.405ms to complete.
+[2017.05.18-04.08.14:190][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 19.714
+[2017.05.18-04.08.16:963][  0]LogCollectionManager: Loaded 1 collections in 0.001621 seconds
+[2017.05.18-04.08.17:756][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Collections/' took 0.01s
+[2017.05.18-04.08.17:756][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Developers/elmen/Collections/' took 0.01s
+[2017.05.18-04.08.17:756][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Collections/' took 0.01s
+[2017.05.18-04.08.17:756][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000008 seconds
+[2017.05.18-04.08.17:783][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2017.05.18-04.08.17:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0730 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-04.08.17:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-04.08.17:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-04.08.18:056][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-04.08.21:292][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.05.18-04.08.21:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.18-04.08.22:910][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-04.08.22:965][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.18-04.08.23:044][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.18-04.08.23:044][  0]LogLoad: (Engine Initialization) Total time: 50.61 seconds
+[2017.05.18-04.08.23:044][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.15 seconds
+[2017.05.18-04.08.23:044][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-04.08.23:044][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-04.08.23:384][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-04.08.23:492][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-04.08.23:494][  0]LogSlate: Took 0.000469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-04.08.23:500][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-04.08.23:599][  0]LogSlate: Took 0.076311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-04.08.24:147][  0]LogSlate: Took 0.018016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-04.08.24:227][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.18-04.08.40:938][121]LogAssetRegistry: Asset discovery search completed in 53.7497 seconds
+[2017.05.18-04.08.40:938][121]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000021 seconds (found 0 objects)
+[2017.05.18-04.08.40:938][121]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000058 seconds (updated 0 objects)
+[2017.05.18-04.09.00:281][ 48]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-04.09.01:335][ 48]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-04.09.25:876][ 48]LogDerivedDataCache:Warning: C:/Users/elmen/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.48MB/s) when accessing C:/Users/elmen/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/0/STATICMESH_71F138FFEE1B456C86761D2AD2F3ADB8_228332BAE0224DD294E232B87D83948F1$__79D5E592F8070E2B2FB8FC80619D6BA58711FCBD.udd, consider disabling it.
+[2017.05.18-04.09.44:299][ 48]LogAIModule: Creating AISystem for world Second-Floor
+[2017.05.18-04.09.44:804][ 48]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-04.09.44:804][ 48]LightingResults: New page: Lighting Build
+[2017.05.18-04.09.44:806][ 48]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.05.18-04.09.44:807][ 48]MapCheck: New page: Map Check
+[2017.05.18-04.09.44:807][ 48]LightingResults: New page: Lighting Build
+[2017.05.18-04.09.44:979][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-04.09.45:093][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-04.09.45:198][ 48]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.596ms to complete.
+[2017.05.18-04.09.45:198][ 48]LogFileHelpers: Loading map 'Second-Floor' took 0.402
+[2017.05.18-04.13.33:073][235]LogEditorViewport: Clicking on Actor (LMB): BriefcaseBP_C (BriefcaseBP)
+[2017.05.18-04.13.34:505][365]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube281)
+[2017.05.18-04.13.35:527][412]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.05.18-04.13.39:442][769]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.05.18-04.13.40:308][818]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.05.18-04.13.41:321][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.05.18-04.13.44:772][ 16]LogAIModule: Creating AISystem for world First-Floor
+[2017.05.18-04.13.44:827][ 16]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-04.13.44:827][ 16]LightingResults: New page: Lighting Build
+[2017.05.18-04.13.44:829][ 16]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.05.18-04.13.44:840][ 16]MapCheck: New page: Map Check
+[2017.05.18-04.13.44:840][ 16]LightingResults: New page: Lighting Build
+[2017.05.18-04.13.44:878][ 16]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-04.13.44:945][ 16]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-04.13.45:056][ 16]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.256ms to complete.
+[2017.05.18-04.13.45:057][ 16]LogFileHelpers: Loading map 'First-Floor' took 0.231
+[2017.05.18-04.17.16:941][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.05.18-04.17.17:311][260]Cmd: TRANSACTION UNDO
+[2017.05.18-04.17.17:311][260]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-04.17.17:432][260]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-04.17.23:911][ 21]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.05.18-04.17.26:246][172]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 237 MB total VRAM
+[2017.05.18-04.17.26:307][172]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64) - 237 MB total VRAM
+[2017.05.18-04.17.26:310][172]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 237 MB total VRAM
+[2017.05.18-04.17.26:334][172]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64) - 237 MB total VRAM
+[2017.05.18-04.17.26:581][172]LogAIModule: Creating AISystem for world Park
+[2017.05.18-04.17.26:621][172]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Park.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-04.17.26:621][172]LightingResults: New page: Lighting Build
+[2017.05.18-04.17.26:623][172]LoadErrors: New page: Loading map: Park.umap
+[2017.05.18-04.17.26:625][172]MapCheck: New page: Map Check
+[2017.05.18-04.17.26:625][172]LightingResults: New page: Lighting Build
+[2017.05.18-04.17.26:645][172]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-04.17.26:686][172]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-04.17.26:802][172]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.793ms to complete.
+[2017.05.18-04.17.26:803][172]LogFileHelpers: Loading map 'Park' took 0.182
+[2017.05.18-04.17.35:606][217]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-04.17.36:190][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2017.05.18-04.17.38:046][463]Cmd: DELETE
+[2017.05.18-04.17.38:046][463]Cmd: ACTOR DELETE
+[2017.05.18-04.17.38:229][463]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-04.17.38:248][463]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2017.05.18-04.17.38:557][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2017.05.18-04.17.38:828][522]Cmd: DELETE
+[2017.05.18-04.17.38:828][522]Cmd: ACTOR DELETE
+[2017.05.18-04.17.38:829][522]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-04.17.38:840][522]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.18-04.17.39:202][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2017.05.18-04.17.39:437][584]Cmd: DELETE
+[2017.05.18-04.17.39:437][584]Cmd: ACTOR DELETE
+[2017.05.18-04.17.39:438][584]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-04.17.39:450][584]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.18-04.17.44:972][245]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-04.17.45:926][330]LogEditorViewport: Clicking on Actor (LMB): FuelBP_C (FuelBP)
+[2017.05.18-04.17.47:223][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-04.17.47:629][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2017.05.18-04.17.54:895][325]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-04.17.55:609][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame)
+[2017.05.18-04.18.01:674][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.05.18-04.18.02:688][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.05.18-04.18.04:580][353]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-04.18.05:337][409]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.05.18-04.18.08:775][740]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-04.21.01:287][605]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.05.18-04.21.04:572][949]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-04.21.04:622][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.04:623][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-04.21.04:626][949]PIE: New page: PIE session: Park (May 17, 2017, 2:21:04 PM)
+[2017.05.18-04.21.04:635][949]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Park
+[2017.05.18-04.21.04:705][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070870s)
+[2017.05.18-04.21.04:706][949]LogAIModule: Creating AISystem for world Park
+[2017.05.18-04.21.04:706][949]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.05.18-04.21.04:711][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Park.Park to /Game/Levels/UEDPIE_0_Park.Park (0.076395s)
+[2017.05.18-04.21.04:743][949]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-04.21.04:758][949]LogInit: FAudioDevice initialized.
+[2017.05.18-04.21.04:841][949]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.18-04.21.04:937][949]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Park.Park up for play (max tick rate 0) at 2017.05.17-21.21.04
+[2017.05.18-04.21.04:958][949]LogWorld: Bringing up level for play took: 0.022387
+[2017.05.18-04.21.05:156][949]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.18-04.21.05:156][949]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-04.21.05:156][949]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-04.21.05:156][949]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-04.21.05:268][949]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-04.21.05:312][949]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Park 0.179
+[2017.05.18-04.21.05:313][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.05:420][949]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:30282).
+[2017.05.18-04.21.11:029][578]LogBlueprintUserMessages: [FuelBP_1082] true
+[2017.05.18-04.21.11:029][578]LogBlueprintUserMessages: [FuelBP_1082] deleted yet?
+[2017.05.18-04.21.12:728][774]LogScript:Warning: Accessed None trying to read property GameHUDReference
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A77
+[2017.05.18-04.21.12:732][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameHUDReference from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property GameHUDReference
+[2017.05.18-04.21.12:732][774]LogScript:Warning: Accessed None
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A58
+[2017.05.18-04.21.12:732][774]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None
+[2017.05.18-04.21.13:203][830]LogBlueprintUserMessages: [CrowbarBP_341] true
+[2017.05.18-04.21.13:203][830]LogBlueprintUserMessages: [CrowbarBP_341] deleted yet?
+[2017.05.18-04.21.13:584][875]LogScript:Warning: Accessed None trying to read property GameHUDReference
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A77
+[2017.05.18-04.21.13:584][875]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameHUDReference from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property GameHUDReference
+[2017.05.18-04.21.13:584][875]LogScript:Warning: Accessed None
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A58
+[2017.05.18-04.21.13:584][875]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None
+[2017.05.18-04.21.14:295][960]LogScript:Warning: Accessed None trying to read property GameHUDReference
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A77
+[2017.05.18-04.21.14:295][960]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameHUDReference from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property GameHUDReference
+[2017.05.18-04.21.14:295][960]LogScript:Warning: Accessed None
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A58
+[2017.05.18-04.21.14:295][960]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None
+[2017.05.18-04.21.15:075][ 53]LogScript:Warning: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:0204
+[2017.05.18-04.21.15:075][ 53]PIE:Error: Error Blueprint Runtime Error: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+[2017.05.18-04.21.20:083][651]LogScript:Warning: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:00FD
+[2017.05.18-04.21.20:083][651]PIE:Error: Error Blueprint Runtime Error: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill
+[2017.05.18-04.21.20:083][651]LogScript:Warning: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:0204
+[2017.05.18-04.21.20:083][651]PIE:Error: Error Blueprint Runtime Error: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+[2017.05.18-04.21.23:110][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.23:243][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.26:539][350]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-04.21.26:559][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.26:559][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-04.21.26:559][350]PIE: New page: PIE session: Park (May 17, 2017, 2:21:26 PM)
+[2017.05.18-04.21.26:559][350]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Park
+[2017.05.18-04.21.26:566][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006210s)
+[2017.05.18-04.21.26:566][350]LogAIModule: Creating AISystem for world Park
+[2017.05.18-04.21.26:566][350]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.05.18-04.21.26:567][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Park.Park to /Game/Levels/UEDPIE_0_Park.Park (0.007131s)
+[2017.05.18-04.21.26:586][350]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-04.21.26:601][350]LogInit: FAudioDevice initialized.
+[2017.05.18-04.21.26:651][350]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.18-04.21.26:653][350]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Park.Park up for play (max tick rate 0) at 2017.05.17-21.21.26
+[2017.05.18-04.21.26:654][350]LogWorld: Bringing up level for play took: 0.001836
+[2017.05.18-04.21.26:655][350]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-04.21.26:655][350]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-04.21.26:655][350]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-04.21.26:658][350]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-04.21.26:662][350]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Park -0.471
+[2017.05.18-04.21.26:663][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.31:531][910]LogScript:Warning: Accessed None trying to read property GameHUDReference
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A77
+[2017.05.18-04.21.31:531][910]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameHUDReference from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property GameHUDReference
+[2017.05.18-04.21.31:531][910]LogScript:Warning: Accessed None
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0A58
+[2017.05.18-04.21.31:531][910]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None
+[2017.05.18-04.21.32:089][976]LogBlueprintUserMessages: [FuelBP_1082] true
+[2017.05.18-04.21.32:089][976]LogBlueprintUserMessages: [FuelBP_1082] deleted yet?
+[2017.05.18-04.21.34:868][305]LogBlueprintUserMessages: [CrowbarBP_341] true
+[2017.05.18-04.21.34:868][305]LogBlueprintUserMessages: [CrowbarBP_341] deleted yet?
+[2017.05.18-04.21.36:534][499]LogScript:Warning: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:0204
+[2017.05.18-04.21.36:534][499]PIE:Error: Error Blueprint Runtime Error: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+[2017.05.18-04.21.41:539][ 97]LogScript:Warning: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:00FD
+[2017.05.18-04.21.41:539][ 97]PIE:Error: Error Blueprint Runtime Error: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access CrowbarBP_341 via property CrowbarBP_341_ExecuteUbergraph_Park_RefProperty, but CrowbarBP_341 is pending kill
+[2017.05.18-04.21.41:539][ 97]LogScript:Warning: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+	Park_C /Game/Levels/UEDPIE_0_Park.Park:PersistentLevel.Park_C_0
+	Function /Game/Levels/Park.Park_C:ExecuteUbergraph_Park:0204
+[2017.05.18-04.21.41:539][ 97]PIE:Error: Error Blueprint Runtime Error: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill from function: 'ExecuteUbergraph_Park' from node: DestroyActor in graph: EventGraph in object: Park with description: Attempted to access FuelBP_1082 via property FuelBP_1082_ExecuteUbergraph_Park_RefProperty, but FuelBP_1082 is pending kill
+[2017.05.18-04.21.42:234][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.21.42:307][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Park.Park:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Park.Park:PersistentLevel.Park' with GeneratedClass '/Game/Levels/Park.Park_C' with ClassGeneratedBy '/Game/Levels/Park.Park:PersistentLevel.Park'
+[2017.05.18-04.22.00:069][ 92]LogEditorViewport: Clicking on Actor (LMB): CrowbarBP_C (CrowbarBP)
+[2017.05.18-04.22.02:401][225]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.05.18-04.22.03:782][225]LogSlate: Took 0.019628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-04.22.04:175][226]LogSlate: Took 0.014756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-04.22.47:279][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-04.25.06:984][140]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Objects/Models/Trees/Large_bare_maple_tree_fbx_3g2_*_3gp_*_3gpp_*_3gp2_*_ac3_*_amr_*_abc_*_apb_*_apx_*_m4a_*_m4v_*_mov_*_asf_*_upack_*_adts_*_au_*_aif_*_aiff_*_avi_*_bwf_*_csv_*_cdda_*_caf_*_hdr_*_fbx_*_fga_*_ies_*_json_*_aac_*_mp3_*_mp4_*_WAV_*_obj_*_otf_*_sdv_*_snd_*_srt_*_paper2dsprites_*_sami_*_smi_*_bmp_*_float_*_jpeg_*_jpg_*_pcx_*_png_*_psd_*_tga_*_dds_*_exr_*_ttf_*_udn_*_wave_*_wma_*' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: *
+[2017.05.18-04.25.06:984][140]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Objects/Models/Trees/Large_bare_maple_tree_fbx_3g2_*_3gp_*_3gpp_*_3gp2_*_ac3_*_amr_*_abc_*_apb_*_apx_*_m4a_*_m4v_*_mov_*_asf_*_upack_*_adts_*_au_*_aif_*_aiff_*_avi_*_bwf_*_csv_*_cdda_*_caf_*_hdr_*_fbx_*_fga_*_ies_*_json_*_aac_*_mp3_*_mp4_*_WAV_*_obj_*_otf_*_sdv_*_snd_*_srt_*_paper2dsprites_*_sami_*_smi_*_bmp_*_float_*_jpeg_*_jpg_*_pcx_*_png_*_psd_*_tga_*_dds_*_exr_*_ttf_*_udn_*_wave_*_wma_*' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: *
+[2017.05.18-04.25.06:997][140]LogFactory:Error: Can't find file '../../../../../../Downloads/Large bare maple tree fbx.3g2;*.3gp;*.3gpp;*.3gp2;*.ac3;*.amr;*.abc;*.apb;*.apx;*.m4a;*.m4v;*.mov;*.asf;*.upack;*.adts;*.au;*.aif;*.aiff;*.avi;*.bwf;*.csv;*.cdda;*.caf;*.hdr;*.fbx;*.fga;*.ies;*.json;*.aac;*.mp3;*.mp4;*.WAV;*.obj;*.otf;*.sdv;*.snd;*.srt;*.paper2dsprites;*.sami;*.smi;*.bmp;*.float;*.jpeg;*.jpg;*.pcx;*.png;*.psd;*.tga;*.dds;*.exr;*.ttf;*.udn;*.wave;*.wma;*.wmv' for import
+[2017.05.18-04.25.10:026][140]LogAssetTools:Warning: Failed to import '../../../../../../Downloads/Large bare maple tree fbx.3g2;*.3gp;*.3gpp;*.3gp2;*.ac3;*.amr;*.abc;*.apb;*.apx;*.m4a;*.m4v;*.mov;*.asf;*.upack;*.adts;*.au;*.aif;*.aiff;*.avi;*.bwf;*.csv;*.cdda;*.caf;*.hdr;*.fbx;*.fga;*.ies;*.json;*.aac;*.mp3;*.mp4;*.WAV;*.obj;*.otf;*.sdv;*.snd;*.srt;*.paper2dsprites;*.sami;*.smi;*.bmp;*.float;*.jpeg;*.jpg;*.pcx;*.png;*.psd;*.tga;*.dds;*.exr;*.ttf;*.udn;*.wave;*.wma;*.wmv'. Failed to create asset '/Game/Objects/Models/Trees/Large_bare_maple_tree_fbx_3g2_*_3gp_*_3gpp_*_3gp2_*_ac3_*_amr_*_abc_*_apb_*_apx_*_m4a_*_m4v_*_mov_*_asf_*_upack_*_adts_*_au_*_aif_*_aiff_*_avi_*_bwf_*_csv_*_cdda_*_caf_*_hdr_*_fbx_*_fga_*_ies_*_json_*_aac_*_mp3_*_mp4_*_WAV_*_obj_*_otf_*_sdv_*_snd_*_srt_*_paper2dsprites_*_sami_*_smi_*_bmp_*_float_*_jpeg_*_jpg_*_pcx_*_png_*_psd_*_tga_*_dds_*_exr_*_ttf_*_udn_*_wave_*_wma_*'.
+Please see Output Log for details.
+[2017.05.18-04.25.28:246][324]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Downloads/Large bare maple tree.fbx)
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Model, ItemCount : 10
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Video, ItemCount : 1
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.05.18-04.25.37:682][324]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.18-04.25.37:690][324]LogFbx: Loading FBX Scene from ../../../../../../Downloads/Large bare maple tree.fbx
+[2017.05.18-04.25.49:862][324]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-04.26.02:428][324]LogFbx: Loading FBX Scene from ../../../../../../Downloads/Large bare maple tree.fbx
+[2017.05.18-04.26.14:837][324]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-04.26.14:997][324]LogLinker: Can't find file '/Game/Objects/Models/Trees/Material__bark_pine_texture_pai'
+[2017.05.18-04.26.14:998][324]LogLinker: Can't find file '/Game/Objects/Models/Trees/Material__bark_pine_texture_pai'
+[2017.05.18-04.26.15:025][324]LogLinker: Can't find file '/Game/Objects/Models/Trees/bark_pine_texture_painted'
+[2017.05.18-04.26.15:025][324]LogLinker: Can't find file '/Game/Objects/Models/Trees/bark_pine_texture_painted'
+[2017.05.18-04.26.15:025][324]LogStreaming:Warning: Failed to read file 'bark pine texture painted.jpg' error.
+[2017.05.18-04.26.15:025][324]LogStreaming:Warning: Failed to read file '../../../../../../Downloads/..\bark pine texture painted.jpg' error.
+[2017.05.18-04.26.15:025][324]LogStreaming:Warning: Failed to read file '../../../../../../Downloads/bark pine texture painted.jpg' error.
+[2017.05.18-04.26.15:025][324]LogFbxMaterialImport:Warning: Unable to find TEXTure file bark pine texture painted.jpg. Tried:
+ - bark pine texture painted.jpg
+ - ../../../../../../Downloads/..\bark pine texture painted.jpg
+ - ../../../../../../Downloads/bark pine texture painted.jpg
+[2017.05.18-04.26.15:056][324]LogMaterial: Missing cached shader map for material Material__bark_pine_texture_pai, compiling. 
+[2017.05.18-04.26.15:072][324]LogTemp:Display: Added material ShaderMap 0x000001B13E116E80 with Material 0x000001B11C0F2080 to ShaderMapsBeingCompiled
+[2017.05.18-04.26.15:128][324]LogTemp:Display: Kicking off shader compilation for Material__bark_pine_texture_pai, GameThreadShaderMap 0x000001B13E116E80
+[2017.05.18-04.26.15:130][324]LogFbx:Warning: Triangulating static mesh tree_Curve_003
+[2017.05.18-04.28.58:342][324]LogStaticMesh: Building static mesh Large_bare_maple_tree...
