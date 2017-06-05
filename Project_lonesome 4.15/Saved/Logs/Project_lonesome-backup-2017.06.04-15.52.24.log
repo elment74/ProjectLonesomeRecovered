@@ -1,0 +1,576 @@
+﻿Log file open, 06/04/17 15:37:08
+LogInit:Display: Running engine for game: Project_lonesome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-111468070) SRandInit(-111468070).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080899
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: H:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.04-22.37.09:854][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-22.37.09:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.04-22.37.09:884][  0]LogInit: Computer: DESKTOP-969FG03
+[2017.06.04-22.37.09:884][  0]LogInit: User: elmen
+[2017.06.04-22.37.09:884][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.04-22.37.09:884][  0]LogInit: High frequency timer resolution =3.312799 MHz
+[2017.06.04-22.37.09:884][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.04-22.37.09:884][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.04-22.37.09:884][  0]LogMemory: Process Physical Memory: 265.34 MB used, 265.34 MB peak
+[2017.06.04-22.37.09:884][  0]LogMemory: Process Virtual Memory: 262.86 MB used, 262.86 MB peak
+[2017.06.04-22.37.09:884][  0]LogMemory: Physical Memory: 9197.39 MB used,  7147.57 MB free, 16344.95 MB total
+[2017.06.04-22.37.09:884][  0]LogMemory: Virtual Memory: 630.96 MB used,  7147.57 MB free, 134217728.00 MB total
+[2017.06.04-22.37.09:984][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.04-22.37.10:676][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.04-22.37.11:179][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.06.04-22.37.11:179][  0]LogD3D11RHI:       2006/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.04-22.37.11:181][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.04-22.37.11:181][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.04-22.37.11:181][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.04-22.37.11:187][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.04-22.37.11:187][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.04-22.37.11:187][  0]LogWindows: EnumDisplayDevices:
+[2017.06.04-22.37.11:187][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.06.04-22.37.11:188][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.04-22.37.11:188][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.04-22.37.11:188][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.04-22.37.11:188][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.04-22.37.11:188][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.06.04-22.37.11:188][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.06.04-22.37.11:188][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.06.04-22.37.11:188][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.04-22.37.11:663][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.04-22.37.11:703][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.04-22.37.11:752][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Intermediate/Shaders/WorkingDirectory/28420/).
+[2017.06.04-22.37.11:752][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elmen/AppData/Local/Temp/UnrealShaderWorkingDir/4EAA586D4409E37A87DA1E94CE86EE9A/'.
+[2017.06.04-22.37.11:752][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.04-22.37.12:955][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.04-22.37.13:016][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.04-22.37.13:076][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.04-22.37.13:144][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.04-22.37.13:208][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.04-22.37.13:268][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.04-22.37.13:331][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.04-22.37.13:393][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.04-22.37.13:446][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.04-22.37.13:503][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.04-22.37.13:571][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.04-22.37.13:629][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.04-22.37.13:694][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.04-22.37.13:751][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.04-22.37.13:810][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.04-22.37.13:929][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.04-22.37.13:929][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.04-22.37.13:969][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.04-22.37.14:069][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.04-22.37.14:106][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.04-22.37.14:166][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.04-22.37.14:227][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.04-22.37.14:284][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.04-22.37.14:345][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.04-22.37.14:345][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.04-22.37.14:777][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.04-22.37.14:826][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.04-22.37.14:844][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.04-22.37.14:856][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elmen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.04-22.37.14:869][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.04-22.37.14:870][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-22.37.14:870][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-22.37.15:248][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-22.37.15:252][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.04-22.37.15:472][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.04-22.37.15:517][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.04-22.37.15:576][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.04-22.37.15:576][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.04-22.37.15:576][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.04-22.37.16:169][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project_lonesome, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3824462427
+[2017.06.04-22.37.16:214][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.06.04-22.37.16:265][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025295 seconds
+[2017.06.04-22.37.16:272][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
+[2017.06.04-22.37.16:272][  0]LogUObjectAllocator: 7077256 out of 0 bytes used by permanent object pool.
+[2017.06.04-22.37.16:272][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.04-22.37.16:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.04-22.37.18:286][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.04-22.37.18:330][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.04-22.37.18:830][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.04-22.37.19:246][  0]SourceControl: Info Source control is disabled
+[2017.06.04-22.37.19:334][  0]SourceControl: Info Source control is disabled
+[2017.06.04-22.37.19:389][  0]SourceControl: Info Source control is disabled
+[2017.06.04-22.37.19:439][  0]SourceControl: Info Source control is disabled
+[2017.06.04-22.37.20:831][  0]LogEngine: Initializing Engine...
+[2017.06.04-22.37.20:831][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.04-22.37.21:087][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.04-22.37.21:100][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.04-22.37.21:122][  0]LogInit: FAudioDevice initialized.
+[2017.06.04-22.37.21:149][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-22.37.21:153][  0]LogInit: Texture streaming: Enabled
+[2017.06.04-22.37.21:243][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.04-22.37.21:352][  0]LogInit: Transaction tracking system initialized
+[2017.06.04-22.37.21:707][  0]BlueprintLog: New page: Editor Load
+[2017.06.04-22.37.22:592][  0]LocalizationService: Info Localization service is disabled
+[2017.06.04-22.37.23:276][  0]LogConsoleResponse:Display: 
+[2017.06.04-22.37.23:453][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.04-22.37.23:453][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.04-22.37.24:502][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/' took 0.03s
+[2017.06.04-22.37.24:548][  0]SourceControl: Info Source control is disabled
+[2017.06.04-22.37.24:548][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-22.37.24:574][  0]LightingResults: New page: Lighting Build
+[2017.06.04-22.37.24:613][  0]MapCheck: New page: Map Check
+[2017.06.04-22.37.24:613][  0]LightingResults: New page: Lighting Build
+[2017.06.04-22.37.27:946][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.04-22.37.28:003][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-22.37.28:003][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-22.37.28:080][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.354ms to complete.
+[2017.06.04-22.37.28:080][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.532
+[2017.06.04-22.37.28:450][  0]LogCollectionManager: Loaded 1 collections in 0.011164 seconds
+[2017.06.04-22.37.28:591][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Collections/' took 0.01s
+[2017.06.04-22.37.28:591][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Developers/elmen/Collections/' took 0.01s
+[2017.06.04-22.37.28:591][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Collections/' took 0.01s
+[2017.06.04-22.37.28:591][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.06.04-22.37.28:592][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.06.04-22.37.28:605][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2245 classes and 453 folders.
+[2017.06.04-22.37.28:610][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.04-22.37.28:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.04-22.37.28:680][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-22.37.29:658][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.04-22.37.29:760][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.04-22.37.29:937][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.04-22.37.29:966][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.04-22.37.30:044][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.04-22.37.30:044][  0]LogLoad: (Engine Initialization) Total time: 22.61 seconds
+[2017.06.04-22.37.30:044][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.82 seconds
+[2017.06.04-22.37.30:044][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.04-22.37.30:044][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.04-22.37.30:384][  0]LogOcInput: OculusInput pre-init called
+[2017.06.04-22.37.30:430][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.04-22.37.30:431][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-22.37.30:436][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.04-22.37.30:452][  0]LogSlate: Took 0.009530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.04-22.37.30:663][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.04-22.37.31:437][  3]LogAssetRegistry: Asset discovery search completed in 15.2445 seconds
+[2017.06.04-22.37.31:437][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
+[2017.06.04-22.37.31:437][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000030 seconds (updated 0 objects)
+[2017.06.04-22.37.34:633][149]LogSlate: Took 0.019389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-22.37.40:513][821]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-22.37.41:163][821]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.04-22.37.42:258][821]LogSlate: Took 0.022080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.04-22.37.45:749][ 32]LogSlate: Took 0.023774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.04-22.38.15:794][ 61]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-22.38.21:429][ 61]LogAIModule: Creating AISystem for world First-Floor
+[2017.06.04-22.38.21:637][ 61]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-22.38.21:637][ 61]LightingResults: New page: Lighting Build
+[2017.06.04-22.38.21:639][ 61]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.06.04-22.38.21:639][ 61]MapCheck: New page: Map Check
+[2017.06.04-22.38.21:639][ 61]LightingResults: New page: Lighting Build
+[2017.06.04-22.38.21:815][ 61]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-22.38.21:866][ 61]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-22.38.21:995][ 61]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.653ms to complete.
+[2017.06.04-22.38.21:995][ 61]LogFileHelpers: Loading map 'First-Floor' took 0.359
+[2017.06.04-22.38.35:925][603]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.04-22.38.36:100][604]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.04-22.38.36:510][634]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.04-22.38.37:302][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.06.04-22.38.39:874][918]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_GiftShop)
+[2017.06.04-22.38.52:239][ 92]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube25)
+[2017.06.04-22.38.52:338][ 92]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube25)
+[2017.06.04-22.39.08:343][443]LogTexture:Display: Building textures: Brick_BathStone_2k_g (AutoDXT, 2048X2048) - 169 MB total VRAM
+[2017.06.04-22.39.09:545][485]LogMaterial: Missing cached shader map for material Brick_BathStone_2k_g_Mat, compiling. 
+[2017.06.04-22.39.09:546][485]LogTemp:Display: Added material ShaderMap 0x000002127B371280 with Material 0x000002120AF47100 to ShaderMapsBeingCompiled
+[2017.06.04-22.39.09:573][485]LogTemp:Display: Kicking off shader compilation for Brick_BathStone_2k_g_Mat, GameThreadShaderMap 0x000002127B371280
+[2017.06.04-22.39.09:599][485]LogMaterial:Warning: Material /Game/GTFreeMaterials/Textures/Brick_BathStone/Brick_BathStone_2k_g_Mat.Brick_BathStone_2k_g_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.06.04-22.39.09:612][485]LogMaterial: Missing cached shader map for material Brick_BathStone_2k_g_Mat, compiling. 
+[2017.06.04-22.39.09:613][485]LogTemp:Display: Added material ShaderMap 0x0000021265F34F00 with Material 0x000002120AF47100 to ShaderMapsBeingCompiled
+[2017.06.04-22.39.09:639][485]LogTemp:Display: Kicking off shader compilation for Brick_BathStone_2k_g_Mat, GameThreadShaderMap 0x0000021265F34F00
+[2017.06.04-22.39.09:639][485]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.04-22.39.12:529][659]LogTemp:Display: Finished compile of shader map 0x000002127B371280
+[2017.06.04-22.39.12:529][659]LogTemp:Display: Shader map Brick_BathStone_2k_g_Mat complete, GameThreadShaderMap 0x000002127B371280, marking material Brick_BathStone_2k_g_Mat as finished
+[2017.06.04-22.39.12:529][659]LogTemp:Display: Marking material as finished 0x000002120AF47100
+[2017.06.04-22.39.13:655][741]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube22)
+[2017.06.04-22.39.13:752][741]LogTemp:Display: Finished compile of shader map 0x0000021265F34F00
+[2017.06.04-22.39.13:752][741]LogTemp:Display: Shader map Brick_BathStone_2k_g_Mat complete, GameThreadShaderMap 0x0000021265F34F00, marking material Brick_BathStone_2k_g_Mat as finished
+[2017.06.04-22.39.13:752][741]LogTemp:Display: Marking material as finished 0x000002120AF47100
+[2017.06.04-22.39.21:549][434]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube24)
+[2017.06.04-22.39.31:985][259]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube21)
+[2017.06.04-22.39.32:881][326]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table7)
+[2017.06.04-22.39.33:257][346]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.39.33:354][346]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.39.33:913][387]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.39.38:900][862]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Couch7)
+[2017.06.04-22.39.40:271][957]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.04-22.39.40:863][  0]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.06.04-22.39.46:263][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube27)
+[2017.06.04-22.39.50:268][806]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube22)
+[2017.06.04-22.39.55:259][ 75]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_d (AutoDXT, 2048X2048) - 172 MB total VRAM
+[2017.06.04-22.39.57:389][ 75]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.04-22.40.00:636][274]LogTexture:Display: Building textures: wood_JFfantasyWoodPlanksNailedClean_2k_n (BC5, 2048X2048) - 174 MB total VRAM
+[2017.06.04-22.40.01:060][274]LogMaterial: Missing cached shader map for material wood_JFfantasyWoodPlanksNailedClean_2k_Mat, compiling. 
+[2017.06.04-22.40.01:061][274]LogTemp:Display: Added material ShaderMap 0x000002126C702400 with Material 0x000002127A206F80 to ShaderMapsBeingCompiled
+[2017.06.04-22.40.01:075][274]LogTemp:Display: Kicking off shader compilation for wood_JFfantasyWoodPlanksNailedClean_2k_Mat, GameThreadShaderMap 0x000002126C702400
+[2017.06.04-22.40.01:121][275]LogMaterial:Warning: Material /Game/GTFreeMaterials/Textures/wood_JFfantasyWoodPlanksNailedClean/wood_JFfantasyWoodPlanksNailedClean_2k_Mat.wood_JFfantasyWoodPlanksNailedClean_2k_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.06.04-22.40.01:128][275]LogMaterial: Missing cached shader map for material wood_JFfantasyWoodPlanksNailedClean_2k_Mat, compiling. 
+[2017.06.04-22.40.01:129][275]LogTemp:Display: Added material ShaderMap 0x0000021216168100 with Material 0x000002127A206F80 to ShaderMapsBeingCompiled
+[2017.06.04-22.40.01:151][275]LogTemp:Display: Kicking off shader compilation for wood_JFfantasyWoodPlanksNailedClean_2k_Mat, GameThreadShaderMap 0x0000021216168100
+[2017.06.04-22.40.01:151][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.04-22.40.03:924][456]LogTemp:Display: Finished compile of shader map 0x000002126C702400
+[2017.06.04-22.40.03:924][456]LogTemp:Display: Shader map wood_JFfantasyWoodPlanksNailedClean_2k_Mat complete, GameThreadShaderMap 0x000002126C702400, marking material wood_JFfantasyWoodPlanksNailedClean_2k_Mat as finished
+[2017.06.04-22.40.03:924][456]LogTemp:Display: Marking material as finished 0x000002127A206F80
+[2017.06.04-22.40.05:259][559]LogTemp:Display: Finished compile of shader map 0x0000021216168100
+[2017.06.04-22.40.05:259][559]LogTemp:Display: Shader map wood_JFfantasyWoodPlanksNailedClean_2k_Mat complete, GameThreadShaderMap 0x0000021216168100, marking material wood_JFfantasyWoodPlanksNailedClean_2k_Mat as finished
+[2017.06.04-22.40.05:260][559]LogTemp:Display: Marking material as finished 0x000002127A206F80
+[2017.06.04-22.40.07:117][744]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.40.07:434][754]Cmd: TRANSACTION UNDO
+[2017.06.04-22.40.07:434][754]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.04-22.40.07:516][754]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-22.40.08:185][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2017.06.04-22.40.09:211][890]Cmd: TRANSACTION UNDO
+[2017.06.04-22.40.09:211][890]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.04-22.40.09:916][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table13)
+[2017.06.04-22.40.13:307][241]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.40.27:953][415]LogTexture:Display: Building textures: Wood_InterlockingFloor_2k_alb1 (AutoDXT, 2048X2048) - 180 MB total VRAM
+[2017.06.04-22.40.29:978][415]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor_2k_alb1_Mat, compiling. 
+[2017.06.04-22.40.29:978][415]LogTemp:Display: Added material ShaderMap 0x000002125BEB6E80 with Material 0x0000021200534700 to ShaderMapsBeingCompiled
+[2017.06.04-22.40.29:991][415]LogTemp:Display: Kicking off shader compilation for Wood_InterlockingFloor_2k_alb1_Mat, GameThreadShaderMap 0x000002125BEB6E80
+[2017.06.04-22.40.30:025][416]LogMaterial:Warning: Material /Game/GTFreeMaterials/Textures/Wood_InterlockingFloor/Wood_InterlockingFloor_2k_alb1_Mat.Wood_InterlockingFloor_2k_alb1_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.06.04-22.40.30:031][416]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor_2k_alb1_Mat, compiling. 
+[2017.06.04-22.40.30:032][416]LogTemp:Display: Added material ShaderMap 0x000002120AF17C80 with Material 0x0000021200534700 to ShaderMapsBeingCompiled
+[2017.06.04-22.40.30:053][416]LogTemp:Display: Kicking off shader compilation for Wood_InterlockingFloor_2k_alb1_Mat, GameThreadShaderMap 0x000002120AF17C80
+[2017.06.04-22.40.30:053][416]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.04-22.40.32:914][538]LogTemp:Display: Finished compile of shader map 0x000002125BEB6E80
+[2017.06.04-22.40.32:914][538]LogTemp:Display: Shader map Wood_InterlockingFloor_2k_alb1_Mat complete, GameThreadShaderMap 0x000002125BEB6E80, marking material Wood_InterlockingFloor_2k_alb1_Mat as finished
+[2017.06.04-22.40.32:914][538]LogTemp:Display: Marking material as finished 0x0000021200534700
+[2017.06.04-22.40.33:914][541]LogTemp:Display: Finished compile of shader map 0x000002120AF17C80
+[2017.06.04-22.40.33:914][541]LogTemp:Display: Shader map Wood_InterlockingFloor_2k_alb1_Mat complete, GameThreadShaderMap 0x000002120AF17C80, marking material Wood_InterlockingFloor_2k_alb1_Mat as finished
+[2017.06.04-22.40.33:914][541]LogTemp:Display: Marking material as finished 0x0000021200534700
+[2017.06.04-22.40.55:532][871]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.40.58:531][144]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table13)
+[2017.06.04-22.40.59:286][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2017.06.04-22.40.59:639][232]Cmd: TRANSACTION UNDO
+[2017.06.04-22.40.59:639][232]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.04-22.41.14:502][459]LogEditorViewport: Clicking on Actor (LMB): Couch_C (Couch)
+[2017.06.04-22.41.38:926][215]LogMaterial: Missing cached shader map for material body, compiling. 
+[2017.06.04-22.41.38:927][215]LogTemp:Display: Added material ShaderMap 0x000002125BEBCB80 with Material 0x000002120139D900 to ShaderMapsBeingCompiled
+[2017.06.04-22.41.38:941][215]LogTemp:Display: Kicking off shader compilation for body, GameThreadShaderMap 0x000002125BEBCB80
+[2017.06.04-22.41.40:998][351]LogTemp:Display: Finished compile of shader map 0x000002125BEBCB80
+[2017.06.04-22.41.40:998][351]LogTemp:Display: Shader map body complete, GameThreadShaderMap 0x000002125BEBCB80, marking material body as finished
+[2017.06.04-22.41.40:998][351]LogTemp:Display: Marking material as finished 0x000002120139D900
+[2017.06.04-22.41.48:490][ 40]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.41.49:304][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2017.06.04-22.41.49:356][ 93]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.41.49:756][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table13)
+[2017.06.04-22.41.52:374][331]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.41.54:886][521]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube22)
+[2017.06.04-22.41.57:687][702]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor_2k_alb1_Mat, compiling. 
+[2017.06.04-22.41.57:688][702]LogTemp:Display: Added material ShaderMap 0x000002125BEBF580 with Material 0x0000021203863880 to ShaderMapsBeingCompiled
+[2017.06.04-22.41.57:698][702]LogTemp:Display: Kicking off shader compilation for Wood_InterlockingFloor_2k_alb1_Mat, GameThreadShaderMap 0x000002125BEBF580
+[2017.06.04-22.41.57:954][702]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor_2k_alb1_Mat, compiling. 
+[2017.06.04-22.41.57:955][702]LogTemp:Display: Added material ShaderMap 0x0000021204DBC800 with Material 0x0000021203863880 to ShaderMapsBeingCompiled
+[2017.06.04-22.41.57:973][702]LogTemp:Display: Kicking off shader compilation for Wood_InterlockingFloor_2k_alb1_Mat, GameThreadShaderMap 0x0000021204DBC800
+[2017.06.04-22.41.57:973][702]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.04-22.41.58:002][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.04-22.41.58:003][702]LogTemp:Display: Added material ShaderMap 0x0000021292B30100 with Material 0x000002120239B100 to ShaderMapsBeingCompiled
+[2017.06.04-22.41.58:006][702]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000021292B30100
+[2017.06.04-22.41.58:347][705]LogTemp:Display: Finished compile of shader map 0x000002125BEBF580
+[2017.06.04-22.41.58:347][705]LogTemp:Display: Shader map Wood_InterlockingFloor_2k_alb1_Mat complete, GameThreadShaderMap 0x000002125BEBF580, marking material Wood_InterlockingFloor_2k_alb1_Mat as finished
+[2017.06.04-22.41.58:347][705]LogTemp:Display: Marking material as finished 0x0000021203863880
+[2017.06.04-22.41.59:396][746]LogTemp:Display: Finished compile of shader map 0x0000021204DBC800
+[2017.06.04-22.41.59:396][746]LogTemp:Display: Shader map Wood_InterlockingFloor_2k_alb1_Mat complete, GameThreadShaderMap 0x0000021204DBC800, marking material Wood_InterlockingFloor_2k_alb1_Mat as finished
+[2017.06.04-22.41.59:396][746]LogTemp:Display: Marking material as finished 0x0000021203863880
+[2017.06.04-22.41.59:416][747]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2017.06.04-22.41.59:416][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.06.04-22.41.59:416][747]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.04-22.41.59:416][747]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.04-22.41.59:488][751]LogTemp:Display: Finished compile of shader map 0x0000021292B30100
+[2017.06.04-22.41.59:488][751]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000021292B30100, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.04-22.41.59:488][751]LogTemp:Display: Marking material as finished 0x000002120239B100
+[2017.06.04-22.42.01:280][878]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.42.01:759][919]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table12)
+[2017.06.04-22.42.03:617][ 75]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.42.07:198][328]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.42.07:688][372]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.42.07:943][391]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.42.13:924][981]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2017.06.04-22.42.25:008][424]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.04-22.42.25:008][424]LogTemp:Display: Added material ShaderMap 0x0000021204E7C800 with Material 0x0000021261B83880 to ShaderMapsBeingCompiled
+[2017.06.04-22.42.25:019][424]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x0000021204E7C800
+[2017.06.04-22.42.25:124][424]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.04-22.42.25:125][424]LogTemp:Display: Added material ShaderMap 0x00000212041FF900 with Material 0x0000021261B83880 to ShaderMapsBeingCompiled
+[2017.06.04-22.42.25:137][424]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000212041FF900
+[2017.06.04-22.42.25:137][424]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.04-22.42.25:168][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.04-22.42.25:169][424]LogTemp:Display: Added material ShaderMap 0x00000212025D7580 with Material 0x000002120A001000 to ShaderMapsBeingCompiled
+[2017.06.04-22.42.25:173][424]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x00000212025D7580
+[2017.06.04-22.42.26:688][481]LogTemp:Display: Removed shader map 0x00000212025D7580 from material 0x000002120A001000
+[2017.06.04-22.42.26:750][481]LogTemp:Display: Finished compile of shader map 0x00000212025D7580
+[2017.06.04-22.42.26:751][481]LogTemp:Display: Finished compile of shader map 0x00000212041FF900
+[2017.06.04-22.42.26:751][481]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x00000212041FF900, marking material PreviewMaterial_0 as finished
+[2017.06.04-22.42.26:751][481]LogTemp:Display: Marking material as finished 0x0000021261B83880
+[2017.06.04-22.42.43:003][946]LogEditorViewport: Clicking on Actor (context menu): PanelBP_C (PanelBP)
+[2017.06.04-22.42.47:356][254]LogAIModule: Creating AISystem for world Basement
+[2017.06.04-22.42.47:405][254]LogTemp:Display: Removed shader map 0x0000021204E7C800 from material 0x0000021261B83880
+[2017.06.04-22.42.48:644][254]LogSavePackage: Save=12.03ms
+[2017.06.04-22.42.48:644][254]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Brick_BathStone_2k_g_MatBBAAC3CD4CCDB8AD0E25799C5877DC94.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/Brick_BathStone/Brick_BathStone_2k_g_Mat.uasset'
+[2017.06.04-22.42.48:646][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/Brick_BathStone/Brick_BathStone_2k_g_Mat.uasset
+[2017.06.04-22.42.48:676][254]LogSavePackage: Save=12.74ms
+[2017.06.04-22.42.48:676][254]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Wood_InterlockingFloor_2k_alb1_MatD39A994047575B161429B4844E7BD4CF.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/Wood_InterlockingFloor/Wood_InterlockingFloor_2k_alb1_Mat.uasset'
+[2017.06.04-22.42.48:679][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/Wood_InterlockingFloor/Wood_InterlockingFloor_2k_alb1_Mat.uasset
+[2017.06.04-22.42.48:710][254]LogSavePackage: Save=14.58ms
+[2017.06.04-22.42.48:710][254]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/wood_JFfantasyWoodPlanksNailedClean_2k_Mat262CDA3F48518AE476D1B8811B944720.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/wood_JFfantasyWoodPlanksNailedClean/wood_JFfantasyWoodPlanksNailedClean_2k_Mat.uasset'
+[2017.06.04-22.42.48:713][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/GTFreeMaterials/Textures/wood_JFfantasyWoodPlanksNailedClean/wood_JFfantasyWoodPlanksNailedClean_2k_Mat.uasset
+[2017.06.04-22.42.49:328][254]LogSavePackage: Save=464.06ms
+[2017.06.04-22.42.49:328][254]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/First-Floor81AD185C426E8465A89B92A5FB559C16.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap'
+[2017.06.04-22.42.49:330][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap
+[2017.06.04-22.42.49:378][254]LogFileHelpers: Saving map 'First-Floor' took 0.664
+[2017.06.04-22.42.49:379][254]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-22.42.49:379][254]LightingResults: New page: Lighting Build
+[2017.06.04-22.42.49:380][254]LoadErrors: New page: Loading map: Basement.umap
+[2017.06.04-22.42.49:385][254]MapCheck: New page: Map Check
+[2017.06.04-22.42.49:385][254]LightingResults: New page: Lighting Build
+[2017.06.04-22.42.49:576][254]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-22.42.49:622][254]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-22.42.49:736][254]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.402ms to complete.
+[2017.06.04-22.42.49:736][254]LogFileHelpers: Loading map 'Basement' took 0.359
+[2017.06.04-22.42.56:688][585]LogEditorViewport: Clicking Background
+[2017.06.04-22.42.56:700][585]LogEditorViewport: Clicking Background
+[2017.06.04-22.43.00:337][  4]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.43.00:422][  4]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.43.00:599][ 12]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.43.00:687][ 17]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.43.01:308][ 68]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.43.01:743][100]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.43.02:104][135]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2017.06.04-22.43.03:781][296]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.43.04:446][347]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2017.06.04-22.43.13:424][238]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2017.06.04-22.43.14:213][301]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2017.06.04-22.44.17:650][389]LogEditorViewport: Clicking on Actor (LMB): BriefcaseCodeBP_C (BriefcaseCodeBP)
+[2017.06.04-22.44.17:673][389]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2017.06.04-22.44.21:172][712]LogEditorViewport: Clicking on Actor (LMB): JanitorKeyBP_C (JanitorKeyBP)
+[2017.06.04-22.44.27:123][285]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Office)
+[2017.06.04-22.44.29:229][478]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.44.29:716][513]LogEditorViewport: Clicking on Actor (context menu): Door_Blueprint_C (Door_Office)
+[2017.06.04-22.44.29:777][513]LogEditorViewport: Clicking on Actor (context menu): Door_Blueprint_C (Door_Office)
+[2017.06.04-22.44.31:944][693]LogEditorViewport: Clicking on Actor (LMB): StrongAcidBP_C (StrongAcidBP)
+[2017.06.04-22.44.33:186][801]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube31)
+[2017.06.04-22.44.34:667][922]LogEditorViewport: Clicking on Actor (LMB): StrongAcidBP_C (StrongAcidBP)
+[2017.06.04-22.44.35:481][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.04-22.44.35:532][984]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.04-22.44.36:804][104]LogEditorViewport: Clicking on Actor (LMB): StrongAcidBP_C (StrongAcidBP)
+[2017.06.04-22.44.38:730][288]LogEditorViewport: Clicking on Actor (LMB): Furnace_C (Furnace)
+[2017.06.04-22.44.38:759][288]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2017.06.04-22.44.45:558][943]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.44.46:978][ 66]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2017.06.04-22.45.08:094][250]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.45.08:884][306]LogEditorViewport: Clicking on Actor (LMB): StrongAcidBP_C (StrongAcidBP)
+[2017.06.04-22.45.10:862][470]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.45.11:864][539]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.45.19:922][230]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.04-22.45.20:631][285]LogEditorViewport: Clicking Background
+[2017.06.04-22.48.52:779][609]LogAssetTools:Warning: You can not create an asset named 'Basement' because there is already a map file with this name in this folder.
+[2017.06.04-22.48.58:276][127]LogMetaData: Removing '/Game/Levels/Basement2.Basement2_C' ref from Metadata '/Game/Levels/Basement.PackageMetaData'
+[2017.06.04-22.48.58:276][127]LogMetaData: Removing '/Game/Levels/Basement2.SKEL_Basement2_C' ref from Metadata '/Game/Levels/Basement.PackageMetaData'
+[2017.06.04-22.48.58:727][127]LogSavePackage: Save=289.09ms
+[2017.06.04-22.48.58:727][127]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Basement21F2CF1E4411D8A4B7592D9B269313ADD.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Basement2.umap'
+[2017.06.04-22.48.58:730][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Basement2.umap
+[2017.06.04-22.48.58:788][127]LogFileHelpers: Saving map 'Basement2' took 0.491
+[2017.06.04-22.49.02:469][329]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GitHub/Basement.FBX)
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: Model, ItemCount : 110
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: Geometry, ItemCount : 10
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: Material, ItemCount : 10
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.06.04-22.49.02:515][329]LogFbx: ItemName: Video, ItemCount : 3
+[2017.06.04-22.49.02:520][329]LogFbx: Loading FBX Scene from ../../../../../../Documents/GitHub/Basement.FBX
+[2017.06.04-22.49.02:700][329]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.04-22.49.03:980][329]LogFbx: Loading FBX Scene from ../../../../../../Documents/GitHub/Basement.FBX
+[2017.06.04-22.49.04:109][329]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.04-22.49.04:113][329]LogLinker: Can't find file '/Game/Levels/DefaultMaterial'
+[2017.06.04-22.49.04:113][329]LogLinker: Can't find file '/Game/Levels/DefaultMaterial'
+[2017.06.04-22.49.04:117][329]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.06.04-22.49.04:118][329]LogTemp:Display: Added material ShaderMap 0x0000021289C26400 with Material 0x0000021201958A00 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:131][329]LogTemp:Display: Kicking off shader compilation for DefaultMaterial, GameThreadShaderMap 0x0000021289C26400
+[2017.06.04-22.49.04:133][329]LogLinker: Can't find file '/Game/Levels/WorldGridMaterial'
+[2017.06.04-22.49.04:133][329]LogLinker: Can't find file '/Game/Levels/WorldGridMaterial'
+[2017.06.04-22.49.04:138][329]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.06.04-22.49.04:139][329]LogTemp:Display: Added material ShaderMap 0x000002121C2E0F00 with Material 0x000002120A9AE800 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:151][329]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x000002121C2E0F00
+[2017.06.04-22.49.04:155][329]LogLinker: Can't find file '/Game/Levels/Door_and_DoorFrame_Material'
+[2017.06.04-22.49.04:155][329]LogLinker: Can't find file '/Game/Levels/Door_and_DoorFrame_Material'
+[2017.06.04-22.49.04:157][329]LogLinker: Can't find file '/Game/Levels/Porta_casa'
+[2017.06.04-22.49.04:157][329]LogLinker: Can't find file '/Game/Levels/Porta_casa'
+[2017.06.04-22.49.04:157][329]LogStreaming:Warning: Failed to read file 'H:/Users/Matthias/Desktop/9p2miu33h6yo-Door/Door/Porta_casa.png' error.
+[2017.06.04-22.49.04:157][329]LogStreaming:Warning: Failed to read file '../../../../../../Documents/GitHub/..\..\Users\Matthias\Desktop\9p2miu33h6yo-Door\Door\Porta_casa.png' error.
+[2017.06.04-22.49.04:157][329]LogStreaming:Warning: Failed to read file '../../../../../../Documents/GitHub/Porta_casa.png' error.
+[2017.06.04-22.49.04:157][329]LogFbxMaterialImport:Warning: Unable to find TEXTure file Porta_casa.png. Tried:
+ - H:/Users/Matthias/Desktop/9p2miu33h6yo-Door/Door/Porta_casa.png
+ - ../../../../../../Documents/GitHub/..\..\Users\Matthias\Desktop\9p2miu33h6yo-Door\Door\Porta_casa.png
+ - ../../../../../../Documents/GitHub/Porta_casa.png
+[2017.06.04-22.49.04:159][329]LogMaterial: Missing cached shader map for material Door_and_DoorFrame_Material, compiling. 
+[2017.06.04-22.49.04:160][329]LogTemp:Display: Added material ShaderMap 0x000002121C3AE780 with Material 0x0000021209318100 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:174][329]LogTemp:Display: Kicking off shader compilation for Door_and_DoorFrame_Material, GameThreadShaderMap 0x000002121C3AE780
+[2017.06.04-22.49.04:175][329]LogLinker: Can't find file '/Game/Levels/DoorKnob_Material'
+[2017.06.04-22.49.04:175][329]LogLinker: Can't find file '/Game/Levels/DoorKnob_Material'
+[2017.06.04-22.49.04:177][329]LogLinker: Can't find file '/Game/Levels/T_Metal_Gold_N'
+[2017.06.04-22.49.04:177][329]LogLinker: Can't find file '/Game/Levels/T_Metal_Gold_N'
+[2017.06.04-22.49.04:177][329]LogStreaming:Warning: Failed to read file 'C:/Users/jordan.walker/Desktop/RocketCleanup/T_Metal_Gold_N.TGA' error.
+[2017.06.04-22.49.04:177][329]LogStreaming:Warning: Failed to read file '../../../../../../Documents/GitHub/C:\Users\jordan.walker\Desktop\RocketCleanup\T_Metal_Gold_N.TGA' error.
+[2017.06.04-22.49.04:177][329]LogStreaming:Warning: Failed to read file '../../../../../../Documents/GitHub/T_Metal_Gold_N.TGA' error.
+[2017.06.04-22.49.04:177][329]LogFbxMaterialImport:Warning: Unable to find TEXTure file T_Metal_Gold_N.TGA. Tried:
+ - C:/Users/jordan.walker/Desktop/RocketCleanup/T_Metal_Gold_N.TGA
+ - ../../../../../../Documents/GitHub/C:\Users\jordan.walker\Desktop\RocketCleanup\T_Metal_Gold_N.TGA
+ - ../../../../../../Documents/GitHub/T_Metal_Gold_N.TGA
+[2017.06.04-22.49.04:180][329]LogMaterial: Missing cached shader map for material DoorKnob_Material, compiling. 
+[2017.06.04-22.49.04:180][329]LogTemp:Display: Added material ShaderMap 0x0000021291FBAE80 with Material 0x000002127A2C9600 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:194][329]LogTemp:Display: Kicking off shader compilation for DoorKnob_Material, GameThreadShaderMap 0x0000021291FBAE80
+[2017.06.04-22.49.04:202][329]LogLinker: Can't find file '/Game/Levels/Material_003'
+[2017.06.04-22.49.04:202][329]LogLinker: Can't find file '/Game/Levels/Material_003'
+[2017.06.04-22.49.04:207][329]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2017.06.04-22.49.04:208][329]LogTemp:Display: Added material ShaderMap 0x00000212033C7C80 with Material 0x0000021202CF5180 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:227][329]LogTemp:Display: Kicking off shader compilation for Material_003, GameThreadShaderMap 0x00000212033C7C80
+[2017.06.04-22.49.04:240][329]LogLinker: Can't find file '/Game/Levels/Wood_Mix'
+[2017.06.04-22.49.04:240][329]LogLinker: Can't find file '/Game/Levels/Wood_Mix'
+[2017.06.04-22.49.04:245][329]LogMaterial: Missing cached shader map for material Wood_Mix, compiling. 
+[2017.06.04-22.49.04:246][329]LogTemp:Display: Added material ShaderMap 0x00000212160D2B00 with Material 0x000002125C250D00 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:261][329]LogTemp:Display: Kicking off shader compilation for Wood_Mix, GameThreadShaderMap 0x00000212160D2B00
+[2017.06.04-22.49.04:269][329]LogLinker: Can't find file '/Game/Levels/chrome'
+[2017.06.04-22.49.04:269][329]LogLinker: Can't find file '/Game/Levels/chrome'
+[2017.06.04-22.49.04:273][329]LogMaterial: Missing cached shader map for material chrome, compiling. 
+[2017.06.04-22.49.04:274][329]LogTemp:Display: Added material ShaderMap 0x0000021261578F00 with Material 0x0000021203EBC280 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:292][329]LogTemp:Display: Kicking off shader compilation for chrome, GameThreadShaderMap 0x0000021261578F00
+[2017.06.04-22.49.04:294][329]LogLinker: Can't find file '/Game/Levels/Mat_1'
+[2017.06.04-22.49.04:294][329]LogLinker: Can't find file '/Game/Levels/Mat_1'
+[2017.06.04-22.49.04:298][329]LogMaterial: Missing cached shader map for material Mat_1, compiling. 
+[2017.06.04-22.49.04:299][329]LogTemp:Display: Added material ShaderMap 0x000002126159AE80 with Material 0x000002125EE4EC80 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:312][329]LogTemp:Display: Kicking off shader compilation for Mat_1, GameThreadShaderMap 0x000002126159AE80
+[2017.06.04-22.49.04:313][329]LogLinker: Can't find file '/Game/Levels/Mat'
+[2017.06.04-22.49.04:313][329]LogLinker: Can't find file '/Game/Levels/Mat'
+[2017.06.04-22.49.04:317][329]LogMaterial: Missing cached shader map for material Mat, compiling. 
+[2017.06.04-22.49.04:318][329]LogTemp:Display: Added material ShaderMap 0x000002125F694F00 with Material 0x000002125EE4E380 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.04:333][329]LogTemp:Display: Kicking off shader compilation for Mat, GameThreadShaderMap 0x000002125F694F00
+[2017.06.04-22.49.04:364][329]LogLinker: Can't find file '/Game/Levels/01_-_Default_Base_Color_Mat'
+[2017.06.04-22.49.04:364][329]LogLinker: Can't find file '/Game/Levels/01_-_Default_Base_Color_Mat'
+[2017.06.04-22.49.04:366][329]LogLinker: Can't find file '/Game/Levels/01_-_Default_Base_Color'
+[2017.06.04-22.49.04:367][329]LogLinker: Can't find file '/Game/Levels/01_-_Default_Base_Color'
+[2017.06.04-22.49.05:861][329]LogTexture:Display: Building textures: 01_-_Default_Base_Color (AutoDXT, 4096X4096) - 205 MB total VRAM
+[2017.06.04-22.49.10:754][329]LogMaterial: Missing cached shader map for material 01_-_Default_Base_Color_Mat, compiling. 
+[2017.06.04-22.49.10:755][329]LogTemp:Display: Added material ShaderMap 0x00000212027FB200 with Material 0x000002120197A080 to ShaderMapsBeingCompiled
+[2017.06.04-22.49.10:775][329]LogTemp:Display: Kicking off shader compilation for 01_-_Default_Base_Color_Mat, GameThreadShaderMap 0x00000212027FB200
+[2017.06.04-22.49.11:426][329]LogStaticMesh: Building static mesh Basement...
+[2017.06.04-22.49.19:707][329]LogStaticMesh: Built static mesh [8.29s] /Game/Levels/Basement.Basement
+[2017.06.04-22.49.20:715][329]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.04-22.49.21:243][329]LogTemp:Display: Finished compile of shader map 0x000002121C3AE780
+[2017.06.04-22.49.21:243][329]LogTemp:Display: Shader map Door_and_DoorFrame_Material complete, GameThreadShaderMap 0x000002121C3AE780, marking material Door_and_DoorFrame_Material as finished
+[2017.06.04-22.49.21:243][329]LogTemp:Display: Marking material as finished 0x0000021209318100
+[2017.06.04-22.49.21:246][329]LogTemp:Display: Finished compile of shader map 0x000002121C2E0F00
+[2017.06.04-22.49.21:247][329]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x000002121C2E0F00, marking material WorldGridMaterial as finished
+[2017.06.04-22.49.21:247][329]LogTemp:Display: Marking material as finished 0x000002120A9AE800
+[2017.06.04-22.49.21:251][329]LogTemp:Display: Finished compile of shader map 0x0000021289C26400
+[2017.06.04-22.49.21:251][329]LogTemp:Display: Shader map DefaultMaterial complete, GameThreadShaderMap 0x0000021289C26400, marking material DefaultMaterial as finished
+[2017.06.04-22.49.21:251][329]LogTemp:Display: Marking material as finished 0x0000021201958A00
+[2017.06.04-22.49.21:255][329]LogTemp:Display: Finished compile of shader map 0x0000021291FBAE80
+[2017.06.04-22.49.21:255][329]LogTemp:Display: Shader map DoorKnob_Material complete, GameThreadShaderMap 0x0000021291FBAE80, marking material DoorKnob_Material as finished
+[2017.06.04-22.49.21:255][329]LogTemp:Display: Marking material as finished 0x000002127A2C9600
+[2017.06.04-22.49.21:259][329]LogTemp:Display: Finished compile of shader map 0x00000212033C7C80
+[2017.06.04-22.49.21:259][329]LogTemp:Display: Shader map Material_003 complete, GameThreadShaderMap 0x00000212033C7C80, marking material Material_003 as finished
+[2017.06.04-22.49.21:259][329]LogTemp:Display: Marking material as finished 0x0000021202CF5180
+[2017.06.04-22.49.21:264][329]LogTemp:Display: Finished compile of shader map 0x00000212160D2B00
+[2017.06.04-22.49.21:264][329]LogTemp:Display: Shader map Wood_Mix complete, GameThreadShaderMap 0x00000212160D2B00, marking material Wood_Mix as finished
+[2017.06.04-22.49.21:264][329]LogTemp:Display: Marking material as finished 0x000002125C250D00
+[2017.06.04-22.49.21:268][329]LogTemp:Display: Finished compile of shader map 0x0000021261578F00
+[2017.06.04-22.49.21:268][329]LogTemp:Display: Shader map chrome complete, GameThreadShaderMap 0x0000021261578F00, marking material chrome as finished
+[2017.06.04-22.49.21:268][329]LogTemp:Display: Marking material as finished 0x0000021203EBC280
+[2017.06.04-22.49.21:271][329]LogTemp:Display: Finished compile of shader map 0x000002126159AE80
+[2017.06.04-22.49.21:271][329]LogTemp:Display: Shader map Mat_1 complete, GameThreadShaderMap 0x000002126159AE80, marking material Mat_1 as finished
+[2017.06.04-22.49.21:271][329]LogTemp:Display: Marking material as finished 0x000002125EE4EC80
+[2017.06.04-22.49.21:275][329]LogTemp:Display: Finished compile of shader map 0x000002125F694F00
+[2017.06.04-22.49.21:275][329]LogTemp:Display: Shader map Mat complete, GameThreadShaderMap 0x000002125F694F00, marking material Mat as finished
+[2017.06.04-22.49.21:275][329]LogTemp:Display: Marking material as finished 0x000002125EE4E380
+[2017.06.04-22.49.21:280][329]LogTemp:Display: Finished compile of shader map 0x00000212027FB200
+[2017.06.04-22.49.21:280][329]LogTemp:Display: Shader map 01_-_Default_Base_Color_Mat complete, GameThreadShaderMap 0x00000212027FB200, marking material 01_-_Default_Base_Color_Mat as finished
+[2017.06.04-22.49.21:280][329]LogTemp:Display: Marking material as finished 0x000002120197A080
+[2017.06.04-22.49.30:652][980]LogActorFactory: Actor Factory created Basement
+[2017.06.04-22.49.32:654][174]LogActorFactory: Actor Factory created Basement
+[2017.06.04-22.49.34:089][295]Cmd: TRANSACTION UNDO
+[2017.06.04-22.49.34:089][295]LogEditorTransaction: Undo Create Actors
+[2017.06.04-22.50.09:051][782]LogCrashTracker: 
+
+
+[2017.06.04-22.50.09:051][782]LogCrashTracker: 
+
+
+[2017.06.04-22.50.09:051][782]LogWindows:Error: === Critical error: ===
+[2017.06.04-22.50.09:051][782]LogWindows:Error: 
+[2017.06.04-22.50.09:051][782]LogWindows:Error: Fatal error!
+[2017.06.04-22.50.09:051][782]LogWindows:Error: 
+[2017.06.04-22.50.09:051][782]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000068
+[2017.06.04-22.50.09:051][782]LogWindows:Error: 
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000D81ED769
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000D81B7EFE
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-AssetRegistry.dll!0x00000000CF26E63A
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-AssetRegistry.dll!0x00000000CF269138
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-AssetRegistry.dll!0x00000000CF26E105
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-AssetRegistry.dll!0x00000000CF2940B9
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-AssetRegistry.dll!0x00000000CF27F6AD
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-DirectoryWatcher.dll!0x0000000005B8817F
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-DirectoryWatcher.dll!0x0000000005B900F8
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000DD935C77
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000DE142086
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor.exe!0x0000000055EBDEE3
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor.exe!0x0000000055EAEB40
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor.exe!0x0000000055EAEBBA
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor.exe!0x0000000055EC0A29
+[2017.06.04-22.50.09:051][782]LogWindows:Error: UE4Editor.exe!0x0000000055EC22B6
+[2017.06.04-22.50.09:051][782]LogWindows:Error: KERNEL32.DLL!0x00000000253D8364
+[2017.06.04-22.50.09:051][782]LogWindows:Error: ntdll.dll!0x00000000276070D1
+[2017.06.04-22.50.09:051][782]LogWindows:Error: ntdll.dll!0x00000000276070D1
+[2017.06.04-22.50.09:051][782]LogWindows:Error: 
+[2017.06.04-22.50.09:081][782]LogExit: Executing StaticShutdownAfterError
+[2017.06.04-22.50.09:089][782]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.06.04-22.50.09:109][782]Log file closed, 06/04/17 15:50:09
