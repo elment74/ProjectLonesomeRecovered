@@ -1,0 +1,1006 @@
+﻿Log file open, 06/07/17 08:43:02
+LogInit:Display: Running engine for game: Project_lonesome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2115746241) SRandInit(-2115746241).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080620
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: H:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.07-15.43.03:664][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.07-15.43.03:664][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.07-15.43.03:686][  0]LogInit: Computer: DESKTOP-969FG03
+[2017.06.07-15.43.03:686][  0]LogInit: User: elmen
+[2017.06.07-15.43.03:686][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.07-15.43.03:686][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2017.06.07-15.43.03:686][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.07-15.43.03:686][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.07-15.43.03:686][  0]LogMemory: Process Physical Memory: 265.58 MB used, 265.58 MB peak
+[2017.06.07-15.43.03:686][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.06.07-15.43.03:686][  0]LogMemory: Physical Memory: 9297.13 MB used,  7047.83 MB free, 16344.95 MB total
+[2017.06.07-15.43.03:686][  0]LogMemory: Virtual Memory: 630.96 MB used,  7047.83 MB free, 134217728.00 MB total
+[2017.06.07-15.43.03:760][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.07-15.43.04:438][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.07-15.43.04:956][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.06.07-15.43.04:956][  0]LogD3D11RHI:       2006/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.07-15.43.04:958][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.07-15.43.04:958][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.07-15.43.04:958][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.07-15.43.04:962][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.07-15.43.04:962][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.07-15.43.04:962][  0]LogWindows: EnumDisplayDevices:
+[2017.06.07-15.43.04:963][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.06.07-15.43.04:963][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.07-15.43.04:963][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.07-15.43.04:963][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.07-15.43.04:964][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.07-15.43.04:964][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.06.07-15.43.04:964][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.06.07-15.43.04:964][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.06.07-15.43.04:964][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.07-15.43.05:412][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.07-15.43.05:458][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.07-15.43.05:509][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Intermediate/Shaders/WorkingDirectory/13408/).
+[2017.06.07-15.43.05:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elmen/AppData/Local/Temp/UnrealShaderWorkingDir/DECB38A948546767CBCDA5B4E0DA305E/'.
+[2017.06.07-15.43.05:509][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.07-15.43.06:571][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.07-15.43.06:626][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.07-15.43.06:682][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.07-15.43.06:738][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.07-15.43.06:793][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.07-15.43.06:849][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.07-15.43.06:905][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.07-15.43.06:962][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.07-15.43.07:006][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.07-15.43.07:060][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.07-15.43.07:114][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.07-15.43.07:175][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.07-15.43.07:230][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.07-15.43.07:284][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.07-15.43.07:337][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.07-15.43.07:447][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.07-15.43.07:447][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.07-15.43.07:486][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.07-15.43.07:580][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.07-15.43.07:613][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.07-15.43.07:666][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.07-15.43.07:721][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.07-15.43.07:775][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.07-15.43.07:835][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.07-15.43.07:835][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.07-15.43.08:259][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.07-15.43.08:304][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.07-15.43.08:304][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.07-15.43.08:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.07-15.43.08:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.07-15.43.08:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.07-15.43.08:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.07-15.43.08:322][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.07-15.43.08:335][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elmen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.07-15.43.08:344][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.07-15.43.08:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.07-15.43.08:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.07-15.43.08:671][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.07-15.43.08:674][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.07-15.43.08:875][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.07-15.43.08:916][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.07-15.43.08:965][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.07-15.43.08:965][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.07-15.43.08:965][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.07-15.43.09:488][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project_lonesome, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3824462427
+[2017.06.07-15.43.09:531][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.06.07-15.43.09:623][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.073488 seconds
+[2017.06.07-15.43.09:628][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
+[2017.06.07-15.43.09:628][  0]LogUObjectAllocator: 7077248 out of 0 bytes used by permanent object pool.
+[2017.06.07-15.43.09:628][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.07-15.43.09:680][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.07-15.43.11:401][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.07-15.43.11:458][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.07-15.43.11:954][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.07-15.43.12:339][  0]SourceControl: Info Source control is disabled
+[2017.06.07-15.43.12:405][  0]SourceControl: Info Source control is disabled
+[2017.06.07-15.43.12:453][  0]SourceControl: Info Source control is disabled
+[2017.06.07-15.43.12:501][  0]SourceControl: Info Source control is disabled
+[2017.06.07-15.43.13:846][  0]LogEngine: Initializing Engine...
+[2017.06.07-15.43.13:846][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.07-15.43.14:090][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.07-15.43.14:103][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.07-15.43.14:244][  0]LogInit: FAudioDevice initialized.
+[2017.06.07-15.43.14:282][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/elmen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.07-15.43.14:287][  0]LogInit: Texture streaming: Enabled
+[2017.06.07-15.43.14:368][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.07-15.43.14:465][  0]LogInit: Transaction tracking system initialized
+[2017.06.07-15.43.14:793][  0]BlueprintLog: New page: Editor Load
+[2017.06.07-15.43.15:620][  0]LocalizationService: Info Localization service is disabled
+[2017.06.07-15.43.16:268][  0]LogConsoleResponse:Display: 
+[2017.06.07-15.43.16:437][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.07-15.43.16:437][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.07-15.43.17:201][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/' took 0.03s
+[2017.06.07-15.43.17:488][  0]SourceControl: Info Source control is disabled
+[2017.06.07-15.43.17:488][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.07-15.43.17:489][  0]LightingResults: New page: Lighting Build
+[2017.06.07-15.43.17:529][  0]MapCheck: New page: Map Check
+[2017.06.07-15.43.17:529][  0]LightingResults: New page: Lighting Build
+[2017.06.07-15.43.29:931][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.07-15.43.30:067][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.07-15.43.30:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.07-15.43.30:166][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.782ms to complete.
+[2017.06.07-15.43.30:166][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 12.677
+[2017.06.07-15.43.30:875][  0]LogCollectionManager: Loaded 1 collections in 0.004431 seconds
+[2017.06.07-15.43.31:106][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Collections/' took 0.01s
+[2017.06.07-15.43.31:106][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Developers/elmen/Collections/' took 0.01s
+[2017.06.07-15.43.31:106][  0]LogFileCache: Scanning file cache for directory 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Collections/' took 0.01s
+[2017.06.07-15.43.31:106][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000010 seconds
+[2017.06.07-15.43.31:148][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000003 seconds
+[2017.06.07-15.43.31:184][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2245 classes and 453 folders.
+[2017.06.07-15.43.31:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.07-15.43.31:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.07-15.43.31:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.06.07-15.43.36:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.06.07-15.43.36:746][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.06.07-15.43.37:092][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.07-15.43.37:131][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.07-15.43.37:202][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.07-15.43.37:203][  0]LogLoad: (Engine Initialization) Total time: 35.80 seconds
+[2017.06.07-15.43.37:203][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.92 seconds
+[2017.06.07-15.43.37:203][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.07-15.43.37:203][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.07-15.43.37:542][  0]LogOcInput: OculusInput pre-init called
+[2017.06.07-15.43.37:581][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.07-15.43.37:583][  0]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.07-15.43.37:592][  0]LogSlate: Took 0.000612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.07-15.43.37:709][  0]LogSlate: Took 0.086757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.07-15.43.38:012][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.07-15.43.38:013][  0]LogSlate: Took 0.065317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.07-15.43.57:425][ 59]LogAssetRegistry: Asset discovery search completed in 47.9155 seconds
+[2017.06.07-15.43.57:425][ 59]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000038 seconds (found 0 objects)
+[2017.06.07-15.43.57:425][ 59]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000087 seconds (updated 0 objects)
+[2017.06.07-15.43.59:749][ 66]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.07-15.43.59:776][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.07-15.43.59:776][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.07-15.43.59:776][ 66]PIE: New page: PIE session: FirstPersonExampleMap (Jun 7, 2017, 1:43:59 AM)
+[2017.06.07-15.43.59:777][ 66]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.07-15.43.59:779][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002111s)
+[2017.06.07-15.43.59:779][ 66]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.07-15.43.59:780][ 66]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.06.07-15.43.59:780][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.003167s)
+[2017.06.07-15.43.59:817][ 66]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.07-15.43.59:833][ 66]LogInit: FAudioDevice initialized.
+[2017.06.07-15.43.59:881][ 66]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.07-15.43.59:887][ 66]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.06.07-08.43.59
+[2017.06.07-15.43.59:901][ 66]LogWorld: Bringing up level for play took: 0.016453
+[2017.06.07-15.43.59:952][ 66]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.07-15.43.59:953][ 66]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.43.59:953][ 66]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.43.59:953][ 66]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.43.59:955][ 66]PIE:Warning: Warning The widget 'BasementLayout_C' was already added to the screen.
+[2017.06.07-15.43.59:955][ 66]PIE:Warning: Warning The widget 'MainFloorLayout_C' was already added to the screen.
+[2017.06.07-15.43.59:956][ 66]PIE:Warning: Warning The widget '2ndfloorlaylout_C' was already added to the screen.
+[2017.06.07-15.43.59:956][ 66]PIE:Warning: Warning The widget '3rdFloorLayout_C' was already added to the screen.
+[2017.06.07-15.43.59:957][ 66]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.43.59:960][ 66]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.827
+[2017.06.07-15.43.59:961][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.07-15.44.00:002][ 66]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:4).
+[2017.06.07-15.44.00:939][123]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.07-15.44.00:939][123]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.07-15.44.00:939][123]LogNet: Browse: /Game/Levels/Second-Floor
+[2017.06.07-15.44.00:939][123]LogLoad: LoadMap: /Game/Levels/Second-Floor
+[2017.06.07-15.44.00:951][123]Cmd: MEM
+[2017.06.07-15.44.00:991][123]LogMemory: Platform Memory Stats for Windows
+[2017.06.07-15.44.00:991][123]LogMemory: Process Physical Memory: 1060.25 MB used, 1107.97 MB peak
+[2017.06.07-15.44.00:991][123]LogMemory: Process Virtual Memory: 1559.21 MB used, 1562.80 MB peak
+[2017.06.07-15.44.00:991][123]LogMemory: Physical Memory: 8752.32 MB used,  7592.63 MB free, 16344.95 MB total
+[2017.06.07-15.44.00:991][123]LogMemory: Virtual Memory: 2323.56 MB used,  7592.63 MB free, 134217728.00 MB total
+[2017.06.07-15.44.00:991][123]LogMemory: 
+[2017.06.07-15.44.00:991][123]Allocator Stats for TBB: (not implemented)
+[2017.06.07-15.44.35:719][123]LogAIModule: Creating AISystem for world Second-Floor
+[2017.06.07-15.44.35:720][123]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.07-15.44.35:795][123]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 3) at 2017.06.07-08.44.35
+[2017.06.07-15.44.35:832][123]LogWorld: Bringing up level for play took: 0.110793
+[2017.06.07-15.44.35:832][123]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.06.07-15.44.35:832][123]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.44.35:833][123]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.44.35:833][123]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.44.35:835][123]PIE:Warning: Warning The widget 'BasementLayout_C' was already added to the screen.
+[2017.06.07-15.44.35:835][123]PIE:Warning: Warning The widget 'MainFloorLayout_C' was already added to the screen.
+[2017.06.07-15.44.35:836][123]PIE:Warning: Warning The widget '2ndfloorlaylout_C' was already added to the screen.
+[2017.06.07-15.44.35:836][123]PIE:Warning: Warning The widget '3rdFloorLayout_C' was already added to the screen.
+[2017.06.07-15.44.35:883][123]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.44.35:883][123]LogLoad: Took 34.943720 seconds to LoadMap(/Game/Levels/Second-Floor)
+[2017.06.07-15.48.11:144][721]LogScript:Warning: Accessed None trying to read property GameHUDReference
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7A
+[2017.06.07-15.48.11:314][721]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameHUDReference from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property GameHUDReference
+[2017.06.07-15.48.11:314][721]LogScript:Warning: Accessed None
+	FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E5B
+[2017.06.07-15.48.11:314][721]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Branch in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None
+[2017.06.07-15.48.16:374][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.07-15.48.19:143][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.07-15.50.22:230][469]LogSlate: Took 0.019189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.07-15.50.23:295][469]LogSlate: Took 0.010344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.07-15.50.32:111][469]LogAIModule: Creating AISystem for world Second-Floor
+[2017.06.07-15.50.32:461][469]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Second-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.07-15.50.32:461][469]LightingResults: New page: Lighting Build
+[2017.06.07-15.50.32:473][469]LoadErrors: New page: Loading map: Second-Floor.umap
+[2017.06.07-15.50.32:500][469]MapCheck: New page: Map Check
+[2017.06.07-15.50.32:500][469]LightingResults: New page: Lighting Build
+[2017.06.07-15.50.33:160][469]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.07-15.50.33:270][469]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.07-15.50.37:912][469]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 4,641.189ms to complete.
+[2017.06.07-15.50.37:913][469]LogFileHelpers: Loading map 'Second-Floor' took 5.530
+[2017.06.07-15.50.56:275][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube281)
+[2017.06.07-15.50.57:351][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube281)
+[2017.06.07-15.50.59:044][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.07-15.50.59:529][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.07-15.50.59:601][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.07-15.51.07:109][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube239)
+[2017.06.07-15.51.08:106][899]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube239)
+[2017.06.07-15.51.09:452][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.06.07-15.51.09:938][ 19]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2017.06.07-15.51.12:681][193]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.07-15.51.19:145][568]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2017.06.07-15.51.42:605][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube239)
+[2017.06.07-15.51.43:805][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube280)
+[2017.06.07-15.51.43:880][100]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-15.51.45:949][305]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-15.51.46:717][367]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-15.51.47:138][385]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-15.51.52:252][880]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-15.52.01:090][508]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2017.06.07-15.52.32:997][496]BlueprintLog: New page: Compile Door_Blueprint
+[2017.06.07-15.52.33:827][496]LogSavePackage: Save=143.61ms
+[2017.06.07-15.52.33:827][496]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Door_Blueprint166997D44A5D69A2C8B7619EB71D7F65.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset'
+[2017.06.07-15.52.33:831][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset
+[2017.06.07-15.52.37:084][717]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.07-15.52.37:132][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.52.37:132][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.07-15.52.37:132][717]PIE: New page: PIE session: Second-Floor (Jun 7, 2017, 1:52:37 AM)
+[2017.06.07-15.52.37:132][717]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.06.07-15.52.37:242][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109456s)
+[2017.06.07-15.52.37:242][717]LogAIModule: Creating AISystem for world Second-Floor
+[2017.06.07-15.52.37:243][717]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2017.06.07-15.52.37:243][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.110868s)
+[2017.06.07-15.52.37:290][717]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.07-15.52.37:306][717]LogInit: FAudioDevice initialized.
+[2017.06.07-15.52.37:350][717]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.07-15.52.37:378][717]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.06.07-08.52.37
+[2017.06.07-15.52.37:384][717]LogWorld: Bringing up level for play took: 0.032310
+[2017.06.07-15.52.37:385][717]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.52.37:385][717]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.52.37:385][717]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.52.37:388][717]PIE:Warning: Warning The widget 'BasementLayout_C' was already added to the screen.
+[2017.06.07-15.52.37:388][717]PIE:Warning: Warning The widget 'MainFloorLayout_C' was already added to the screen.
+[2017.06.07-15.52.37:388][717]PIE:Warning: Warning The widget '2ndfloorlaylout_C' was already added to the screen.
+[2017.06.07-15.52.37:388][717]PIE:Warning: Warning The widget '3rdFloorLayout_C' was already added to the screen.
+[2017.06.07-15.52.37:435][717]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.52.37:440][717]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 0.307
+[2017.06.07-15.52.37:441][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.52.49:659][721]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.52.49:772][721]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.52.58:802][337]BlueprintLog: New page: Compile Door_Blueprint
+[2017.06.07-15.53.01:326][337]LogSavePackage: Save=94.59ms
+[2017.06.07-15.53.01:326][337]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Door_Blueprint6A93D9BE4B1BAE57A70E3380A46CE9C6.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset'
+[2017.06.07-15.53.01:344][337]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/SimpleDoorLockSystem/Blueprints/Door_Blueprint.uasset
+[2017.06.07-15.53.01:959][367]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.07-15.53.01:983][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.53.01:984][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.07-15.53.01:984][367]PIE: New page: PIE session: Second-Floor (Jun 7, 2017, 1:53:01 AM)
+[2017.06.07-15.53.01:984][367]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Second-Floor
+[2017.06.07-15.53.02:047][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063077s)
+[2017.06.07-15.53.02:048][367]LogAIModule: Creating AISystem for world Second-Floor
+[2017.06.07-15.53.02:048][367]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.06.07-15.53.02:048][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Second-Floor.Second-Floor to /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor (0.064424s)
+[2017.06.07-15.53.02:077][367]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.07-15.53.02:092][367]LogInit: FAudioDevice initialized.
+[2017.06.07-15.53.02:142][367]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.07-15.53.02:184][367]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Second-Floor.Second-Floor up for play (max tick rate 0) at 2017.06.07-08.53.02
+[2017.06.07-15.53.02:188][367]LogWorld: Bringing up level for play took: 0.042961
+[2017.06.07-15.53.02:188][367]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.53.02:189][367]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.07-15.53.02:189][367]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.53.02:191][367]PIE:Warning: Warning The widget 'BasementLayout_C' was already added to the screen.
+[2017.06.07-15.53.02:191][367]PIE:Warning: Warning The widget 'MainFloorLayout_C' was already added to the screen.
+[2017.06.07-15.53.02:191][367]PIE:Warning: Warning The widget '2ndfloorlaylout_C' was already added to the screen.
+[2017.06.07-15.53.02:192][367]PIE:Warning: Warning The widget '3rdFloorLayout_C' was already added to the screen.
+[2017.06.07-15.53.02:238][367]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.07-15.53.02:245][367]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Second-Floor 1.112
+[2017.06.07-15.53.02:246][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.53.31:118][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.53.31:210][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor' with GeneratedClass '/Game/Levels/Second-Floor.Second-Floor_C' with ClassGeneratedBy '/Game/Levels/Second-Floor.Second-Floor:PersistentLevel.Second-Floor'
+[2017.06.07-15.53.35:970][174]LogSlate: Took 0.046784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.07-15.53.39:379][492]LogSlate: Took 0.015808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.07-15.54.04:798][107]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.07-15.54.21:829][648]LogAIModule: Creating AISystem for world First-Floor
+[2017.06.07-15.54.58:123][648]LogSavePackage: Save=1154.06ms
+[2017.06.07-15.54.58:123][648]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Second-FloorF96538FA445AE1ECD4A02ABA7811ADA0.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Second-Floor.umap'
+[2017.06.07-15.54.58:153][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/Second-Floor.umap
+[2017.06.07-15.54.58:209][648]LogFileHelpers: Saving map 'Second-Floor' took 1.981
+[2017.06.07-15.54.58:210][648]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.07-15.54.58:211][648]LightingResults: New page: Lighting Build
+[2017.06.07-15.54.58:212][648]LoadErrors: New page: Loading map: First-Floor.umap
+[2017.06.07-15.54.58:223][648]MapCheck: New page: Map Check
+[2017.06.07-15.54.58:223][648]LightingResults: New page: Lighting Build
+[2017.06.07-15.54.58:499][648]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.07-15.54.58:546][648]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.07-15.54.58:689][648]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.407ms to complete.
+[2017.06.07-15.54.58:689][648]LogFileHelpers: Loading map 'First-Floor' took 0.479
+[2017.06.07-15.55.33:329][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2017.06.07-15.55.33:380][767]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-15.55.34:220][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor8)
+[2017.06.07-15.55.38:103][249]Cmd: TRANSACTION UNDO
+[2017.06.07-15.55.38:103][249]LogEditorTransaction: Undo Move Actors
+[2017.06.07-15.55.45:604][995]MapCheck: New page: Map Check
+[2017.06.07-15.55.45:796][995]LightingResults: New page: Lighting Build - Jun 7, 2017, 1:55:45 AM
+[2017.06.07-15.55.46:307][995]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.07-15.55.46:931][995]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.07-15.55.47:016][995]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.07-15.55.50:467][995]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.06.07-15.55.50:556][995]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.06.07-15.55.56:408][995]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.07-15.55.56:408][995]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13408
+[2017.06.07-15.56.01:365][995]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.07-15.56.01:376][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.07-15.56.01:376][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.07-15.56.01:376][995]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.07-15.56.01:376][995]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.07-15.56.01:376][995]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.07-15.56.02:770][995]LogEditorBuildUtils: Build time 0:17
+[2017.06.07-15.56.15:046][ 31]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.15:046][ 31]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.15:046][ 31]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.15:046][ 31]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.16:048][ 34]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.16:048][ 34]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.17:384][ 38]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.17:384][ 38]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.17:719][ 39]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.17:719][ 39]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.18:382][ 41]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.18:382][ 41]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.19:380][ 44]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.19:715][ 45]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.20:048][ 46]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.20:381][ 47]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.20:717][ 48]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.20:717][ 48]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.21:713][ 51]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.21:713][ 51]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.22:049][ 52]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.22:049][ 52]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.22:049][ 52]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.22:049][ 52]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.22:382][ 53]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.22:382][ 53]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.23:383][ 56]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.23:383][ 56]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.23:383][ 56]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-15.56.23:383][ 56]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.24:390][ 59]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.24:390][ 59]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.24:715][ 60]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.24:715][ 60]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.24:715][ 60]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.24:715][ 60]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.25:385][ 62]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.25:385][ 62]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.25:385][ 62]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-15.56.25:385][ 62]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.25:713][ 63]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.25:713][ 63]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.25:713][ 63]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.25:713][ 63]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.26:713][ 66]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.56.26:713][ 66]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.29:722][ 75]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-15.56.29:722][ 75]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.33:386][ 86]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-15.56.33:386][ 86]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.35:384][ 92]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.35:384][ 92]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.35:721][ 93]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-15.56.35:721][ 93]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.37:054][ 97]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.37:054][ 97]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.37:389][ 98]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.37:389][ 98]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.37:724][ 99]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-15.56.37:724][ 99]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.38:723][102]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.38:723][102]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.39:720][105]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-15.56.39:720][105]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.40:048][106]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-15.56.40:048][106]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.40:048][106]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-15.56.40:048][106]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.42:054][112]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-15.56.42:054][112]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.42:054][112]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-15.56.42:054][112]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.45:050][121]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-15.56.45:050][121]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.49:062][133]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-15.56.49:062][133]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.49:062][133]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-15.56.49:062][133]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.49:726][135]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-15.56.49:726][135]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.49:726][135]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-15.56.49:726][135]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.50:723][138]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-15.56.50:723][138]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.51:060][139]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.51:060][139]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.51:060][139]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.51:060][139]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.51:060][139]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-15.56.51:060][139]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.56.53:061][145]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-15.56.53:061][145]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.57.07:385][188]Job is a success!
+[2017.06.07-15.57.07:386][188]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-15.57.07:386][188]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-15.57.07:961][189]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.06.07-15.57.07:961][189]LightingResults:Error: Error PointLight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 326 MB total VRAM
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64) - 326 MB total VRAM
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64) - 326 MB total VRAM
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 326 MB total VRAM
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 326 MB total VRAM
+[2017.06.07-15.57.08:849][189]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 326 MB total VRAM
+[2017.06.07-15.57.09:049][189]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32) - 326 MB total VRAM
+[2017.06.07-15.57.09:166][189]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 326 MB total VRAM
+[2017.06.07-15.57.09:524][189]Lightmass on DESKTOP-969FG03: 1:03 min total, 1.34 sec importing, 1.12 sec setup, 4.47 sec photons, 56.3 sec processing, 0 ms extra exporting [196/196 mappings]. Threads: 6:34 min total, 5:24 min processing.
+[2017.06.07-15.57.09:557][189]LogStaticLightingSystem: Illumination: 1:23 min (886 ms encoding lightmaps, 315 ms encoding shadowmaps)
+[2017.06.07-15.57.09:557][189]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.06.07-15.57.09:557][189]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.07-15.57.10:370][189]DumpUnbuiltLightIteractions
+[2017.06.07-15.57.10:370][189]Lights with unbuilt interactions: 0
+[2017.06.07-15.57.10:370][189]
+[2017.06.07-15.57.10:370][189]Primitives with unbuilt interactions: 0
+[2017.06.07-15.57.10:443][190]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.07-15.57.10:443][190]MapCheck: New page: First-Floor - Jun 7, 2017, 1:57:10 AM
+[2017.06.07-15.57.10:686][190]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 242.437ms to complete.
+[2017.06.07-15.58.57:569][819]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube308)
+[2017.06.07-15.58.58:368][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube308)
+[2017.06.07-15.59.09:755][829]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-15.59.15:248][347]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-15.59.16:543][452]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-15.59.25:614][290]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-16.00.48:434][517]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube325)
+[2017.06.07-16.00.50:054][655]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube322)
+[2017.06.07-16.00.55:653][167]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube330)
+[2017.06.07-16.01.05:813][131]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-16.01.12:979][795]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube316)
+[2017.06.07-16.01.14:875][966]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube315)
+[2017.06.07-16.01.20:071][465]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube311)
+[2017.06.07-16.01.34:781][828]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube289)
+[2017.06.07-16.03.20:181][105]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube298)
+[2017.06.07-16.03.35:443][479]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube291)
+[2017.06.07-16.03.38:440][730]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube291)
+[2017.06.07-16.05.57:485][172]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.06.07-16.05.57:961][198]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor5)
+[2017.06.07-16.06.00:478][356]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube294)
+[2017.06.07-16.13.13:125][699]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-16.13.13:959][763]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-16.13.14:021][765]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.06.07-16.13.15:033][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-16.13.48:496][218]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube317)
+[2017.06.07-16.13.49:311][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.13.54:325][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-16.13.55:567][814]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor8)
+[2017.06.07-16.13.57:257][950]MapCheck: New page: Map Check
+[2017.06.07-16.13.57:266][950]LightingResults: New page: Lighting Build - Jun 7, 2017, 2:13:57 AM
+[2017.06.07-16.13.57:297][950]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.07-16.13.57:299][950]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.07-16.13.57:299][950]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.07-16.13.57:300][950]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.07-16.13.57:300][950]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13408
+[2017.06.07-16.14.01:811][950]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.07-16.14.01:812][950]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.07-16.14.01:812][950]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.07-16.14.01:812][950]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.07-16.14.01:812][950]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.07-16.14.01:812][950]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.07-16.14.01:977][950]LogEditorBuildUtils: Build time 0:04
+[2017.06.07-16.14.08:763][971]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.08:763][971]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.08:763][971]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.08:763][971]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.09:762][974]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.09:762][974]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.09:762][974]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.09:762][974]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.10:097][975]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.10:097][975]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.10:429][976]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.10:429][976]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.11:097][978]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.11:097][978]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.11:431][979]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.11:431][979]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.12:094][981]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.12:094][981]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.12:094][981]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.12:094][981]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.12:094][981]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.12:094][981]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.12:094][981]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.12:094][981]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.12:757][983]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.12:757][983]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:091][984]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:091][984]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:091][984]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:091][984]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:091][984]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:091][984]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:091][984]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:091][984]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:091][984]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-16.14.13:091][984]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:433][985]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-16.14.13:433][985]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:767][986]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:767][986]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:767][986]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:767][986]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:767][986]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:767][986]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.13:767][986]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.13:767][986]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.17:092][996]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-16.14.17:092][996]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.19:091][  2]LightingResults:Warning: Warning counter Object has overlapping UVs.
+[2017.06.07-16.14.19:091][  2]LightingResults: Info counter Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.20:760][  7]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.20:760][  7]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.21:428][  9]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.21:428][  9]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.21:760][ 10]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-16.14.21:760][ 10]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.21:760][ 10]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-16.14.21:760][ 10]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.21:760][ 10]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.21:760][ 10]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.22:092][ 11]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-16.14.22:092][ 11]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.22:092][ 11]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-16.14.22:092][ 11]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.22:092][ 11]LightingResults:Warning: Warning HOSPITAL_BED Object has overlapping UVs.
+[2017.06.07-16.14.22:092][ 11]LightingResults: Info HOSPITAL_BED Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.22:424][ 12]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.22:424][ 12]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.23:098][ 14]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-16.14.23:098][ 14]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.23:762][ 16]LightingResults:Warning: Warning Desk1_Polygon Object has overlapping UVs.
+[2017.06.07-16.14.23:762][ 16]LightingResults: Info Desk1_Polygon Lightmap UV are overlapping by 7.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.25:763][ 22]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-16.14.25:763][ 22]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.27:761][ 28]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-16.14.27:761][ 28]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.27:761][ 28]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-16.14.27:761][ 28]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.28:425][ 30]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-16.14.28:425][ 30]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.28:425][ 30]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-16.14.28:425][ 30]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.28:425][ 30]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.28:425][ 30]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.28:426][ 30]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.28:426][ 30]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.28:759][ 31]LightingResults:Warning: Warning Tably Object has overlapping UVs.
+[2017.06.07-16.14.28:759][ 31]LightingResults: Info Tably Lightmap UV are overlapping by 8.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.29:091][ 32]LightingResults:Warning: Warning chair Object has overlapping UVs.
+[2017.06.07-16.14.29:091][ 32]LightingResults: Info chair Lightmap UV are overlapping by 26.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.30:094][ 35]LightingResults:Warning: Warning Cabinets Object has overlapping UVs.
+[2017.06.07-16.14.30:094][ 35]LightingResults: Info Cabinets Lightmap UV are overlapping by 10.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.44:028][275]LightingResults:Warning: Warning moreShelf Object has overlapping UVs.
+[2017.06.07-16.14.44:028][275]LightingResults: Info moreShelf Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.06.07-16.14.45:644][352]Job is a success!
+[2017.06.07-16.14.45:797][354]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.06.07-16.14.45:797][354]LightingResults:Error: Error PointLight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 365 MB total VRAM
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 365 MB total VRAM
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 365 MB total VRAM
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 365 MB total VRAM
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 365 MB total VRAM
+[2017.06.07-16.14.46:269][354]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 365 MB total VRAM
+[2017.06.07-16.14.46:433][354]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32) - 365 MB total VRAM
+[2017.06.07-16.14.46:433][354]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X512) - 365 MB total VRAM
+[2017.06.07-16.14.46:442][354]Lightmass on DESKTOP-969FG03: 42.9 sec total, 444 ms importing, 1.18 sec setup, 2.29 sec photons, 39.0 sec processing, 0 ms extra exporting [196/196 mappings]. Threads: 4:33 min total, 3:46 min processing.
+[2017.06.07-16.14.46:477][354]LogStaticLightingSystem: Illumination: 49.1 sec (473 ms encoding lightmaps, 161 ms encoding shadowmaps)
+[2017.06.07-16.14.46:477][354]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.06.07-16.14.46:477][354]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.07-16.14.46:821][354]DumpUnbuiltLightIteractions
+[2017.06.07-16.14.46:821][354]Lights with unbuilt interactions: 0
+[2017.06.07-16.14.46:821][354]
+[2017.06.07-16.14.46:822][354]Primitives with unbuilt interactions: 0
+[2017.06.07-16.14.46:865][355]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.07-16.14.46:866][355]MapCheck: New page: First-Floor - Jun 7, 2017, 2:14:46 AM
+[2017.06.07-16.14.47:015][355]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.688ms to complete.
+[2017.06.07-16.25.22:246][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.22:294][345]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.23:189][429]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.23:189][429]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.23:770][471]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.23:770][471]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.25.24:467][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.24:515][531]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.25:313][605]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.25:313][605]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.25:898][656]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.25:898][656]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.25.26:487][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.26:534][705]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.27:218][767]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.27:218][767]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.27:727][810]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.27:727][810]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.25.28:666][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.28:714][893]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.29:489][965]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.29:490][965]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.29:966][  5]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.29:966][  5]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.25.44:613][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.44:661][291]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.45:557][378]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.45:557][378]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.46:092][417]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.46:092][417]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.25.46:723][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor9)
+[2017.06.07-16.25.46:770][473]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.25.47:378][529]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.47:378][529]LogEditorTransaction: Undo Clicking on Components
+[2017.06.07-16.25.47:726][557]Cmd: TRANSACTION UNDO
+[2017.06.07-16.25.47:726][557]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.07-16.26.05:150][153]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube303)
+[2017.06.07-16.26.05:624][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube300)
+[2017.06.07-16.26.05:673][188]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.06.07-16.26.14:845][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube295)
+[2017.06.07-16.26.41:173][507]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor7)
+[2017.06.07-16.26.42:250][596]Cmd: TRANSACTION UNDO
+[2017.06.07-16.26.42:250][596]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.07-16.26.54:894][823]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-16.26.55:199][847]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor7)
+[2017.06.07-16.26.58:739][170]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor7)
+[2017.06.07-16.26.59:332][218]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.07-16.27.06:262][765]LogSavePackage: Save=573.19ms
+[2017.06.07-16.27.06:262][765]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/First-Floor18B868384947466B628AE4AD64614525.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap'
+[2017.06.07-16.27.06:275][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor.umap
+[2017.06.07-16.27.06:343][765]LogFileHelpers: Saving map 'First-Floor' took 0.829
+[2017.06.07-16.27.06:699][765]LogSavePackage: Save=251.47ms
+[2017.06.07-16.27.06:699][765]LogSavePackage: Moving '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/First-Floor_BuiltData1F19732249A228DBE7EFBC977A23DFE4.tmp' to '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor_BuiltData.uasset'
+[2017.06.07-16.27.06:706][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Levels/First-Floor_BuiltData.uasset
+[2017.06.07-16.29.20:355][ 97]Cmd: QUIT_EDITOR
+[2017.06.07-16.29.20:633][ 97]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.07-16.29.20:659][ 97]LogExit: Preparing to exit.
+[2017.06.07-16.29.21:378][ 97]LogDirectoryWatcher: A directory notification for 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/' was aborted.
+[2017.06.07-16.29.21:571][ 97]LogExit: Editor shut down
+[2017.06.07-16.29.21:573][ 97]LogExit: Transaction tracking system shut down
+[2017.06.07-16.29.22:783][ 97]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.07-16.29.22:783][ 97]LogExit: Object subsystem successfully closed.
+[2017.06.07-16.29.22:861][ 97]LogD3D11RHI: Shutdown
+[2017.06.07-16.29.22:861][ 97]LogD3D11RHI: CleanupD3DDevice
+[2017.06.07-16.29.23:036][ 97]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (502)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.07-16.29.23:046][ 97]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.07-16.29.23:046][ 97]LogDirectoryWatcher: A directory notification for 'H:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.07-16.29.23:052][ 97]LogDirectoryWatcher: A directory notification for 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Collections/' was aborted.
+[2017.06.07-16.29.23:052][ 97]LogDirectoryWatcher: A directory notification for 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/Developers/elmen/Collections/' was aborted.
+[2017.06.07-16.29.23:052][ 97]LogDirectoryWatcher: A directory notification for 'H:/Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Saved/Collections/' was aborted.
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.07-16.29.23:052][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.07-16.29.23:053][ 97]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.07-16.29.23:819][ 97]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.07-16.29.23:820][ 97]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.07-16.29.23:863][ 97]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.07-16.29.23:875][ 97]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.07-16.29.23:971][ 97]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.07-16.29.23:972][ 97]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.07-16.29.23:973][ 97]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.07-16.29.23:973][ 97]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.07-16.29.23:973][ 97]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.07-16.29.24:053][ 97]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.07-16.29.24:054][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.07-16.29.24:054][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.07-16.29.24:054][ 97]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.07-16.29.24:054][ 97]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.07-16.29.24:155][ 97]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.07-16.29.24:256][ 97]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.07-16.29.24:257][ 97]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.07-16.29.24:263][ 97]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.07-16.29.24:476][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.07-16.29.24:476][ 97]LogDirectoryWatcher: A directory notification for '../../../../../../Documents/GitHub/ProjectLonesomeRecovered/Project_lonesome 4.15/Content/' was aborted.
+[2017.06.07-16.29.24:476][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.07-16.29.24:477][ 97]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.07-16.29.24:481][ 97]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.07-16.29.24:525][ 97]LogDerivedDataCache: Shutdown
+[2017.06.07-16.29.24:525][ 97]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.07-16.29.24:525][ 97]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.07-16.29.24:525][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.07-16.29.24:526][ 97]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.07-16.29.24:527][ 97]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.07-16.29.24:527][ 97]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.07-16.29.24:527][ 97]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.07-16.29.24:527][ 97]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9BDB5680-4555-A71F-6C49-5D94E5291FBE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=9363d7fd4e3e0adcf29a7c9bb0f96409%7Ccdbbf98d3d754678b70ab58708a0b131%7C50db7265-1a42-4a2a-99c2-71b2d571add2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.07-16.29.24:536][ 97]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.07-16.29.24:538][ 97]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.07-16.29.24:538][ 97]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.07-16.29.24:538][ 97]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.07-16.29.24:538][ 97]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.07-16.29.24:538][ 97]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.07-16.29.24:551][ 97]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.07-16.29.24:552][ 97]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.07-16.29.24:552][ 97]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.07-16.29.24:554][ 97]LogExit: Exiting.
+[2017.06.07-16.29.24:593][ 97]Log file closed, 06/07/17 09:29:24
